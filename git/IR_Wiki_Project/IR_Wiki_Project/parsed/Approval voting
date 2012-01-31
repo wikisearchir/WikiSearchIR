@@ -1,0 +1,159 @@
+title{{Electoral systems}}Approval voting is a single-winner voting system used for elections. Each voter may vote for (or 'approve' of) as many of the candidates as the voter wishes.  The winner is the candidate receiving the most votes.  Each voter may vote for any combination of candidates and may give each candidate at most one vote.Brams, Steven and Fishburn, Peter (1983). Approval Voting, Boston: Birkhäuser, p. 3The system was described in 1976 by Guy Ottewell{{cite web}} and also by Robert J. Weber, who coined the term "approval voting." It was more fully published in 1978 by political scientist Steven Brams and mathematician Peter Fishburn.{{Cite journal}}
+Theory
+Approval voting can be considered a form of range voting, with the range restricted to two values, 0 and 1, or a form of Majority Judgment, with the grades restricted to "Good" and "Poor". Approval voting can also be compared to plurality voting, without the rule that discards ballots which vote for more than one candidate.Ballots which mark every candidate the same (whether yes or no) have no effect on the outcome of the election. Each ballot can therefore be viewed as a small "delta" which separates two groups of candidates, or a single-pair of ranks (e.g. if a ballot indicates that A & C are approved and B & D are not, the ballot can be considered to convey the ranking [A=C]>[B=D]).
+Uses
+Approval voting has been adopted by the Mathematical Association of America (1986),{{cite web}} the Institute of Management Sciences (1987) (now the Institute for Operations Research and the Management Sciences),INFORMS bylaws, p. 7 the American Statistical Association (1987),ASA Bylaws{{dead link}} and the Institute of Electrical and Electronics Engineers (1987).  According to Steven J. Brams and Peter C. Fishburn, the IEEE board in 2002 rescinded its decision to use approval voting. IEEE Executive Director Daniel J. Senese stated that approval voting was abandoned because "few of our members were using it and it was felt that it was no longer needed."{{cite web}} Approval voting also was used for Dartmouth Alumni Association elections for seats on the College Board of Trustees, but after some controversyVERBUM ULTIMUM Making Amends, April 2, 2009, Editorial, The Dartmouth it was replaced with traditional runoff elections by an alumni vote of 82% to 18% in 2009.Dartmouth Alumni Association Election Results: New Executive Committee Elected; Constitutional Amendment Passes, May 9, 2009, Dartmouth Office of Alumni Relations Dartmouth students used approval voting to elect their student body president in 2011; the winner secured the support of 41% of voters against several write-in candidates.Hix '12, Dartmouth Student Body, both shafted in student election, April 16, 2011, The Little Green BlogHistorically, several voting methods which incorporate aspects of approval voting have been used:
+
+Approving voting was used for papal conclaves between 1294 and 1621, with an average of about forty cardinals engaging in repeated rounds of voting until one candidate was listed on at least two-thirds of ballots.{{Cite journal}}
+In the 13th through 18th centuries, the Republic of Venice elected the Doge of Venice using a multi-stage process that featured random selection and voting which allowed approval of multiple candidates and required a supermajority.{{Cite journal}}Miranda Mowbray, Dieter Gollmann (2007), {{PDFlink}}
+According to Steven J. Brams, approval voting was used in 19th century England.{{cite web}}
+The selection of the Secretary-General of the United Nations has involved rounds of approval polling to help discover and build a consensus before a formal vote is held in the Security Council.{{PDFlink}}
+
+Effect on elections
+Approval voting advocates Steven Brams and Dudley R. Herschbach predict that approval voting should increase voter participation, prevent minor-party candidates from being spoilers, and reduce negative campaigning.Brams and Herschbach {{cite journal}} The effect of this system as an electoral reform measure is not without critics, however. FairVote has a position paperWhy IRV arguing that approval voting has three flaws that undercut it as a method of voting and political vehicle. They argue that it can result in the defeat of a candidate who would win an absolute majority in a plurality system, can allow a candidate to win who might not win any support in a plurality elections, and has incentives for tactical voting.One studyApproval Voting : An Experiment during the French 2002 Presidential Election, Jean-François Laslier and Karine Vander Straeten, 2002 showed that approval voting would not have chosen the same two winners
+as plurality voting (Chirac and Le Pen) in France's presidential election of 2002 (first round) - it instead would have chosen Chirac and Jospin as the top two to proceed to a runoff. Le Pen lost by a very high margin in the runoff, 82.2% to 17.8%, a sign that the true top two had not been found. Straight approval voting without a runoff, from the study, still would have selected Chirac, but with an approval percentage of only 36.7%, compared to Jospin at 32.9%. Le Pen, in that study, would have received 25.1%. In the real primary election, the top three were Chirac, 19.9%, Le Pen, 16.9%, and Jospin, 16.2%.The French Approval Voting study, Rangevoting.orgA generalized version of the Burr dilemma applies to approval voting when two candidates are appealing to the same subset of voters.  Although approval voting differs from the voting system used in the Burr dilemma, approval voting can still leave candidates and voters with the generalized dilemma of whether to compete or cooperate.Nagel, J. H. (2007) "The Burr Dilemma in Approval Voting" The Journal of Politics 69(1): 43-58 http://www.journalofpolitics.org/files/69_1/Nagel.pdfNagel, J.H. (2006) "A Strategic Problem in Approval Voting," Mathematics and Democracy pp. 133-150. Studies in Choice and Welfare series (Springer)While in the modern era there have been relatively few competitive approval voting elections where tactical voting is more likely, Brams argues that approval voting usually elects Condorcet winners in practice.Steven J. Brams, Mathematics and Democracy, Princeton University Press, 2008, p. 16, See also S. Brams and P. Fishburn, Going from Theory to Practice: The Mixed Success of Approval Voting (PDF) Critics of the use of approval voting in the alumni elections for the Dartmouth Board of Trustees in 2009 placed its ultimately successful repeal before alumni voters, arguing that the system has not been electing the most centrist candidates. The Dartmouth editorialized that "When the alumni electorate fails to take advantage of the approval voting process, the three required Alumni Council candidates tend to split the majority vote, giving petition candidates an advantage. By reducing the number of Alumni Council candidates, and instituting a more traditional one-person, one-vote system, trustee elections will become more democratic and will more accurately reflect the desires of our alumni base."{{cite web}}
+Strategic voting
+Sincere voting
+Approval voting experts describe sincere votes as those "... that directly reflect the true preferences of a voter, i.e. , that do not report preferences 'falsely.'"Brams, Steven and Fishburn, Peter (1983). Approval Voting, Boston: Birkhäuser, p. 29  They also give a specific definition of a sincere approval vote in terms of the voter's ordinal preferences as being any vote that, if it votes for one candidate, it also votes for any more preferred candidate.  This definition allows a sincere vote to treat strictly preferred candidates the same, ensuring that every voter has at least one sincere vote. The definition also allows a sincere vote to treat equally preferred candidates differently.  When there are two or more candidates, every voter has at least three sincere approval votes to choose from.  Two of those sincere approval votes do not distinguish between any of the candidates: vote for none of the candidates and vote for all of the candidates.  When there are three or more candidates, every voter has more than one sincere approval vote that distinguishes between the candidates.
+Examples
+Based on the definition above, if there are four candidates, A, B, C, and D, and a voter has a strict preference order, preferring A to B to C to D, then the following are the voter's possible sincere approval votes:
+
+
+vote for A, B, C, and D
+vote for A, B, and C
+vote for A and B
+vote for A
+vote for no candidates
+
+If the voter instead equally prefers B and C, while A is still the most preferred candidate and D is the least preferred candidate, then all of the above votes are sincere and the following combination is also a sincere vote:
+
+
+vote for A and C
+
+The decision between the above ballots is equivalent to deciding an arbitrary "approval cutoff." All candidates preferred to the cutoff are approved, all candidates less preferred are not approved, and any candidates equal to the cutoff may be approved or not arbitrarily.
+Strategy with ordinal preferences
+A sincere voter with multiple options for voting sincerely still has to choose which sincere vote to use. Voting strategy is a way to make that choice, in which case strategic approval voting includes sincere voting, rather than being an alternative to it.{{Cite journal}} This differs from other voting systems that typically have a unique sincere vote for a voter.When there are three or more candidates, the winner of an approval voting election can change, depending on which sincere votes are used. In some cases, approval voting can sincerely elect any one of the candidates, including a Condorcet winner and a Condorcet loser, without the voter preferences changing.  To the extent that electing a Condorcet winner and not electing a Condorcet loser is considered desirable outcomes for a voting system, approval voting can be considered vulnerable to sincere, strategic voting.{{Cite journal}}  In one sense, conditions where this can happen are robust and are not isolated cases.{{Cite journal}}  On the other hand, the variety of possible outcomes has also been portrayed as a virtue of approval voting, representing the flexibility and responsiveness of approval voting, not just to voter ordinal preferences, but cardinal utilities as well.{{Cite journal}}
+Dichotomous preferences
+Approval voting avoids the issue of multiple sincere votes in special cases when voters have dichotomous preferences.  For a voter with dichotomous preferences, approval voting is strategy-proof (also known as strategy-free).Brams, Steven and Fishburn, Peter (1983). Approval Voting, Boston: Birkhäuser, p. 31  When all voters have dichotomous preferences and vote the sincere, strategy-proof vote, approval voting is guaranteed to elect the Condorcet winner, if one exists.Brams, Steven and Fishburn, Peter (1983). Approval Voting, Boston: Birkhäuser, p. 38  However, having dichotomous preferences when there are three or more candidates is not typical.  It is an unlikely situation for all voters to have dichotomous preferences when there are more than a few voters.Having dichotomous preferences means that a voter has bi-level preferences for the candidates.  All of the candidates are divided into two groups such that the voter is indifferent between any two candidates in the same group and any candidate in the top-level group is preferred to any candidate in the bottom-level group.Brams, Steven and Fishburn, Peter (1983). Approval Voting, Boston: Birkhäuser, pp. 16-17  A voter that has strict preferences between three candidates—prefers A to B and B to C—does not have dichotomous preferences.Being strategy-proof for a voter means that there is a unique way for the voter to vote that is a strategically best way to vote, regardless of how others vote.    In approval voting, the strategy-proof vote, if it exists, is a sincere vote.
+Approval threshold
+Another way to deal with multiple sincere votes is to augment the ordinal preference model with an approval or acceptance threshold.  An approval threshold divides all of the candidates into two sets, those the voter approves of and those the voter does not approve of.  A voter can approve of more than one candidate and still prefer one approved candidate to another approved candidate.  Acceptance thresholds are similar.  With such a threshold, a voter simply votes for every candidate that meets or exceeds the threshold.With threshold voting, it is still possible to not elect the Condorcet winner and instead elect the Condorcet loser when they both exist.  However, according to Steven Brams, this represents a strength rather than a weakness of approval voting.  Without providing specifics, he argues that the pragmatic judgements of voters about which candidates are acceptable should take precedence over the Condorcet criterion and other social choice criteria.{{Cite journal}}
+Strategy with cardinal utilities
+Voting strategy under approval is guided by two competing features of approval voting.  On the one hand, approval voting fails the later-no-harm criterion, so voting for a candidate can cause that candidate to win instead of a more preferred candidate.  On the other hand, approval voting satisfies the monotonicity criterion, so not voting for a candidate can never help that candidate win, but can cause that candidate to lose to a less preferred candidate.  Either way, the voter can risk getting a less preferred election winner.  A voter can balance the risk-benefit trade-offs by considering the voter's cardinal utilities, particularly via the von Neumann–Morgenstern utility theorem, and the probabilities of how others will vote.A rational voter model described by Myerson and Weber specifies an approval voting strategy that votes for those candidates that have a positive prospective rating.{{Cite journal}}  This strategy is optimal in the sense that it maximizes the voter's expected utility, subject to the constraints of the model and provided the number of other voters is sufficiently large.An optimal approval vote will always vote for the  most preferred candidate and not vote for the least preferred candidate.  However, an optimal vote can require voting for a candidate and not voting for a more preferred candidate if there 4 candidates or more.Smith, Warren Completion of Gibbard-Satterthwaite impossibility theorem; range voting and voter honesty. Actually, there are no known examples of such situations for under 6 candidates, and definitely none for 3 candidates; the situation for 4 or 5 candidates is unknown.Other strategies are also available and will coincide with the optimal strategy in special situations.  For example:
+
+Vote for the candidates that have above average utility.  This strategy coincides with the optimal strategy if the voter thinks that all pairwise ties are equally likelyBrams, Steven and Fishburn, Peter (1983). Approval Voting, Boston: Birkhäuser, p. 85
+Vote for any candidate that is more preferred than the expected winner and also vote for the expected winner if the expected winner is more preferred than the expected runner-up.  This strategy coincides with the optimal strategy if there are three or fewer candidates or if the pivot probability for a tie between the expected winner and expected runner-up is sufficiently large compared to the other pivot probabilities.
+Vote for the most preferred candidate only.  This strategy coincides with the optimal strategy when there is only one candidate with a positive prospective rating.
+
+Another strategy is to vote for the top half of the candidates, the candidates that have an above-median utility. When the voter thinks that the others will balance their votes randomly and evenly, the strategy will maximize the voter's power or efficacy, meaning that it will maximize the probability that the voter will make a difference in deciding which candidate wins.Brams, Steven and Fishburn, Peter (1983). Approval Voting, Boston: Birkhäuser, p. 74, 81Optimal strategic approval voting fails to satisfy the Condorcet criterion and can elect a  Condorcet loser.  Strategic approval voting can guarantee electing the Condorcet winner in some special circumstances.  For example, if all voters are rational and cast a strategically optimal vote based on a common knowledge of how all the other voters vote except for small-probability, statistically independent errors in recording the votes, then the winner will be the Condorcet winner, if one exists.Laslier, J.-F. (2006) "Strategic approval voting in a large electorate," IDEP Working Papers No. 405 (Marseille, France: Institut D'Economie Publique)
+Strategy examples
+In the example election described here, assume that the voters in each faction share the following von Neumann-Morgenstern utilities, fitted to the interval between 0 and 100.  The utilities are consistent with the rankings given earlier and reflect a strong preference each faction has for choosing its city, compared to weaker preferences for other factors such as the distance to the other cities.
+
+Voter utilities for each candidate city
+   Candidates    
+Fraction of Voters(living close to) Memphis Nashville Chattanooga Knoxville Average 
+Memphis (42%) 100  15  10  0  31.25 
+Nashville (26%) 0  100  20  15  33.75 
+Chattanooga (15%) 0  15  100  35  37.5 
+Knoxville (17%) 0  15  40  100  38.75 
+Using these utilities, voters will choose their optimal strategic votes based on what they think the various pivot probabilities are for pairwise ties.  In each of the scenarios summarized below, all voters share a common set of pivot probabilities.
+
+Approval Voting Results  for scenarios using optimal strategic voting
+   Candidate Vote Totals 
+Strategy Scenario Winner Runner-up Memphis Nashville Chattanooga Knoxville 
+Zero-info Memphis  Chattanooga  42  26  32  17 
+Memphis leading Chattanooga Three-way tie  42  58  58  58 
+Chattanooga leading Knoxville Chattanooga  Nashville  42  68  83  17 
+Chattanooga leading Nashville Nashville  Memphis  42  68  32  17 
+Nashville leading Memphis Nashville  Memphis  42  58  32  32 
+In the first scenario, voters all choose their votes based on the assumption that all pairwise ties are equally likely.  As a result, they vote for any candidate with an above-average utility.  Most voters vote for only their first choice.  Only the Knoxville faction also votes for its second choice, Chattanooga.  As a result, the winner is Memphis, the Condorcet loser, with Chattanooga coming in second place.In the second scenario, all of the voters expect that Memphis is the likely winner, that Chattanooga is the likely runner-up, and that the pivot probability for a Memphis-Chattanooga tie is much larger than the pivot probabilities of any other pair-wise ties.  As a result, each voter will vote for any candidate that is more preferred than the leading candidate and will also vote for the leading candidate if that candidate is more preferred than the expected runner-up. Each of the remaining scenarios follows a similar pattern of expectations and voting strategies.In the second scenario, there is a three-way tie for first place.  This happens because the expected winner, Memphis, was the Condorcet loser and was also ranked last by any voter that did not rank it first.Only in the last scenario does the actual winner and runner-up match the expected winner and runner-up.  As a result, this can be considered a stable strategic voting scenario. In the language of Game Theory, this is an "equilibrium."  In this scenario, the winner is also the Condorcet winner.
+Compliance with voting system criteriaMost of the mathematical criteria by which voting systems are compared were formulated for voters with ordinal preferences. In this case, approval voting requires voters to make an additional decision of where to put their approval cutoff (see examples above). Depending on how this decision is made, approval voting satisfies different sets of criteria.There is no ultimate authority on which criteria should be considered, but the following are some criteria that are accepted and considered to be desirable by many voting theorists:
+
+Majority criterion—If there exists a majority that ranks (or rates) a single candidate higher than all other candidates, does that candidate always win?
+Monotonicity criterion—Is it impossible to cause a winning candidate to lose by ranking him higher, or to cause a losing candidate to win by ranking him lower?
+Consistency criterion—If the electorate is divided in two and a choice wins in both parts, does it always win overall?
+Participation criterion—Is voting honestly always better than not voting at all? (This is grouped with the distinct but similar Consistency Criterion in the table below.Consistency implies participation, but not vice versa. For example, range voting complies with participation and consistency, but median ratings satisfies participation and fails consistency.)
+Condorcet criterion—If a candidate beats every other candidate in pairwise comparison, does that candidate always win? (This implies the majority criterion, above)
+Condorcet loser criterion—If a candidate loses to every other candidate in pairwise comparison, does that candidate always lose?
+Independence of irrelevant alternatives—Is the outcome the same after adding or removing non-winning candidates?
+Independence of clone candidates—Is the outcome the same if candidates identical to existing candidates are added?
+Reversal symmetry—If individual preferences of each voter are inverted, does the original winner never win?
+
+
+
+ Majority  Monotone  Consistency &#38; Participation  Condorcet  Condorcet loser  IIA  Clone independence  Reversal symmetry 
+Inherently dichotomous preferences Yes  Yes  Yes  Yes  Yes  Yes  Yes  Yes 
+Arbitrary cutoff No Yes Yes No No Yes Yes Yes 
+Strong Nash equilibrium (Perfect information, rational voters, and perfect strategy) Yes  Yes  No Yes NoThe probability of failing this criterion vanishes asymptotically as voter number grows. No  Yes  Yes 
+
+Other issues and comparisons
+
+
+Approval voting can allow voters to cast a compromise vote without abandoning their favorite candidate as long as voters accept the potential of that compromise vote resulting in the defeat of their favorite. Plurality voting can lead to voters abandoning their first choice in order to help a &#34;lesser of evils&#34; to win.
+Counting ballots in approval vote is faster than some other alternative voting methods, such as ordinal systems, and can be completed at the local level.
+If voters are sincere, approval voting would elect centrists at least as often as moderates of each extreme. If backers of relatively extreme candidates are insincere and &#34;bullet vote&#34; for that first choice, they can help that candidate defeat a compromise candidate who would have won if every voter had cast sincere preferences.
+If voters are sincere, candidates trying to win an approval voting election might need to get as much as 100% approval to beat a strong competitor, and would have to find solutions that are fair to everyone in order to do so, whereas a candidate may win a plurality race by promising many perks to a simple majority or even a plurality of voters at the expense of the smaller voting groups.
+Approval voting fails the majority criterion, because it is possible that the candidate most preferred by the majority of voters, for example, winning 60% in a plurality election, will lose, if 65% indicate another candidate is at least acceptable to them. If 40% strongly dislike candidate A but like candidate B, and 60% mildly prefer candidate A over candidate B, approval voting might elect candidate B, whereas plurality would elect candidate A in a two candidate race.
+Suppose a candidate is eliminated (say, for medical reasons) between a primary election and the party convention.  With plurality voting, anyone who voted for that candidate effectively lost their franchise.  Approval voting automatically shows their preference among the remaining candidates.
+Approval voting without write-ins is easily reversed as disapproval voting where a choice is disavowed, as is already required in other measures in politics (e.g. representative recall).
+Approval voting makes it much easier for voters to vote against a candidate by voting for several others instead of just one other, increasing the probability that some other candidate will win and thus that the first will not.
+In contentious elections with large groups of organized voters who prefer their favorite candidate vastly over all others, approval voting may revert to plurality voting. Some voters will support only their single favored candidate when they perceive the other candidates more as competitors to their preferred candidate than as compromise choices. Range voting and Majority Judgment allow these voters to give intermediate approval ratings, but at the cost of added ballot complexity and longer ballot counts.
+
+
+Multiple winners
+Approval voting can be extended to multiple winner elections.  The naive way to do so is as block approval voting, a simple variant on block voting where each voter can select an unlimited number of candidates and the candidates with the most approval votes win.  This does not provide proportional representation and is subject to the Burr dilemma, among other problems.Other ways of extending Approval voting to multiple winner elections have been devised. Among these are proportional approval voting{{cite web}} for determining a proportional assembly, and Minimax Approval{{cite web}} for determining a consensus assembly where the least satisfied voter is satisfied the most.
+Ballot types
+Approval ballots can be of at least four semi-distinct forms. The simplest form is a blank ballot where the names of supported candidates are written in by hand. A more structured ballot will list all the candidates and allow a mark or word to be made by each supported candidate. A more explicit structured ballot can list the candidates and give two choices by each. (Candidate list ballots can include spaces for write-in candidates as well.)
+
+    
+All four ballots are theoretically equivalent. The more structured ballots may aid voters in offering clear votes so they explicitly know all their choices. The Yes/No format can help to detect an "undervote" when a candidate is left unmarked and allow the voter a second chance to confirm the ballot markings are correct. The "single bubble" format is incapable of producing invalid ballots (which might otherwise be rejected in counting).Fraudulently adding votes to an approval voting ballot will not invalidate the ballot, (that is, it will not make it appear inconsistent), thereby making secure "chain of custody" of ballots important.
+See also{{portal}}
+
+Borda count
+Bucklin voting
+Burr dilemma
+Condorcet method
+First Past the Post electoral system (also called Single-Member Plurality or Relative Majority)
+Instant-runoff voting
+Majority Judgment
+Range voting
+Schulze method
+Voting system - many other ways of voting
+
+
+Notes{{reflist}}
+External links{{Wiktionary}}
+
+Citizens for Approval Voting
+Americans for Approval Voting
+Approval Voting Article by The Center for Election Science
+Approval Voting Free Association Wiki
+Approval Voting: A Better Way to Select a Winner Article by Steven J. Brams.
+Approval Voting on Dichotomous Preferences Article by Marc Vorsatz.
+Scoring Rules on Dichotomous Preferences Article by Marc Vorsatz.
+Approval Voting: An Experiment during the French 2002 Presidential Election Article by Jean-François Laslier and Karine Vander Straeten.
+The Arithmetic of Voting article by Guy Ottewell
+Critical Strategies Under Approval Voting: Who Gets Ruled In And Ruled Out Article by Steven J. Brams and M. Remzi Sanver.
+Going from Theory to Practice:The Mixed Success of Approval Voting Article by Steven J. Brams and Peter C. Fishburn.
+Strategic approval voting in a large electorate Article by Jean-François Laslier.
+Spatial approval voting Article by Jean-François Laslier, published in Political Analysis (2006).
+Approval Voting with Endogenous Candidates An article by Arnaud Dellis and Mandor P. Oak.
+Approval Voting and Parochialism Article by Jonathan Baron, Nicole Altman and Stephan Kroll.
+
+{{DEFAULTSORT:Approval Voting}}
+ca:Vot aprovatori
+de:Wahl durch Zustimmung
+es:Voto aprobatorio
+eo:Aprobobalotado
+fr:Vote par approbation
+gl:Voto aprobatorio
+ia:Votation per approbation
+it:Voto per approvazione
+he:????? ?????
+nl:Instemmingsverkiezing
+ja:Approval voting
+pt:Votação por aprovação
+ru:????????????? ???????????
+simple:Approval voting
+fi:Hyväksymisvaalitapa
+sv:Acceptröstning
+zh:????

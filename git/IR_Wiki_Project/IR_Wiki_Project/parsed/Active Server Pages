@@ -1,0 +1,63 @@
+title{{Infobox software}}
+{{Infobox file format}}
+Active Server Pages (ASP), also known as Classic ASP or ASP Classic, was Microsoft's first server-side script engine for dynamically-generated Web pages. Initially released as an add-on to Internet Information Services (IIS) via the Windows NT 4.0 Option Pack (ca. 1998), it was subsequently included as a free component of Windows Server (since the initial release of Windows 2000 Server). ASP.NET has superseded ASP.ASP 2.0 provided six built-in objects: Application, ASPError, Request, Response, Server, and Session. Session, for example, represents a cookie-based session that maintains the state of variables from page to page. The Active Scripting engine's support of the Component Object Model (COM) enables ASP Websites to access functionality in compiled libraries such as DLLs.
+SummaryWeb pages with the .asp file extension use ASP, although some Web sites disguise their choice of scripting language for security purposes (e.g. still using the more common .htm or .html extension).
+Pages with the .aspx extension use compiled ASP.NET (based on Microsoft's .NET Framework), which makes them faster and more robust than server-side scripting in ASP, which is interpreted at run-time; however, ASP.NET pages may still include some ASP scripting. The introduction of ASP.NET led to use of the term Classic ASP for the original technology.Programmers write most ASP pages using VBScript, but any other Active Scripting engine can be selected instead with the @Language directive or the &lt;script language="language" runat="server"&gt; syntax. JScript (Microsoft's implementation of ECMAScript) is the other language that is usually available. PerlScript (a derivative of Perl) and others are available as third-party installable Active Scripting engines.
+Alternative implementationsThere are only a few alternative implementations, and most of them are implemented in Java.{{Citation needed}} Unlike the Mono ASP.NET implementation, these versions tend to be quite different compared to the Microsoft interpreter, so not all scripts written for the Microsoft platform may be supported.Example of these include:
+
+Sun ONE Active Server PagesThis implementation was discontinued and is no longer available. Some older versions still exist on the World Wide Web.{{Citation needed}}
+Arrowhead ASPThis is a Java Servlet which supports the ASP syntax and VBScript. The latest release is 0.2.3, released on June 14, 2004.
+Cloudfoundry ASPThis is a fork of the Arrowhead ASP implementation{{cite web}} with updated libraries and optimizations for the Cloud Foundry platform. It seems to be quite recent, but the differences with Arrowhead are few.{{Citation needed}}
+
+
+See also
+
+Template processor
+ASP.NET
+
+
+References{{Reflist}}
+External links{{wikibooks}}
+
+ASP on MSDN
+Turkish ASP Resource
+
+ar:????? ???? ????
+az:ASP
+bg:Active Server Pages
+bs:ASP
+ca:Active Server Pages
+cs:Active Server Pages
+da:Active Server Pages
+de:Active Server Pages
+es:Active Server Pages
+eo:Aktivaj Servilaj Pa?oj
+eu:Active Server Pages
+fa:???? ???? ??????
+fr:Active Server Pages
+gl:Active Server Pages
+ko:??? ?? ???
+id:Active Server Pages
+is:ASP
+it:Active Server Pages
+he:Active Server Pages
+jv:Active Server Pages
+lv:Active Server Pages
+hu:Active Server Pages
+ms:Active Server Pages
+nl:Active Server Pages
+ja:Active Server Pages
+no:Active Server Pages
+uz:ASP
+pl:Active Server Pages
+pt:ASP
+ro:ASP
+ru:Active Server Pages
+sk:Active Server Pages
+sr:ASP (Active Server Pages)
+fi:ASP
+sv:Active Server Pages
+th:???????
+tr:ASP
+uk:Active Server Pages
+zh:Active Server Pages

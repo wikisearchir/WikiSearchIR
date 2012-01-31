@@ -1,0 +1,52 @@
+title{{Refimprove}}
+{{Textbook}}
+In mathematics, a binary relation R on a set X is antisymmetric if, for all a and b in X
+
+if R(a,b) and R(b,a), then a = b,
+or, equivalently,
+
+if R(a,b) with a ? b, then R(b,a) must not hold.
+
+In mathematical notation, this is:
+
+\forall a, b \in X,\ R(a,b) \and R(b,a) \; \Rightarrow \; a = b
+
+or, equivalently,
+
+\forall a, b \in X,\ R(a,b) \and a \ne b \Rightarrow \lnot  R(b,a) .
+
+The usual order relation ? on the real numbers is antisymmetric: if for two real numbers x and y both inequalities x&nbsp;?&nbsp;y and y&nbsp;?&nbsp;x hold then x and y must be equal. Similarly, given two sets A and B, if every element in A also is in B and every element in B is also in A, then A and B must contain all the same elements and therefore be equal:
+
+A \subseteq B \and B \subseteq A \Rightarrow A = B
+Therefore, the subset order ? on the subsets of any given set is antisymmetric.Partial and total orders are antisymmetric by definition. A relation can be both symmetric and antisymmetric (e.g., the equality relation), and there are relations which are neither symmetric nor antisymmetric (e.g., the "preys on" relation on biological species).Antisymmetry is different from asymmetry.  According to one definition of asymmetric, anything that fails to be symmetric is asymmetric.  Another definition of asymmetric makes asymmetry equivalent to antisymmetry plus irreflexivity.
+ExamplesThe relation "x is even, y is odd" between a pair (x, y) of integers is antisymmetric:
+
+
+
+
+The divisibility order of the natural numbers is another example of an antisymmetric relation.
+See also
+
+Symmetry in mathematics
+
+
+References
+
+{{MathWorld}}
+
+{{DEFAULTSORT:Antisymmetric Relation}}
+cs:Antisymetrická relace
+de:Antisymmetrische Relation
+et:Antisümmeetriline seos
+es:Relación antisimétrica
+eo:Malsimetria rilato
+fa:????? ?????????
+ko:?????
+he:??? ????-??????
+hu:Antiszimmetrikus reláció
+ja:?????
+pl:Relacja antysymetryczna
+ru:???????????????? ?????????
+sk:Antisymetrická relácia
+uk:?????????????? ??????????
+zh:?????

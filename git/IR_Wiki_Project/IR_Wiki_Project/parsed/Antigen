@@ -1,0 +1,87 @@
+title
+An antigen is a foreign molecule  that, when introduced into the body, triggers the production of an antibody by the immune system. The immune system will then kill or neutralize the antigen that is recognized as a foreign and potentially harmful invader. These invaders can be molecules such as pollen or cells such as bacteria. The term originally came from antibody generatorAntibody generator termGuyton and Hall (2006). Textbook of Medical Physiology, 11th edition. Page 440.  Elsevier, Inc. Philadelphia, PA. and was a molecule that binds specifically to an antibody, but the term now also refers to any molecule or molecular fragment that can be bound by a major histocompatibility complex (MHC) and presented to a T-cell receptor.Parham, Peter. (2009). The Immune System, 3rd Edition, pg. G:2, Garland Science, Taylor and Francis Group, LLC. "Self" antigens are usually tolerated by the immune system; whereas "Non-self" antigens are identified as invaders and attacked by the immune system. An immunogen is a specific type of antigen.  An immunogen is a substance that is able to provoke an adaptive immune response if injected on its own.Parham, Peter. (2009). The Immune System, 3rd Edition, pg. G:11, Garland Science, Taylor and Francis Group, LLC.  An immunogen is able to induce an immune response, whereas an antigen is able to combine with the products of an immune response once they are made.  The overlapping concepts of immunogenicity and antigenicity are, therefore, subtly different. According to a current textbook:Immunogenicity is the ability to induce a humoral and/or cell-mediated immune responseAntigenicity is the ability to combine specifically with the final products of the immune response (i.e. secreted antibodies and/or surface receptors on T-cells). Although all molecules that have the property of immunogenicity also have the property of antigenicity, the reverse is not true.""Kuby Immunology" 6th edition, Macmillan, 2006, pg. 77 ISBN 1429202114, 9781429202114
+At the molecular level, an antigen is characterized by its ability to be "bound" at the antigen-binding site of an antibody. Note also that antibodies tend to discriminate between the specific molecular structures presented on the surface of the antigen (as illustrated in the Figure). Antigens are usually proteins or polysaccharides. This includes parts (coats, capsules, cell walls, flagella, fimbrae, and toxins) of bacteria, viruses, and other microorganisms. Lipids and nucleic acids are antigenic only when combined with proteins and polysaccharides. Non-microbial exogenous (non-self) antigens can include pollen, egg white, and proteins from transplanted tissues and organs or on the surface of transfused blood cells. Vaccines are examples of immunogenic antigens intentionally administered to induce acquired immunity in the recipient.Cells present their immunogenic-antigens to the immune system via a histocompatibility molecule. Depending on the antigen presented and the type of the histocompatibility molecule, several types of immune cells can become activated.
+Related concepts
+
+
+Epitope - The distinct molecular surface features of an antigen capable of being bound by an antibody (a.k.a. antigenic determinant). Antigenic molecules, normally being &#34;large&#34; biological polymers, usually present several surface features that can act as points of interaction for specific antibodies. Any such distinct molecular feature constitutes an epitope. Therefore, most antigens have the potential to be bound by several distinct antibodies, each of which is specific to a particular epitope. Using the &#34;lock and key&#34; metaphor, the antigen itself can be seen as a string of keys - any epitope being a &#34;key&#34; - each of which can match a different lock. Different antibody idiotypes, each having distinctly formed complementarity determining regions, correspond to the various &#34;locks&#34; that can match &#34;the keys&#34; (epitopes) presented on the antigen molecule.
+
+
+
+Allergen - A substance capable of causing an allergic reaction. The (detrimental) reaction may result after exposure via ingestion, inhalation, injection, or contact with skin.
+Superantigen - A class of antigens that cause non-specific activation of T-cells, resulting in polyclonal T cell activation and massive cytokine release.
+Tolerogen - A substance that invokes a specific immune non-responsiveness due to its molecular form. If its molecular form is changed, a tolerogen can become an immunogen.
+Immunoglobulin binding protein - These proteins are capable of binding to antibodies at positions outside of the antigen-binding site. That is, whereas antigens are the &#34;target&#34; of antibodies, immunoglobulin-binding proteins &#34;attack&#34; antibodies. Protein A, protein G, and protein L are examples of proteins that strongly bind to various antibody isotypes.
+
+
+Origin of the term antigenIn 1899, Ladislas Deutsch (Laszlo Detre) (1874–1939) named the hypothetical substances halfway between bacterial constituents and antibodies "substances immunogenes ou antigenes". He originally believed those substances to be precursors of antibodies, just like zymogen is a precursor of an enzyme. But, by 1903, he understood that an antigen induces the production of immune bodies (antibodies) and wrote that the word antigen is a contraction of "Antisomatogen = Immunkörperbildner". The Oxford English Dictionary indicates that the logical construction should be "anti(body)-gen".{{cite journal}}
+Origin of antigensAntigens can be classified in order of their class.
+Exogenous antigensExogenous antigens are antigens that have entered the body from the outside, for example by inhalation, ingestion, or injection. The immune system's response to exogenous antigens is often subclinical. By endocytosis or phagocytosis, exogenous antigens are taken into the antigen-presenting cells (APCs) and processed into fragments. APCs then present the fragments to T helper cells (CD4+) by the use of class II histocompatibility molecules on their surface. Some T cells are specific for the peptide:MHC complex. They become activated and start to secrete cytokines. Cytokines are substances that can activate cytotoxic T lymphocytes (CTL), antibody-secreting B cells, macrophages, and other particles.Some antigens start out as exogenous antigens, and later become endogenous (for example, intracellular viruses). Intracellular antigens can be released back into circulation upon the destruction of the infected cell, again.
+Endogenous antigensEndogenous antigens are antigens that have been generated within previously-normal cells as a result of normal cell metabolism, or because of viral or intracellular bacterial infection. The fragments are then presented on the cell surface in the complex with MHC class I molecules. If activated cytotoxic CD8+ T cells recognize them, the T cells begin to secrete various toxins that cause the lysis or apoptosis of the infected cell. In order to keep the cytotoxic cells from killing cells just for presenting self-proteins, self-reactive T cells are deleted from the repertoire as a result of tolerance (also known as negative selection). Endogenous antigens include xenogenic (heterologous), autologous and idiotypic or allogenic (homologous) antigens.
+AutoantigensAn autoantigen is usually a normal protein or complex of proteins (and sometimes DNA or RNA) that is recognized by the immune system of patients suffering from a specific autoimmune disease. These antigens should, under normal conditions, not be the target of the immune system, but, due to mainly genetic and environmental factors, the normal immunological tolerance for such an antigen has been lost in these patients.
+Tumor antigensTumor antigens or neoantigens are{{Citation needed}} those antigens that are presented by  MHC I or MHC II molecules on the surface of tumor cells. These antigens can sometimes be presented by tumor cells and never by the normal ones. In this case, they are called tumor-specific antigens (TSAs) and, in general, result from a tumor-specific mutation. More common are antigens that are presented by tumor cells and normal cells, and they are called tumor-associated antigens (TAAs). Cytotoxic T lymphocytes that recognize these antigens may be able to destroy the tumor cells before they proliferate or metastasize.Tumor antigens can also be on the surface of the tumor in the form of, for example, a mutated receptor, in which case they will be recognized by B cells.
+NativityA native antigen is an antigen that is not yet processed by an APC to smaller parts. T cells cannot bind native antigens, but require that they be processed by APCs, whereas B cells can be activated by native ones.
+Antigenic specificityAntigen(ic) specificity is the ability of the host cells to recognize an antigen specifically as a unique molecular entity and distinguish it from another with exquisite precision. Antigen specificity is due primarily to the side-chain conformations of the antigen. It is a measurement, although the degree of specificity may not be easy to measure, and need not be linear or of the nature of a rate-limited step or equation.http://www.steadyhealth.com/encyclopedia/Antigen_specificity
+See also
+
+Epitope
+Linear epitope
+Conformational epitope
+Original antigenic sin
+Polyclonal B cell response
+Magnetic immunoassay
+Priming (immunology)
+
+
+Notes{{Reflist}}
+External links
+
+Antigen Retrieval Protocol
+Immunology
+National Library of Medicine/Medline (National Institute of Health) website
+
+{{immune_system}}af:Antigene
+ar:?????
+bs:Antigen
+bg:???????
+ca:Antigen
+cs:Antigen
+da:Antigen
+de:Antigen
+et:Antigeen
+el:????????
+es:Antígeno
+eu:Antigeno
+fa:?????
+fr:Antigène
+ko:??
+hr:Antigen
+id:Antigen
+it:Antigene
+he:??????
+kk:??????????
+ht:Antijèn
+lt:Antigenas
+hu:Antigén
+ml:?????????
+nl:Antigeen
+ja:??
+no:Antigen
+nn:Antigen
+nds:Antigen
+pl:Antygen
+pt:Antígeno
+ro:Antigen
+ru:???????
+simple:Antigen
+sk:Antigén
+sl:Antigen
+sr:???????
+sh:Antigen
+fi:Antigeeni
+sv:Antigen
+ta:???????????????????
+tr:Antijen
+uk:???????
+vi:Kháng nguyên
+zh:??

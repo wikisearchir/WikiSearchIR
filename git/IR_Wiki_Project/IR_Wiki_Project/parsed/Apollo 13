@@ -1,0 +1,237 @@
+title{{About}}
+{{pp-protected}}{{Stack}}Apollo 13 was the seventh manned mission in the American Apollo space program and the third intended to land on the Moon. The craft was launched on April 11, 1970, at 13:13 CST. The landing was aborted after an oxygen tank exploded two days later, crippling the service module upon which the Command Module depended. Despite great hardship caused by limited power, loss of cabin heat, shortage of potable water and the critical need to jury-rig the carbon dioxide removal system, the crew returned safely to Earth on April 17.The flight was commanded by James A. Lovell with John L. "Jack" Swigert as Command Module pilot and Fred W. Haise as Lunar Module pilot. Swigert was a late replacement for the original CM pilot Ken Mattingly, who was grounded by the flight surgeon after exposure to German measles.
+Crew
+Prime and back up crewBy the standard crew rotation in place during the Apollo program, the prime crew for Apollo 13 would have been the backup crew for Apollo 10 with Mercury and Gemini veteran L. Gordon Cooper in command. That crew was composed of
+
+L. Gordon Cooper, Jr (Commander)
+Donn F. Eisele (Command Module Pilot)
+Edgar D. Mitchell (Lunar Module Pilot)
+
+However, Deke Slayton, NASA's Director of Flight Crew Operations, never intended to rotate Cooper and Eisele to another mission, as both were out of favor with NASA management for various reasons (Cooper for his lax attitude towards training, and Eisele for incidents aboard Apollo 7 and an extra-marital affair). He assigned them to the backup crew simply because of a lack of flight-qualified manpower in the Astronaut Office at the time the assignment needed to be made.Donald K. Slayton, "Deke!" (New York: Forge, 1994), 236 Slayton felt Cooper had a very small chance of receiving the Apollo 13 command if he did an outstanding job with the assignment, which he did not. Despite Eisele's issues with management, Slayton always intended to assign him to a future Apollo Applications Program mission rather than a lunar mission, but this program was eventually cut down to only the Skylab component.Thus, the original assignment Slayton submitted to his superiors for this flight was:
+
+Alan B. Shepard, Jr (Commander)
+Stuart A. Roosa (Command Module Pilot)
+Edgar D. Mitchell (Lunar Module Pilot)
+
+However, for the first time ever, Slayton's recommendation was rejected by management, who felt that Shepard needed more time to properly train for a lunar flight, since he had only recently benefited from experimental surgery to correct an inner ear disorder which kept him grounded since his first Mercury flight in 1961. Thus, Lovell's crew, backup for the historic Apollo 11 mission and therefore slated for Apollo 14, was swapped with Shepard's crew and the original crew selection for the mission became:Prime crew:
+{{Spaceflight crew}}Backup crew:
+{{Spaceflight crew}}Ken Mattingly was originally slated to be the Command Module pilot. Seven days before launch, Charles Duke contracted German measles from one of his children. This exposed both prime and backup crews, who trained together.  Mattingly was found to be the only one of the other five who had not had German measles as a child and thus was not immune. Three days before launch, at the insistence of the Flight Surgeon, Swigert was moved to the prime crew.{{cite web}} Thus the crew for the flight was Lovell, Haise and Swigert.Crew at launch:{{Spaceflight crew}}Mattingly never contracted the German measles, and was assigned after the flight as Command Module pilot to Young's crew, which later flew Apollo 16, the fifth mission to land on the moon.
+Support crew
+
+Vance D. Brand
+Jack R. Lousma
+Joseph P. Kerwin
+
+
+Flight directors
+
+Gene Kranz (lead)Apollo 13 Mission Operations Report - White Team
+Glynn Lunney - Black Team
+Milt Windler - Maroon Team
+Gerry Griffin - Gold Team
+
+
+Mission parameters
+
+Mass: CSM Odyssey {{convert}}; LM Aquarius {{convert}}
+Perigee: {{convert}}
+Apogee (parking orbit): {{convert}}
+Inclination (Earth departure): 33.5°Apollo 13 was the first lunar mission to depart from a free-return trajectory, which involved a plane change.
+Period: 88.07 min
+
+
+ObjectiveThe Apollo 13 mission was to explore the Fra Mauro formation, or Fra Mauro highlands, named after the 80-kilometer-diameter Fra Mauro crater located within it. It is a widespread, hilly selenological area thought to be composed of ejecta from the impact that formed Mare Imbrium.The next Apollo mission, Apollo 14, eventually made a successful flight to Fra Mauro.
+Oxygen tank ruptureApril 14, 1970, 03:07:53 UTC (April 13, 21:07:53 CST, 55:54:53 Ground Elapsed Time);Apollo 13 Timeline {{convert}} from Earth{{Citation needed}}
+Closest approach to MoonApril 15, 1970, 00:21:00 UTC; {{convert}}{{Citation needed}} (possibly a record; see Mission notes below)
+Launch incident
+The mission began with a little-known smaller incident: during the second-stage boost, the center (inboard) engine shut down two minutes early. The four outboard engines burned longer to compensate, and the vehicle continued to a successful orbit.  The shutdown was determined to be due to dangerous pogo oscillations that threatened to tear the second stage apart. The engine experienced 68g vibrations at 16 hertz, flexing the thrust frame by {{convert}}.Apollo 14 Launch Operations (comments on Apollo 13 pogo), Moonport: A History of Apollo Launch Facilities and Operations, NASA The engine shutdown was triggered by sensed thrust chamber pressure fluctuations.Pogo, Jim Fenwick, Threshold - Pratt & Whitney Rocketdyne’s engineering journal of power technology, Spring 1992 Smaller pogo oscillations had been seen on previous Titan and Saturn flights (notably Apollo 6), but on Apollo 13 they were amplified by an unexpected interaction with turbopump cavitation.Mitigating Pogo on Liquid-Fueled Rockets, Aerospace Corporation Crosslink magazine, Winter 2004 edition Later missions implemented anti-pogo modifications that had been under development.  These included addition of a helium gas reservoir to the center engine liquid oxygen line to dampen pressure oscillations, an automatic cutoff as a backup, and simplification of the propellant valves of all five second-stage engines.
+Oxygen tank incident
+Explosion{{Listen}}
+
+En route to the Moon, approximately {{convert}} from Earth, Mission Control asked Swigert to turn on the hydrogen and oxygen tank stirring fans, which were designed to destratify the cryogenic contents and increase the accuracy of their quantity readings. Approximately 93 seconds later the astronauts heard a "loud bang", accompanied by fluctuations in electrical power and firing of the attitude control thrusters. The crew initially thought that a meteoroid might have struck the Lunar Module (LM).
+In fact, the number 2 oxygen tank, one of two in the Service Module (SM), had exploded.Note that NASA's official report (REPORT OF APOLLO 13 REVIEW BOARD) does not itself use the word "explosion" in describing the tank rupture. Rupture disks and other safety measures were present to prevent a catastrophic explosion, and analysis of pressure readings and subsequent ground-testing determined that these safety measures worked as designed. See findings 26 and 27 on page 195 (5-22) of the NASA report. Damaged Teflon insulation on the wires to the stirring fan inside oxygen tank 2 allowed the wires to short-circuit and ignite this insulation. The resulting fire rapidly increased pressure beyond its {{convert}} limit and the tank dome failed, filling the fuel cell bay (Sector 4) with rapidly expanding gaseous oxygen and combustion products. It is also possible some combustion occurred of the Mylar/Kapton thermal insulation material used to line the oxygen shelf compartment in this bay.{{Citation}}
+The resulting pressure inside the compartment popped the bolts attaching the 13-foot Sector 4 outer aluminum skin panel, which as it blew off probably caused minor damage to the nearby high-gain S-band antenna used for translunar communications. Communications and telemetry to Earth were lost for 1.8 seconds, until the system automatically corrected by switching the antenna from narrow-band to wide-band mode.Mechanical shock forced the oxygen valves closed on the number 1 and number 3 fuel cells, which left them operating for only about three minutes on the oxygen in the feed lines. The shock also either partially ruptured a line from the number 1 oxygen tank, or caused its check or relief valve to leak, causing its contents to leak out into space over the next 130 minutes, entirely depleting the SM's oxygen supply.Because the fuel cells combined hydrogen and oxygen to generate electricity and water, the remaining fuel cell number 2 finally shut down and left the Command Module (CM) on limited-duration battery power. The crew was forced to shut down the CM completely and to use the LM as a "lifeboat".{{cite web}} This had been suggested during an earlier training simulation but had not been considered a likely scenario.Lovell, Jim, and Jeffrey Kluger. Apollo 13. Boston: Houghton Mifflin, 2000. 83-87 Without the LM, the accident would certainly have been fatal.{{cite web}}
+Crew survival and return journey
+The damage to the Service Module made safe return from a lunar landing impossible, so Lead Flight Director Gene Kranz immediately aborted the mission. The existing abort plans, first drawn up in 1966, were evaluated; the quickest was a Direct Abort trajectory, which required using the Service Module engine to achieve a large change in velocity to essentially reverse the direction of the craft. Though a successful firing would have landed the crew days earlier in the Indian Ocean, it was highly impractical for the following reasons:
+
+It was practical only in an earlier stage of the mission, before the craft entered the Moon&#39;s gravitational sphere of influence, which Apollo 13 had already done at the time of the accident.
+There was no practical way to get electrical power for the guidance computer or oxygen needed to execute a burn with the engine.
+It was feared the engine might have been damaged when the O2 tank had exploded, preventing the engine from being fired safely.
+For these reasons, Kranz and Flight Director Chris Kraft chose the circumlunar "free return" option, using the Moon's gravity to return the ship to Earth, with an acceleration burn shortly after pericynthion (closest approach to the Moon, "PC+2 burn") to help speed the return. However, Apollo 13 had left its initial free return trajectory earlier in the mission, as required for the planned lunar landing at Fra Mauro. Therefore, the first order of business was to re-establish the free return trajectory with a small burn of the LM descent propulsion system. The descent engine was used again for the PC+2 burn. One more descent engine burn was later required for a minor course correction.
+Considerable ingenuity under extreme pressure was required from the crew, flight controllers, and support personnel for the safe return. The developing drama was shown on television.{{cite web}} Because electrical power was severely limited, no more live TV broadcasts were made; TV commentators used models and animated footage as illustrations. Low power levels made even voice communications difficult.The LM "lifeboat" consumables were intended to sustain two people for a day and a half, not three people for four days. Oxygen was the least critical consumable because the LM carried enough to repressurize the LM after each surface EVA. Unlike the CSM, which was powered by fuel cells that produced water as a byproduct, the LM was powered by silver-zinc batteries, so electrical power and water (used for equipment cooling as well as drinking) were critical consumables. To keep the LM life support and communication systems operational until re-entry, the LM was powered down to the lowest levels possible.
+Limited available lithium hydroxide (LiOH) for removing carbon dioxide presented a serious problem. The LM's internal stock of LiOH canisters was not sufficient to support the crew until return, and the remainder was stored in the descent stage, out of reach. The CM had an adequate supply of canisters, but these were incompatible with the LM. Engineers on the ground improvised a way to join the cube-shaped CM canisters to the LM's cylindrical canister-sockets by drawing air through them with a suit return hose. The astronauts called the jury-rigged device "the mailbox".{{cite web}}Another problem to be solved for a safe return was accomplishing a complete power-up from scratch of the completely shut-down Command Module, something never intended to be done in-flight. Flight controller John Aaron, with the support of grounded astronaut Mattingly and many engineers and designers, had to invent a new protocol to do this with the ship's limited power supply and time factor.http://www.digitallard.com/moviereview/155/{{cite web}} This was further complicated by the fact that the reduced power levels in the LM caused internal temperatures to drop considerably. The un-powered CM got so cold that water began to condense on solid surfaces, causing concern that this might short out electrical systems when it was reactivated. This turned out not to be a problem, partly because of the extensive electrical insulation improvements instituted after the Apollo 1 fire.ttp://www.nasa.gov/mission_pages/constellation/main/A13_panel.html
+Re-entry and splashdown
+As Apollo 13 neared Earth, the crew first jettisoned the Service Module so pictures could be taken for later analysis. It was then that the crew were surprised to see for the first time that the Sector 4 panel had been blown off. According to the analysts, these pictures also showed the antenna damage and possibly an upward tilt to the fuel cell shelf above the oxygen tank compartment.
+Finally, the crew jettisoned the Lunar Module Aquarius, leaving the Command Module Odyssey to begin its lone re-entry through the atmosphere. The re-entry on a lunar mission normally was accompanied by four minutes of communications blackout caused by ionization of the air around the Command Module. The possibility of heat shield damage from the O2 tank rupture heightened the tension of the blackout period, which took 33 seconds longer than normal.However, Odyssey regained radio contact and splashed down safely in the South Pacific Ocean, {{Coord}}, southeast of American Samoa and {{convert}} from the recovery ship, USS Iwo Jima.
+The crew was in good condition except for Haise, who was suffering from a serious urinary tract infection because of insufficient water intake. To avoid altering the trajectory of the spacecraft, the crew had been instructed to temporarily stop urine dumps. A misunderstanding prompted the crew to store all urine for the rest of the flight.Account of Apollo 13 by James Lovell, NASA website{{Image gallery}}
+Apollo 13 Review Board
+NASA Administrator Thomas Paine and Deputy Administrator George Low sent a memorandum to NASA Langley Research Center Director Edgar Cortright on April 17, 1970 (date of spacecraft splashdown) advising him of his appointment as chairman of an Apollo 13 Review Board to investigate the cause of the accident. A second memorandum to Cortright from Paine and Low on April 21 established the board as follows:
+
+
+Members:
+
+Mr. Edgar M. Cortright, Chairman (Director, Langley Research Center)
+Mr. Robert F. Allnutt (Assistant to the Administrator, NASA Hqs.)
+Mr. Neil Armstrong (Astronaut, Manned Spacecraft Center)
+Dr. John F. Clark (Director, Goddard Space Flight Center)
+Brig. General Walter R. Hedrick, Jr. (Director of Space, DCS/RED, Hqs., USAF)
+Mr. Vincent L. Johnson (Deputy Associate Administrator-Engineering, Office of Space Science and Applications)
+Mr. Milton Klein (Manager, AEC-NASA Space Nuclear Propulsion Office)
+Dr. Hans M. Mark (Director, Ames Research Center)
+
+Counsel:
+
+Mr. George Malley (Chief Counsel, Langley Research Center)
+
+OMSF Technical Support:
+
+Mr. Charles W. Mathews (Deputy Associate Administrator, Office of Manned Space Flight)
+
+Observers:
+
+Mr. William A. Anders (Executive Secretary, National Aeronautics and Space Council)
+Dr. Charles D. Harrington (Chairman, NASA Aerospace Safety Advisory Panel)
+Mr. I. I. Pinkel (Director, Aerospace Safety Research and Data Institute, Lewis Research Center)
+
+Congressional Liaison:
+
+Mr. Gerald J. Mossinghoff (Office of Legislative Affairs, NASA Hqs.)
+
+Public Affairs Liaison:
+
+Mr. Brian Duff (Public Affairs Officer. Manned Spacecraft Center)
+|}Cortright sent the Report of the Apollo 13 Review Board to Thomas Paine on 15 June 1970.Report of Apollo 13 Review Board: PDF File (NASA) Restoration by Dr. Rich Drushel, Case Western Reserve University. 2007-02-18.
+Review board accident analysisThe oxygen tank failure was caused by an unlikely chain of events, as found by the Apollo 13 Review Board investigation, based on detailed manufacturing records and logs. Tanks storing cryogens, such as liquid oxygen and liquid hydrogen, require either venting, extremely good insulation, or both, in order to avoid excessive pressure buildup due to vaporization. The Service Module oxygen tanks were so well insulated that they could safely contain supercritical hydrogen and oxygen for years. Each oxygen tank held several hundred pounds of oxygen, which was used for breathable air and the production of electricity and water. However, the construction of the tank made internal inspection of the tank impossible.The tank contained several components relevant to the accident:
+
+a quantity sensor;
+a fan to stir the tank contents for more accurate quantity measurements;
+a heater to vaporize liquid oxygen as needed;
+a thermostat to protect the heater;
+a temperature sensor;
+fill and drain valves and piping.
+
+The heater and protection thermostat were originally designed for the command module's 28-volt DC bus. The specifications for the heater and thermostat were later changed to allow a 65-volt ground supply, in order to pressurize the tanks more rapidly. Beechcraft, the tank subcontractor, did not upgrade the thermostat to handle the higher voltage. The temperature sensor could not read above the highest operational temperature of the heater, which was approximately {{Convert}}. This was not normally a problem because the thermostat was designed to open at {{Convert}}.The oxygen shelf carrying the oxygen tanks was originally installed in the Apollo 10 service module, but was removed to fix a potential electromagnetic interference problem. During removal, the shelf was accidentally dropped about {{convert}} because a retaining bolt had not been removed. The tank appeared to be undamaged, but a loosely-fitting filling tube was apparently damaged, and photographs suggested that the close-out cap on the top of the tank may have hit the fuel cell shelf. The report of the Apollo 13 review board considers the probability of tank damage during this incident to be "rather low".
+After the tank was filled for ground testing, it could not be emptied through the normal drain line. To avoid delaying the mission by replacing the tank, the heater was connected to 65-volt ground power to boil off the oxygen. Lovell signed off on this procedure. It should have taken a few days at the thermostatic opening temperature of {{convert}}. However, when the thermostat opened, the 65-volt supply fused its contacts closed and the heater remained powered.This raised the temperature of the heater to an estimated {{convert}}. A chart recorder on the heater current showed that the heater was not cycling on and off, as it should have been if the thermostat was functioning correctly, but no one noticed it at the time. Because the temperature sensor could not read higher than {{convert}}, the monitoring equipment did not register the true temperature inside the tank.The Apollo 13 Accident  The gas evaporated in hours rather than days.The sustained high temperatures melted the Teflon insulation on the fan power supply wires and left them exposed. When the tank was refilled with oxygen, it became a bomb waiting to go off. During the "cryo stir" procedure, fan power passed through the bare wires which apparently shorted, producing sparks and igniting the Teflon. This in turn boiled liquid oxygen faster than the tank vent could remove it.The other oxygen tank or its piping, located near the failed tank, was damaged, allowing it to leak also. Design fixes included moving the tanks farther apart, and removing the stirring fans.  This required adding a third tank, so that no tank would go below half full. An emergency battery was also added to another sector in the service module.
+In June 1970, the Cortright Report provided an in-depth analysis of the mission in an extremely detailed five-chapter report with eight appendices. It showed a copy of established NASA procedures for alleviating high pressure in a cryogenic oxygen tank, to include:
+
+Turning the four tank heaters and fans off,
+Pulling the two heater circuit breakers to open to remove the energy source,
+Performing a 2-minute purge, or directly opening the O2 valve.
+
+This procedure was designed to prevent hardware failure so that the lunar landing mission could be continued. However, the EECOM Mission Report (on pg E-10) recounts how the master caution and warning alarm had been turned off for a previous low pressure reading on hydrogen tank 2, and so it did not trigger to call attention to the high oxygen pressure reading.Oxygen tank 2 was not the only pressure vessel that failed during this mission. Prior to the accident, the crew had moved their scheduled entry into the Lunar Module forward by three hours. This was done so that they could get an earlier look at the pressure reading of the supercritical helium (SHe) tank in the LM descent stage, which had been suspect since before launch. After the abort decision, the helium pressure continued to rise and Mission Control predicted the time that the burst disc would rupture. The helium tank burst disc ruptured at 108:54, after the lunar flyby. The expulsion reversed the direction of the passive thermal control (PTC) roll (nicknamed the "barbecue roll").LM Control Officer (Control) Apollo 13 Post-Mission Report, page H-9While the investigation board did recreate the oxygen tank failure, they did not report on any experiments that would show how effective the Cryogenic Malfunctions Procedures were to prevent the system failure by de-energizing the electrical heater and fan circuits.
+Mission notes{{ref improve section}}
+Because Apollo 13 followed the free return trajectory, its altitude over the lunar far side was approximately {{convert}} greater than the orbital altitude on the remaining Apollo lunar missions. Due to this fact, Apollo 13 holds the absolute altitude record for a manned spacecraft, reaching a distance of {{convert}} from Earth on 7:21 pm EST, April 14, 1970. {{cite book}}The A7L spacesuit intended to be worn on the lunar surface by Lovell would have been the first to feature red bands on the arms, legs, lunar EVA helmet assembly, and the life-support backpack. This came about because Mission Control personnel watching the video feeds of Apollos 11 and 12 had trouble distinguishing the astronauts while both had their helmet sunshades down. The red bands were a feature for the remaining Apollo flights and are used on the Extravehicular Mobility Units worn by the astronauts of the Space Shuttle program and on the International Space Station (ISS).The Apollo 13 mission was called "a successful failure" by Lovell,{{Cite book}} because the astronauts were brought home safely despite the life-threatening failure of the mission.The crew and the Apollo 13 Mission Operations Team were awarded the Presidential Medal of Freedom for their actions during the mission.The Cold Cathode Gauge Experiment (CCGE), which was part of the ALSEP on Apollo 13 was never flown again. It was a version of the Cold Cathode Ion Gauge (CCIG) which featured on Apollo 12, Apollo 14, and Apollo 15. The CCGE was designed as a standalone version of the CCIG. On other missions, the CCIG was connected as part of the Suprathermal Ion Detector (SIDE). Because of the aborted landing, this experiment was never actually deployed. Other experiments included on Apollo 13's ALSEP included the Heat Flow Experiment (HFE), the Passive Seismic Experiment (PSE), and the Charged Particle Lunar Environment Experiment (CPLEE).Apollo Lunar Surface Experiment Package (ALSEP)
+Plaque and insignia
+The original lunar plaque on Aquarius bore Mattingly’s name, so the crew was given a replacement with Swigert’s name on it. Aquarius never landed on the Moon, however, so Lovell kept the plaque. In his book Lost Moon (later renamed Apollo 13), Lovell states that apart from the Apollo 13 plaque and a couple of other pieces, the only other memento he possesses is a letter from Charles Lindbergh.The Apollo 13 crew patch featured three flying horses as Apollo's 'chariot' across space. Given Lovell's Navy background, the logo also included the mottoes “Ex luna, scientia” ("From the moon, knowledge"), borrowed from the U.S. Naval Academy's motto, "Ex scientia tridens" ("From knowledge, sea power"). The mission number appeared in Roman numerals as Apollo XIII. It is one of two Apollo insignia—the other being Apollo 11—not to include the names of the crew. (This was fortunate, considering that original crew member Ken Mattingly was replaced two days before the mission began.) It was designed by artist Lumen Winter, who based it on a mural he had done for the St. Regis Hotel in New York. The mural was later purchased by actor Tom Hanks, who portrayed Lovell in the movie Apollo 13, and now is on the wall of a restaurant in Chicago owned by Lovell's son.
+Successful experimentsDespite its failure to land on the Moon, several experiments were conducted successfully because they were initiated before or conducted independently of the oxygen tank explosion.{{cite web}}
+
+Several experiments to study electrical phenomena were conducted prior to and during the launch of Apollo 13.  This information was used to better understand hazards of launching in less than ideal weather conditions.
+Eleven photographs of Earth were taken at precisely recorded times, to study the feasibility of using geosynchronous satellites to study cloud height.
+Apollo 13&#39;s S-IVB third stage was the first to be purposely crashed into the lunar surface, as an active seismic experiment which measured its impact with a seismometer left on the lunar surface by the crew of Apollo 12. (The S-IVBs from the previous four lunar missions were sent into solar orbit by ground control after use.)
+
+
+"Towing fees"As a joke following Apollo 13's successful splashdown, Grumman Aerospace Corporation pilot Sam Greenberg (who had helped with the strategy for re-routing power from the LM to the crippled CM) issued a tongue-in-cheek invoice for $400,540.05 to North American Rockwell, Pratt and Whitney, and Beech Aircraft,Invoice from Grumman Aerospace for towing the North American built CMSpokane Daily Chronicle April 18 1970 "Tongue-In-Cheek-Bill Asks Space Tow Fee" from Google News prime and subcontractors for the Command/Service Module (CSM), for "towing" the crippled ship most of the way to the Moon and back. The figure was based on an estimated {{convert}} at $1.00 per mile, plus $4.00 for the first mile. An extra $536.05 was included for battery charging, oxygen, and an "additional guest in room" (Swigert). A 20% "commercial discount", as well as a further 2% discount if North American were to pay in cash, reduced the total to $312,421.24.One version of the invoice includes an extra $100,000 charge "for keeping this invoice confidential." North American declined payment, noting that they had ferried three previous Grumman LMs to the Moon (Apollo 10, Apollo 11 and Apollo 12) with no such reciprocal charges.
+Spacecraft locationThe command module shell was formerly at the Musée de l'Air et de l'Espace, in Paris. The interior components were removed during the investigation of the accident and reassembled into boilerplate BP-1102A, the water egress training module; and were subsequently on display at the Museum of Natural History and Science in Louisville, Kentucky, until 2000. The command module and the internal components were reassembled, and Odyssey is currently on display at the Kansas Cosmosphere and Space Center, Hutchinson, Kansas.The lunar module burned up in Earth's atmosphere on April 17, 1970, having been targeted to enter over the Pacific Ocean to reduce the possibility of contamination from a SNAP 27 radioisotope thermoelectric generator (RTG) on board. (Had the mission proceeded as planned, the RTG would have been used to power the Apollo Lunar Surface Experiment Package, and then remained on the Moon.) The RTG survived re-entry (as designed) and landed in the Tonga Trench. While it will remain radioactive for several thousand years, it does not appear to be releasing any of its 3.9&nbsp;kg of radioactive plutonium.{{cite web}}Lovell's lunar space suit helmet is located at the Museum of Science and Industry in Chicago, Illinois.The Apollo 13 S-IVB with its Instrument Unit was guided to crash onto the lunar surface on April 14, providing a signal for the Apollo 12 Passive Seismic Experiment.<gallery widths="240px" perrow="3">
+File:S70-34985.jpg|A recording of the Apollo 13 S-IVB's impact on the lunar surface as detected by the Apollo 12 Passive Seismic Experiment
+File:Apollo13-booster-crater.jpg|Crater left by the S-IVB's impact
+File:Apollo 13 LM part.jpg|LM armrest on display at the Apollo/Saturn V Center in Florida
+</gallery>
+Popular cultureThe 1974 movie Houston, We've Got a Problem, while set around the Apollo 13 incident, is a fictional drama about the crises faced by ground personnel, when the emergency disrupts their work schedules and places additional stress on their lives; only a couple of news clips and a narrator's solemn voice deal with the actual problems.Apollo 13, a film based on Lost Moon, Jim Lovell's and Jeffrey Kluger's book about the event, was released in 1995. It was directed by Ron Howard and starred Tom Hanks as Jim Lovell, Bill Paxton as Fred Haise, Kevin Bacon as Jack Swigert, Ed Harris as flight director Gene Kranz, Kathleen Quinlan as Marilyn Lovell and Gary Sinise as Ken Mattingly. Jim Lovell, Gene Kranz, and other principals have stated that this film depicted the events of the mission with reasonable accuracy, though some dramatic license was taken. Technical inaccuracies have also been noted.The film also depicts Lovell misquoting Swigert's famous statement, "Houston, we've had a problem" as "Houston, we have a problem".{{cite web}} However, the filmmakers purposely changed the line — and the character speaking it — because the original quote made it seem that the problem had already passed.{{cite web}} The film was a critical and box office success, and was nominated for several Academy Awards including Best Picture, Best Supporting Actor (Harris) and Best Supporting Actress (Quinlan). The film engendered new interest in the history of the Apollo program and American space flight in general.Portions of the events surrounding the Apollo 13 mission are dramatized in episode "We Interrupt This Program" of the 1998 miniseries From the Earth to the Moon, co-produced by Ron Howard and Tom Hanks. Because their film Apollo 13 covered the incident from the crew's perspective the story is instead presented from the perspective of earthbound television reporters competing for coverage of the mission.In 2008, an interactive theatrical show titled APOLLO 13: Mission ControlOfficial page of the APOLLO 13 production premiered at BATS Theatre in Wellington, New Zealand.Theatreview media release and subsequent reviews of the [[BATS Theatre] production of APOLLO 13: Mission Control]  The production faithfully recreated the mission control consoles and audience members became part of the storyline. The show also featured a 'guest' astronaut each night–a member of the public who suited up and amongst other duties, stirred the oxygen tanks and said the line "Houston, we've had a problem". This 'replacement' astronaut was a nod to Jack Swigert, who replaced Ken Mattingly shortly before the actual launch in 1970. The production toured to other cities extensively in New Zealand and Australia in 2010-2011.  The production travels to the USA in 2012.
+See also{{multicol}}
+
+Apollo 1 - unflown mission
+AS-201, AS-202, Apollo 4, Apollo 5, Apollo 6 - unmanned missions
+Apollo 18, Apollo 19, Apollo 20 - canceled missions
+Apollo 11, Apollo 12, Apollo 14, Apollo 15, Apollo 16, and Apollo 17 - successful manned lunar landings
+Project Mercury
+Project Gemini
+Apollo Moon Landing hoax conspiracy theories
+{{Col-break}}
+
+Apollo TV camera
+Extra-vehicular activity
+List of artificial objects on the Moon
+Pad Abort Tests
+Soviet Moonshot
+Splashdown (spacecraft landing)
+{{Col-break}}
+{{Commons}}
+{{Portal}}
+{{Col-end}}
+Notes{{Reflist}}
+Further reading
+
+Lovell, Jim; Kluger, Jeffrey (1994). Lost Moon: The Perilous Voyage of Apollo 13. Houghton Mifflin. ISBN 0-395-67029-2.
+Lattimer, Dick (1985). All We Did was Fly to the Moon. Whispering Eagle Press. ISBN 0-9611228-0-3.
+
+
+External links
+
+Apollo 13 Radio Transcripts on spacelog.org
+NASA Apollo 13 press kit - Apr 2, 1970
+Apollo 13 entry in Encyclopedia Astronautica
+Apollo 13 Original reports from The Times
+Apollo 13: NASA's Finest Hour - slideshow by Life magazine
+NASA NSSDC Master Catalog
+APOLLO BY THE NUMBERS: A Statistical Reference by Richard W. Orloff (NASA)
+The Apollo Spacecraft: A Chronology
+Apollo Program Summary Report
+Apollo 13 Characteristics – SP-4012 NASA HISTORICAL DATA BOOK
+Original Apollo 13 Lunar Exploration and Photography Summary Plan (PDF), February 1970
+Apollo 13 Spacecraft Incident Investigation, (PDF) NASA June 1970
+Report of Apollo 13 Review Board, (PDF) NASA June 1970
+Apollo 13 Technical Air-to-Ground Voice Transcription, April 1970, 765 pages (PDF, 20.4 MB)
+Apollo 13, We Have a Solution: Rather than hurried improvisation, saving the crew of Apollo 13 took years of preparation
+Houston, We've Had a Problem Audio of the Apollo 13 mission during its first moments of trouble
+NASA film on the Apollo 13 mission, downloadable from archive.org (The Internet Archive)
+Summary of mission, NASA website
+Excerpts from the Apollo 13 Transcript
+"Man, Moment, Machine" Apollo 13: Triumph on the Dark Side a 2006 documentary on The History Channel
+APOLLO 13: Mission Control theatrical production website, with listings, photos and video clips of the production
+GENE KRANZ ORAL HISTORY INTERVIEW - PART 2, C-SPAN, 1999.
+
+{{Apollo program}}
+{{Use mdy dates}}
+
+
+
+
+{{Link FA}}af:Apollo 13
+ar:????? 13
+bn:???????? ??
+bg:????? 13
+ca:Apollo 13
+cs:Apollo 13
+cy:Apollo 13
+da:Apollo 13
+de:Apollo 13
+et:Apollo 13
+el:??????? 13
+es:Apolo 13
+fa:????? ??
+fr:Apollo 13
+gl:Apollo 13
+ko:??? 13?
+id:Apollo 13
+it:Apollo 13
+he:????? 13
+jv:Apollo 13
+hu:Apollo–13
+ml:??????? 13
+ms:Apollo 13
+nl:Apollo 13
+ja:???13?
+no:Apollo 13
+pl:Apollo 13
+pt:Apollo 13
+ro:Apollo 13
+ru:???????-13
+simple:Apollo 13
+sk:Apollo 13
+sl:Apollo 13
+fi:Apollo 13
+sv:Apollo 13
+ta:???????? 13
+tr:Apollo 13
+uk:???????-13
+zh:???13?

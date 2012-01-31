@@ -1,0 +1,54 @@
+titleApplesoft BASIC was a dialect of Microsoft BASIC supplied with the Apple II series of computers.  It superseded Integer BASIC and was the BASIC in ROM in all Apple II series computers after the original Apple II model.  It was also referred to as FP (from "floating point") because of the command used to invoke it instead of INT for Integer BASIC.  Applesoft BASIC was supplied by Microsoft and its name is derived from the names of both Apple and Microsoft.  Apple employees, including Randy Wigginton, adapted Microsoft's interpreter for the Apple II and added several features.  The first version of Applesoft was released in 1977 only on cassette tape and lacked proper support for high-resolution graphics. Applesoft II, which was made available on cassette and disk and in the ROM of the Apple II Plus and subsequent models, was released in 1978. It is this latter version, which has some syntax differences from the first as well as support for the Apple II high-resolution graphics modes, that most people mean by the term "Applesoft."
+BackgroundApple's customers were demanding a version of BASIC that supported floating point calculations. As Steve Wozniak, the creator of Integer BASIC and the only person who understood it well enough to add floating point features, was busy with the Disk II drive and controller and with Apple DOS, Apple turned to Microsoft, who was the BASIC vendor of choice after their success with Altair BASIC, and licensed a 10 KB assembly language version of BASIC dubbed "Applesoft." Apple reportedly obtained an eight-year license for Applesoft BASIC from Microsoft for a flat fee of $21,000, renewing it in 1985 through an arrangement that gave Microsoft the rights and source code for Apple's Macintosh version of BASIC.{{Citation needed}}Applesoft was similar to (and indeed had a common code base with) Microsoft BASIC implementations on other 6502-based computers, such as Commodore BASIC: it used line numbers, and spaces were not necessary in lines.  While Applesoft was slower than Integer BASIC, it had many features that the older BASIC lacked:
+
+Atomic strings: A string is no longer an array of characters (as in Integer BASIC and C); it is instead a garbage-collected object (as in Scheme and Java). This allows for string arrays; DIM A$(10) resulted in a vector of eleven string variables numbered 0–10.
+Multidimensional arrays
+Single-precision floating point variables with an 8-bit exponent and a 31-bit significand and improved math capabilities, including trigonometry and logarithmic functions
+Commands for high-resolution graphics
+CHR$, STR$, and VAL functions for converting between string and numeric types (both languages did have the ASC function)
+User-defined functions: simple one-line functions written in BASIC, with a single parameter
+Error-trapping, allowing BASIC programs to handle unexpected errors by means of a subroutine written in BASIC
+Conversely, Applesoft lacked the MOD (remainder) operator that had been present in Integer BASIC.Whereas Wozniak originally referred to his Integer BASIC as "Game BASIC," having written it so he could write a Breakout clone for his new computer, few action games were written in Applesoft BASIC for several reasons:
+
+In that era of carefully counting clock cycles and limited memory, it was inefficient to write speed-dependent programs that ran on a runtime interpreter.
+The use of &#34;real&#34; (floating-point) numbers for all math operations created unnecessary overhead and degraded performance. Applesoft converted integer numbers to real before performing operations on them, converting the result back to an integer only if it was to be assigned to a (16-bit signed) integer variable.
+Shape tables were a slow alternative to bitmaps. No provision existed for mixing text and graphics, except for the limited &#34;hardware split screen&#34; of the Apple II (four lines of text at the bottom of the screen). Many graphics programs thus contained their own bitmap character generator routines. No provision was added in the 128 kB Apple IIe and Apple IIc models&#39; BASIC interpreters for the new machines&#39; extra memory and double-resolution graphics, or for the Apple IIGS's 16-color mode. (Beagle Bros offered machine-language workarounds for these problems.)
+The program was stored as a linked list of lines; a GOTO or GOSUB took O(n) (linear) time, and although Applesoft programs were not very long compared to today&#39;s software, on a 1 MHz 6502 this could be a significant bottleneck.  Large programs were often written with the most-used subroutines at the top of the program to reduce the processing time for GOSUB calls.
+No sound support aside from a PEEK command that could be used to click the speaker, though one could also PRINT an ASCII bell character to sound the system alert beep.  The language was not fast enough to produce more than a baritone buzz from repeated clicks anyway.  However, music spanning several octaves could be played by repeated calls to a machine-language tone generator.
+
+
+Sample code
+Hello World in Applesoft BASIC could be entered as the following:10 TEXT:HOME
+20 ?"HELLO WORLD"Multiple commands could be included on the same line of code if separated by a colon (:).  The ? can be used in Applesoft BASIC as a shortcut for "PRINT", though spelling out the word is not only acceptable but canonical&mdash;Applesoft converted "?" in entered programs to the same token as  "PRINT", thus either would appear as "PRINT" when a program was listed. The program above would be appear in a LIST command as:10  TEXT : HOME
+20  PRINT "HELLO WORLD"This article includes text from Everything2, licensed under GFDL.
+Apple Business BASICApple Business BASIC shipped with the Apple /// computer. Donn Denman ported Applesoft BASIC to SOS and reworked it to take advantage of the extended memory of the Apple ///.  Following the trend of avoiding absolute addresses, the PEEK and POKE commands were replaced with INVOKE and PERFORM statements that loaded and executed separately-assembled code modules.
+TriviaApplesoft II Basic Programming Reference Manual, Apple Computer, Inc., 1978
+
+Despite its heritage, Applesoft lacked commands common to most other Microsoft BASIC interpreters, such as INSTR (which searched for a substring in a given string; this had to be done manually with loops and the MID$ function), PRINT USING (which formatted numbers with commas and currency signs according to a format string), and INKEY$ (which checked for a keypress without stopping the program as Applesoft&#39;s GET command—analogous to the INPUT$ function—did, although a PEEK location did provide this functionality). It seems likely that memory constraints were at the root of these differences, as the Apple II ROM had only 10 kilobytes available for the interpreter, and the improved hi-res graphics support was clearly a higher priority. Microsoft&#39;s CLS command (for clearing the screen) was renamed HOME in Applesoft.
+There was a well-documented bug in Applesoft BASIC that could actually crash the interpreter if ONERR GOTO was in effect and numerous program errors occurred. Apple provided a short assembly-language routine which could be POKEd into RAM and CALLed to ameliorate the problem to an extent. Later it was discovered by an enterprising hacker that the required code was actually in the Applesoft ROM (though it was never executed) and could be called there instead: CALL -3288 or (equivalent) 62248.Disassembled ROM
+Applesoft could be extended by two means: the ampersand (&#38;) command and the USR() function. These were two functions that called machine-language functions stored in memory. Routines that needed to be as fast or required direct access to arbitrary functions or data in memory could thus be called from a higher-level interpreted BASIC program.  Additionally, these lower-level functions could read the data immediately following the &#34;&#38;&#34; or &#34;USR&#34; command, allowing a BASIC program to pass parameters to the functions.
+Both Integer BASIC and Applesoft used tokenizing to reduce the memory requirements of programs and to speed their interpretation. As code was entered, BASIC keywords would be converted to single-byte tokens; the process was reversed when the program was listed. Integer BASIC used characters with codes above 127 for normal text and codes below 128 for tokens; Applesoft used exactly the reverse. Unlike Integer BASIC, Applesoft did not tokenize literal numbers appearing in the code but stored them digit by digit. As a result of the tokenizing process, programmers could not use any variable name that had the name of one of the BASIC commands (e.g. a person could not use the name &#34;SCORE&#34; because the &#34;OR&#34; would invoke a disjunction operator, and &#34;BACKGROUND&#34; could similarly not be used because &#34;GR&#34; would invoke the low-resolution graphics system; both would create syntax errors).
+Applesoft, like Integer BASIC before it, did not come with any built-in commands for dealing with files or disks, other than a feature to save programs to, and load programs from, audiotape. The Apple II disk operating system, known simply as DOS, thus intercepted all input typed at the BASIC command prompt to determine whether it was a DOS command. Similarly, all output was scrutinized for a Control-D character (ASCII 4), which BASIC programs would send before seemingly PRINTing a disk command to get DOS&#39;s attention (the disk commands would not really get PRINTed but were intercepted by DOS and prevented from making it to the screen output).The DOS Manual for Apple II, Apple Computer, Inc., 1980, 1981 ProDOS followed this lead, although the BASIC command interpreter was placed in a separate program called BASIC.SYSTEM and the hook worked in a different manner.Apple II ProDOS Manual, Apple Computer, Inc.
+Variable names were limited to two letters; they could be made longer, but only the first two letters would be used. For instance, &#34;LOW&#34; and &#34;LOSS&#34; would be treated as the same variable, and attempting to assign a value to &#34;LOSS&#34; would overwrite any value assigned to &#34;LOW.&#34;
+
+
+See also
+
+Chinese BASIC — a Chinese-localized version of Applesoft BASIC
+
+
+References{{Reflist}}
+External links
+
+Disassembled ROM
+
+{{BASIC}}{{DEFAULTSORT:Applesoft Basic}}
+
+ca:Applesoft BASIC
+de:Applesoft BASIC
+es:Applesoft BASIC
+ko:????? ???
+it:Applesoft BASIC
+nl:Applesoft BASIC
+ru:Applesoft BASIC
+fi:Applesoft BASIC

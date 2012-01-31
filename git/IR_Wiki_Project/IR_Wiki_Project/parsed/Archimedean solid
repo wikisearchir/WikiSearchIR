@@ -1,0 +1,83 @@
+title
+In geometry an Archimedean solid is  a highly symmetric, semi-regular convex polyhedron composed of two or more types of regular polygons meeting in identical vertices. They are distinct from the Platonic solids, which are composed of only one type of polygon meeting in identical vertices, and from the Johnson solids, whose regular polygonal faces do not meet in identical vertices."Identical vertices" are usually taken to mean that for any two vertices, there must be an isometry of the entire solid that takes one vertex to the other. Sometimes it is instead only required that the faces that meet at one vertex are related isometrically to the faces that meet at the other. This difference in definitions controls whether the pseudorhombicuboctahedron is considered an Archimedean solid or a Johnson solid.Prisms and antiprisms, whose symmetry groups are the dihedral groups, are generally not considered to be Archimedean solids, despite meeting the above definition. With this restriction, there are only finitely many Archimedean solids. They can all be made via Wythoff constructions from the Platonic solids with tetrahedral, octahedral and icosahedral symmetry.
+Origin of nameThe Archimedean solids take their name from Archimedes, who discussed them in a now-lost work. During the Renaissance, artists and mathematicians valued pure forms and rediscovered all of these forms. This search was completed around 1620 by Johannes Kepler,Field J., Rediscovering the Archimedean Polyhedra: Piero della Francesca, Luca Pacioli, Leonardo da Vinci, Albrecht Dürer, Daniele Barbaro, and Johannes Kepler,	Archive for History of Exact Sciences, 50, 1997, 227 who defined prisms, antiprisms, and the non-convex solids known as the Kepler-Poinsot polyhedra.
+ClassificationThere are 13 Archimedean solids (15 if the mirror images of two enantiomorphs, see below, are counted separately).Here the vertex configuration refers to the type of regular polygons that meet at any given vertex. For example, a vertex configuration of (4,6,8) means that a square, hexagon, and octagon meet at a vertex (with the order taken to be clockwise around the vertex).
+
+Name(Vertex configuration) Transparent Solid Net Faces Edges Vertices Symmetry group 
+truncated tetrahedron(3.6.6) (Animation)   8 4 triangles4 hexagons 18 12 Td 
+cuboctahedron(3.4.3.4) (Animation)    14  8 triangles6 squares 24 12 Oh 
+truncated cubeor truncated hexahedron(3.8.8) (Animation)   14 8 triangles6 octagons 36 24 Oh 
+truncated octahedron(4.6.6) 
+(Animation)   14 6 squares8 hexagons 36 24 Oh 
+rhombicuboctahedronor small rhombicuboctahedron(3.4.4.4 ) (Animation)   26 8 triangles18 squares 48 24 Oh 
+truncated cuboctahedronor great rhombicuboctahedron(4.6.8) (Animation)   26 12 squares8 hexagons6 octagons 72 48 Oh 
+snub cubeor snub hexahedron or snub cuboctahedron(2 chiral forms)(3.3.3.3.4) (Animation)(Animation)   38 32 triangles6 squares 60 24 O 
+icosidodecahedron(3.5.3.5) (Animation)   32 20 triangles12 pentagons 60 30 Ih 
+truncated dodecahedron(3.10.10) (Animation)   32 20 triangles12 decagons 90 60 Ih 
+Truncated icosahedron(5.6.6 ) (Animation)   32 12 pentagons20 hexagons 90 60 Ih 
+rhombicosidodecahedronor small rhombicosidodecahedron(3.4.5.4) (Animation)   62 20 triangles30 squares12 pentagons 120 60 Ih 
+truncated icosidodecahedronor great rhombicosidodecahedron(4.6.10) (Animation)   62 30 squares20 hexagons12 decagons 180 120 Ih 
+snub dodecahedronor snub icosidodecahedron(2 chiral forms)(3.3.3.3.5) (Animation)(Animation)   92 80 triangles12 pentagons 150 60 I 
+Some definitions of semiregular polyhedron include one more figure, the elongated square gyrobicupola or "pseudo-rhombicuboctahedron".{{harvtxt}}, p.&nbsp;85
+Properties
+The number of vertices is 720° divided by the vertex angle defect.The cuboctahedron and icosidodecahedron are edge-uniform and are called quasi-regular.The duals of the Archimedean solids are called the Catalan solids.  Together with the bipyramids and trapezohedra, these are the face-uniform solids with regular vertices.
+Chirality
+The snub cube and snub dodecahedron are known as chiral, as they come in a left-handed (Latin: levomorph or laevomorph) form and right-handed (Latin: dextromorph) form. When something comes in multiple forms which are each other's three-dimensional mirror image, these forms may be called enantiomorphs.  (This nomenclature is also used for the forms of certain chemical compounds).
+See also
+
+Aperiodic tiling
+Catalan solid
+List of uniform polyhedra
+Platonic solid
+Quasicrystal
+semiregular polyhedron
+regular polyhedron
+uniform polyhedron
+
+
+Notes{{reflist}}
+References
+
+{{cite journal}}
+{{The Geometrical Foundation of Natural Structure (book)}} (Section 3-9)
+{{citation}}.
+
+
+External links
+
+{{mathworld}}
+Archemedian Solids by Eric W. Weisstein, Wolfram Demonstrations Project.
+Paper models of Archimedean Solids and Catalan Solids
+Free paper models(nets) of Archimedean solids
+The Uniform Polyhedra by Dr. R. Mäder
+Virtual Reality Polyhedra, The Encyclopedia of Polyhedra by George W. Hart
+Penultimate Modular Origami by James S. Plank
+Interactive 3D polyhedra in Java
+Stella: Polyhedron Navigator: Software used to create many of the images on this page.
+Paper Models of Archimedean (and other) Polyhedra
+
+{{Polyhedron navigator}}{{DEFAULTSORT:Archimedean Solid}}
+bg:?????????? ????
+ca:Políedre arquimedià
+cs:Archimédovské t?leso
+de:Archimedischer Körper
+el:?????? ??? ????????
+es:Sólidos arquimedianos
+eo:Ar?imeda solido
+fr:Solide d'Archimède
+ko:??????? ???
+it:Solido archimedeo
+he:???? ???????
+hu:Arkhimédészi testek
+mk:?????????? ????
+nl:Archimedisch lichaam
+ja:?????
+no:Arkimedisk legeme
+nn:Arkimedisk lekam
+pl:Wielo?cian pó?foremny
+pt:Sólido de Arquimedes
+fi:Arkhimedeen kappale
+sv:Arkimediska kroppar
+th:?????????????????
+zh-classical:?????
+zh:?????

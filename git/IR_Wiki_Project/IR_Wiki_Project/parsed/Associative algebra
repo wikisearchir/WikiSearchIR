@@ -1,0 +1,133 @@
+title{{About}}
+In mathematics, an associative algebra A is an associative ring that has a compatible structure of a vector space over a certain field K or, more generally, of a module over a commutative ring R. Thus A is endowed with binary operations of addition and multiplication satisfying a number of axioms, including  associativity of multiplication and distributivity, as well as compatible multiplication by the elements of the field K or the ring R.In some areas of mathematics, associative algebras are typically assumed to have a multiplicative unit, denoted 1. To make this extra assumption clear, these associative algebras are called unital algebras.
+Formal definitionLet R be a fixed commutative ring. An associative R-algebra is an additive abelian group A which has the structure of both a ring and an R-module in such a way that ring multiplication is R-bilinear:
+
+r\cdot(xy) = (r\cdot x)y = x(r\cdot y)
+for all r ? R and x, y ? A.
+We say A is unital if it contains an element 1 such that
+
+1 x = x = x 1 
+for all x ? A.If A itself is commutative (as a ring) then it is called a commutative R-algebra.
+From R-modulesStarting with an R-module A, we get an associative R-algebra by equipping A with an R-bilinear mapping A &times; A ? A such that
+
+x(yz) = (xy)z\,
+for all x, y, and z in A. This R-bilinear mapping then gives A the structure of a ring and an associative R-algebra.  Every associative R-algebra arises this way.Moreover, the algebra A built this way will be unital if and only if
+
+\exists 1\in A,\; 1x = x1 = x
+This definition is equivalent to the statement that a unital associative R-algebra is a monoid in R-Mod (the monoidal category of R-modules).
+From ringsStarting with a ring A, we get a unital associative R-algebra by providing a ring homomorphism   \eta\colon R \to A whose image lies in the center of A. The algebra A can then be thought of as an  R-module by defining
+
+r\cdot x = \eta(r)x
+for all r ? R and x ? A.If A is commutative then the center of A is equal to A, so that a commutative R-algebra can be defined simply as a homomorphism \eta\colon R \to A of commutative rings.
+Algebra homomorphismsA homomorphism between two associative R-algebras is an R-linear ring homomorphism. Explicitly, \phi : A_1 \to A_2 is an associative algebra homomorphism if
+
+\phi(r\cdot x) = r\cdot \phi(x)
+\phi(x+y) = \phi(x)+\phi(y)\,
+\phi(xy) = \phi(x)\phi(y)\,
+For a homomorphism of unital associative R-algebras, we also demand that
+
+\phi(1) = 1\,
+
+The class of all unital associative R-algebras together with algebra homomorphisms between them form a category, sometimes denoted R-Alg.The subcategory of commutative R-algebras can be characterized as the coslice category R/CRing where CRing is the category of commutative rings.
+Examples
+
+The square n-by-n matrices with entries from the field K form a unitary associative algebra over K.
+The complex numbers form a 2-dimensional unitary associative algebra over the real numbers.
+The quaternions form a 4-dimensional unitary associative algebra over the reals (but not an algebra over the complex numbers, since if complex numbers are treated as a subset of the quaternions, complex numbers and quaternions do not commute).
+The 2 &times; 2 real matrices form an associative algebra useful in plane mapping.
+The polynomials with real coefficients form a unitary associative algebra over the reals.
+Given any Banach space X, the continuous linear operators A : X ? X form a unitary associative algebra (using composition of operators as multiplication); this is a Banach algebra.
+Given any topological space X, the continuous real- or complex-valued functions on X form a real or complex unitary associative algebra; here the functions are added and multiplied pointwise.
+An example of a non-unitary associative algebra is given by the set of all functions f: R ? R whose limit as x nears infinity is zero.
+The Clifford algebras, which are useful in geometry and physics.
+Incidence algebras of locally finite partially ordered sets are unitary associative algebras considered in combinatorics.
+Any ring A can be considered as a Z-algebra in a unique way. The unique ring homomorphism from Z to A is determined by the fact that it must send 1 to the identity in A. Therefore rings and Z-algebras are equivalent concepts, in the same way that abelian groups and Z-modules are equivalent.
+Any ring of characteristic n is a (Z/nZ)-algebra in the same way.
+Any ring A is an algebra over its center Z(A), or over any subring of its center.
+Any commutative ring R is an algebra over itself, or any subring of R.
+Given an R-module M, the endomorphism ring of M, denoted EndR(M) is an R-algebra by defining (r·?)(x) = r·?(x).
+Any ring of matrices with coefficients in a commutative ring R forms an R-algebra under matrix addition and multiplication. This coincides with the previous example when M is a finitely-generated, free R-module.
+Every polynomial ring R[x1, ..., xn] is a commutative R-algebra. In fact, this is the free commutative R-algebra on the set {x1, ..., xn}.
+The free R-algebra on a set E is an algebra of polynomials with coefficients in R and noncommuting indeterminates taken from the set E.
+The tensor algebra of an R-module is naturally an R-algebra. The same is true for quotients such as the exterior and symmetric algebras. Categorically speaking, the functor which maps an R-module to its tensor algebra is left adjoint to the functor which sends an R-algebra to its underlying R-module (forgetting the ring structure).
+Given a commutative ring R and any ring A the tensor product R?ZA can be given the structure of an R-algebra by defining r·(s?a) = (rs?a). The functor which sends A to R?ZA is left adjoint to the functor which sends an R-algebra to its underlying ring (forgetting the module structure).
+
+
+Constructions
+
+Subalgebras
+A subalgebra of an R-algebra A is a subset of A which is both a subring and a submodule of A. That is, it must be closed under addition, ring multiplication, scalar multiplication, and it must contain the identity element of A.
+Quotient algebras
+Let A be an R-algebra. Any ring-theoretic ideal I in A is automatically an R-module since r·x = (r1A)x. This gives the quotient ring A/I the structure of an R-module and, in fact, an R-algebra. It follows that any ring homomorphic image of A is also an R-algebra.
+Direct products
+The direct product of a family of R-algebras is the ring-theoretic direct product. This becomes an R-algebra with the obvious scalar multiplication.
+Free products
+One can form a free product of R-algebras in a manner similar to the free product of groups. The free product is the coproduct in the category of R-algebras.
+Tensor products
+The tensor product of two R-algebras is also an R-algebra in a natural way. See tensor product of algebras for more details.
+
+
+Associativity and the multiplication mappingAssociativity was defined above quantifying over all elements of A. It is possible to define associativity in a way that does not explicitly refer to elements.  An algebra is defined as a map M (multiplication) on a vector space A:
+
+M: A \times A \rightarrow A
+An associative algebra is an algebra where the map M has the property
+
+M \circ (\mbox {Id} \times M) = M \circ (M \times \mbox {Id})
+Here, the symbol \circ refers to function composition, and Id&nbsp;:&nbsp;A&nbsp;?&nbsp;A is the identity map on A.To see the equivalence of the definitions, we need only understand that each side of the above equation is a function that takes three arguments. For example, the left-hand side acts as
+
+( M \circ (\mbox {Id} \times M)) (x,y,z) = M (x, M(y,z))
+
+Similarly, a unital associative algebra can be defined in terms of a unit map
+
+\eta: K \rightarrow A
+which has the property
+
+M \circ (\mbox {Id} \times \eta ) = s = M \circ (\eta \times \mbox {Id})
+Here, the unit map ? takes an element k in K to the element k1 in A, where 1 is the unit element of A.  The map s is just plain-old scalar multiplication: s:K\times A \rightarrow A; thus, the above identity is sometimes written with Id standing in the place of s, with scalar multiplication being implicitly understood.
+CoalgebrasAn associative unitary algebra over K is based on a morphism A&times;A?A having 2 inputs (multiplicator and multiplicand) and one output (product), as well as a morphism K?A identifying the scalar multiples of the multiplicative identity. These two morphisms can be dualized using categorial duality by reversing all arrows in the commutative diagrams which describe the algebra axioms; this defines the structure of a coalgebra.There is also an abstract notion of F-coalgebra.
+RepresentationsA representation of an algebra is a linear map ?: A ? gl(V) from A to the general linear algebra of some vector space (or module) V that preserves the multiplicative operation: that is, ?(xy)=?(x)?(y).Note, however, that there is no natural way of defining a tensor product of representations of associative algebras, without somehow imposing additional conditions.   Here, by tensor product of representations,  the usual meaning is intended: the result should be a linear representation on the product vector space. Imposing such additional structure typically leads to the idea of a Hopf algebra or a Lie algebra, as demonstrated below.
+Motivation for a Hopf algebraConsider, for example, two representations \sigma:A\rightarrow gl(V) and \tau:A\rightarrow gl(W).  One might try to form a tensor product representation \rho: x \mapsto \sigma(x) \otimes \tau(x) according to how it acts on the product vector space, so that
+
+\rho(x)(v \otimes w) = (\sigma(x)(v)) \otimes (\tau(x)(w)).
+
+However, such a map would not be linear, since one would have
+
+\rho(kx) = \sigma(kx) \otimes \tau(kx) = k\sigma(x) \otimes k\tau(x) = k^2 (\sigma(x) \otimes \tau(x)) = k^2 \rho(x)
+
+for k ? K. One can rescue this attempt and restore linearity by imposing additional structure, by defining a map ?: A ? A &times; A, and defining the tensor product representation as
+
+\rho = (\sigma\otimes \tau) \circ \Delta.
+
+Here, ? is a comultiplication.  The resulting structure is called a bialgebra.  To be consistent with the definitions of the associative algebra, the coalgebra must be co-associative, and, if the algebra is unital, then the co-algebra must be unital as well.  Note that bialgebras leave  multiplication and co-multiplication unrelated; thus it is common to relate the two (by defining an antipode), thus creating a Hopf algebra.
+Motivation for a Lie algebraOne can try to be more clever in defining a tensor product. Consider, for example,
+
+x \mapsto \rho (x) = \sigma(x) \otimes \mbox{Id}_W + \mbox{Id}_V \otimes \tau(x)
+
+so that the action on the tensor product space is given by
+
+\rho(x) (v \otimes w) = (\sigma(x) v)\otimes w + v \otimes (\tau(x) w) .
+
+This map is clearly linear in x, and so it does not have the problem of the earlier definition.  However, it fails to preserve multiplication:
+
+\rho(xy) = \sigma(x) \sigma(y) \otimes \mbox{Id}_W + \mbox{Id}_V \otimes \tau(x) \tau(y).
+
+But, in general, this does not equal
+
+\rho(x)\rho(y) = \sigma(x) \sigma(y) \otimes \mbox{Id}_W + \sigma(x) \otimes \tau(y) + \sigma(y) \otimes \tau(x) + \mbox{Id}_V \otimes \tau(x) \tau(y).
+
+Equality would hold if the product xy were antisymmetric (if the product were the Lie bracket, that is, xy \equiv M(x,y) = [x,y]), thus turning the associative algebra into a Lie algebra.
+References
+
+{{Cite book}}
+Ross Street, Quantum Groups: an entrée to modern algebra (1998). (Provides a good overview of index-free notation)
+
+{{DEFAULTSORT:Associative Algebra}}
+ca:Àlgebra associativa
+de:Assoziative Algebra
+es:Álgebra asociativa
+eo:Asocieca algebro
+fr:Algèbre associative
+he:?????? (???? ??????)
+nl:Associatieve algebra
+zh-classical:????
+zh:????

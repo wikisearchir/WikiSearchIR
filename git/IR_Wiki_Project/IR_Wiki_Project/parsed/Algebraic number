@@ -1,0 +1,118 @@
+titleIn mathematics, an algebraic number is a number that is a root of a non-zero polynomial in one variable with rational (or equivalently, integer) coefficients. Numbers such as ? that are not algebraic are said to be transcendental; almost all real numbers are transcendental. (Here "almost all" has the sense "all but a set of Lebesgue measure zero"; see Properties below.)
+Examples
+
+The rational numbers, expressed as the quotient of two integers a and b, b not equal to zero, satisfy the above definition because x = a/b is the root of bx-a.Some of the following examples come from Hardy and Wright 1972:159-160 and pp. 178-179
+
+
+
+The constructible numbers (those that, starting with a unit, can be constructed with straightedge and compass, e.g. the square root of 2).
+
+
+
+The quadratic surds (roots of a quadratic polynomial ax^2 + bx + c with integer coefficients a, b, and c) are algebraic numbers. If the quadratic polynomial is monic (a = 1) then the roots are quadratic integers.
+
+
+
+Gaussian integers: those complex numbers a+bi where both a and b are integers are also quadratic integers.
+
+
+
+Trigonometric functions of rational multiples of \pi (except when undefined). For example, each of cos(\pi/7), cos(3\pi/7), cos(5\pi/7) satisfies 8x^3 - 4x^2 - 4x + 1 = 0. This polynomial is irreducible over the rationals, and so these three cosines are conjugate algebraic numbers. Likewise, tan(3\pi/16), tan(7\pi/16), tan(11\pi/16), tan(15\pi/16) all satisfy the irreducible polynomial x^4 - 4x^3 - 6x^2 + 4x + 1, and so are conjugate algebraic integers.
+
+
+
+Some irrational numbers are algebraic and some are not:
+The numbers \scriptstyle\sqrt{2} and \scriptstyle\sqrt[3]{3}/2 are algebraic since they are the roots of polynomials x^2 - 2 and 8x^3 - 3, respectively.
+The golden ratio \phi is algebraic since it is a root of the polynomial x^2 - x - 1.
+The numbers \pi and e are not algebraic numbers (see the Lindemann–Weierstrass theorem);Also Liouville's theorem can be used to "produce as many examples of transcendentals numbers as we please," cf Hardy and Wright p. 161ff hence they are transcendental.
+
+
+Properties
+
+The set of algebraic numbers is countable (enumerable).Hardy and Wright 1972:160
+Hence, the set of algebraic numbers has Lebesgue measure zero (as a subset of the complex numbers), i.e. &#34;almost all&#34; complex numbers are not algebraic.
+Given an algebraic number, there is a unique monic polynomial (with rational coefficients) of least degree that has the number as a root. This polynomial is called its minimal polynomial. If its minimal polynomial has degree n, then the algebraic number is said to be of degree n. An algebraic number of degree 1 is a rational number.
+All algebraic numbers are computable and therefore definable and arithmetical.
+The set of real algebraic numbers is linearly ordered, countable, densely ordered, and without first or last element, so is order-isomorphic to the set of rational numbers.
+
+
+The field of algebraic numbersThe sum, difference, product and quotient of two algebraic numbers is again algebraic (this fact can be demonstrated using the resultant), and the algebraic numbers therefore form a field, sometimes denoted by A (which may also denote the adele ring) or Q. Every root of a polynomial equation whose coefficients are algebraic numbers is again algebraic. This can be rephrased by saying that the field of algebraic numbers is algebraically closed. In fact, it is the smallest algebraically closed field containing the rationals, and is therefore called the algebraic closure of the rationals.
+Related fields
+Numbers defined by radicalsAll numbers which can be obtained from the integers using a finite number of integer additions, subtractions, multiplications, divisions, and taking nth roots (where n is a positive integer) are algebraic. The converse, however, is not true: there are algebraic numbers which cannot be obtained in this manner. All of these numbers are solutions to polynomials of degree ?&nbsp;5. This is a result of Galois theory (see Quintic equations and the Abel–Ruffini theorem). An example of such a number is the unique real root of polynomial {{nowrap}} (which is approximately 1.167304).
+Closed-form number{{Main}}
+Algebraic numbers are all numbers that can be defined explicitly or implicitly in terms of polynomials, starting from the rational numbers. One may generalize this to "closed-form numbers", which may be defined in various ways. Most broadly, any number that can be defined explicitly or implicitly in terms of polynomials, exponentials, and logarithms – these are called "elementary numbers", and include the algebraic numbers, plus some transcendental numbers. Most narrowly, one may consider numbers explicitly defined in terms of polynomials, exponentials, and logarithms – this does not include algebraic numbers, but does include some simple transcendental numbers such as e or log(2).
+Algebraic integers{{Main}}
+
+An algebraic integer is an algebraic number which is a root of a polynomial with integer coefficients with leading coefficient 1 (a monic polynomial). Examples of algebraic integers are {{nowrap}}, {{nowrap}}, and {{nowrap}} (Note, therefore, that the algebraic integers constitute a proper superset of the integers, as the latter are the roots of monic polynomials {{nowrap}} for all {{nowrap}}The sum, difference and product of algebraic integers are again algebraic integers, which means that the algebraic integers form a ring. The name algebraic integer comes from the fact that the only rational numbers which are algebraic integers are the integers, and because the algebraic integers in any number field are in many ways analogous to the integers. If K is a number field, its ring of integers is the subring of algebraic integers in K, and is frequently denoted as OK.
+These are the prototypical examples of Dedekind domains.
+Special classes of algebraic number
+
+Gaussian integer
+Eisenstein integer
+Quadratic irrational
+Fundamental unit
+Root of unity
+Gaussian period
+Pisot-Vijayaraghavan number
+Salem number
+
+
+Notes{{Reflist}}
+References
+
+{{Citation}}
+{{Citation}}
+G. H. Hardy and E. M. Wright 1978, 2000 (with general index) An Introduction to the Theory of Numbers: 5th Edition, Clarendon Press, Oxford UK, ISBN 0-19-853171-0
+{{Lang Algebra}}
+Øystein Ore 1948, 1988, Number Theory and Its History, Dover Publications, Inc. New York, ISBN 0-486-65620-9 (pbk.)
+
+{{Number Systems}}{{DEFAULTSORT:Algebraic Number}}
+
+
+
+
+ar:??? ????
+bn:?????????? ??????
+bs:Algebarski broj
+bg:?????????? ?????
+ca:Nombre algebraic
+cs:Algebraické ?íslo
+da:Algebraiske tal
+de:Algebraische Zahl
+el:?????????? ???????
+es:Número algebraico
+eo:Algebra nombro
+eu:Zenbaki aljebraiko
+fa:??? ????
+fr:Nombre algébrique
+gl:Número alxébrico
+ko:??? ?
+is:Algebruleg tala
+it:Numero algebrico
+he:???? ??????
+kk:?????????? ???
+la:Numerus algebraicus
+lv:Algebrisks skaitlis
+hu:Algebrai szám
+ms:Nombor algebra
+nl:Algebraïsch getal
+ja:????
+nn:Algebraiske tal
+pl:Liczby algebraiczne
+pt:Número algébrico
+ru:?????????????? ?????
+scn:Nùmmiru algebbricu
+sk:Algebrické ?íslo
+sl:Algebrsko število
+sr:?????????? ????
+fi:Algebrallinen luku
+sv:Algebraiskt tal
+ta:???????? ???????? ??????? ????????
+th:????????????????
+tr:Cebirsel say?lar
+uk:??????????? ?????
+ur:???????? ???
+vi:S? ??i s?
+zh-classical:???
+yo:N??mbà álj??brà
+zh:???

@@ -1,0 +1,114 @@
+title{{Original research}}AppleTalk is a proprietary suite of protocols developed by  Apple Inc. for networking computers. It was included in the original Macintosh released in 1984, but is now unsupported as of the release of Mac OS X v10.6 in 2009"Mac OS X v10.6: Mac 101 – Printing". Retrieved on 2009-09-02. in favor of TCP/IP networking. AppleTalk's Datagram Delivery Protocol corresponds closely to the Network layer of the Open Systems Interconnection (OSI) communication model.
+Design{{Refimprove}}
+The AppleTalk design rigorously followed the OSI model of protocol layering.  Unlike most of the early LAN systems, AppleTalk was not built using the archetypal Xerox XNS system.  The intended target was not Ethernet, and it did not have 48-bit addresses to route.  Nevertheless, many portions of the AppleTalk system have direct analogs in XNS.One key differentiation for AppleTalk was it contained three protocols aimed at making the system completely self-configuring.  The AppleTalk address resolution protocol (AARP) allowed AppleTalk hosts to automatically generate their own network addresses, and the Name Binding Protocol (NBP) was a dynamic system for mapping network addresses to user-readable names.  Although systems similar to AARP existed in other systems, Banyan VINES for instance, nothing like NBP has existed until recently.Both AARP and NBP had defined ways to allow "controller" devices to override the default mechanisms. The concept was to allow routers to provide the information or  "hardwire" the system to known addresses and names.  On larger networks where AARP could cause problems as new nodes searched for free addresses, the addition of a router could reduce "chattiness."  Together AARP and NBP made AppleTalk an easy-to-use networking system.  New machines were added to the network by plugging them and optionally giving them a name.  The NBP lists were examined and displayed by a program known as the Chooser which would display a list of machines on the local network, divided into classes such as file-servers and printers.
+History
+AppleTalk was intended to be part of a project known as Macintosh Office, which would consist of a host machine providing routing, printer sharing and file sharing.  However this project was canceled in 1986.  Despite this, the LaserWriter included built-in AppleTalk.  Apple later released an AppleTalk server suite known as AppleShare, and included basic AppleTalk features as the default network protocol in later releases of "classic" Mac OS (System).With the introduction of Mac OS X, AppleTalk was largely displaced.  Internet-based protocols were used as the defaults, although AppleTalk was supported for backwards compatibility at first.  Mac OS X v10.5 was the last Apple OS to support AppleTalk.AppleTalk is largely based on the (unpatented) Cambridge Ring. Missing The Big Time by Wendy Grossman in  Personal Computer World Magazine (May 1993)
+AddressingAn AppleTalk address was a 4-byte quantity. This consisted of a two-byte network number, a one-byte node number, and a one-byte socket number. Of these, only the network number required any configuration, being obtained from a router. Each node dynamically chose its own node number, according to a protocol (originally the LocalTalk Link Access Protocol LLAP and later the AppleTalk Address Resolution Protocol, AARP){{cite book}} which handled contention between different nodes accidentally choosing the same number. For socket numbers, a few well-known numbers were reserved for special purposes specific to the AppleTalk protocol itself. Apart from these, all application-level protocols were expected to use dynamically-assigned socket numbers at both the client and server end.Because of this dynamism, users could not be expected to access services by specifying their address. Instead, all services had names which, being chosen by humans, could be expected to be meaningful to users, and also could be sufficiently long enough to minimize the chance of conflicts.Note that, because a name translated to an address, which included a socket number as well as a node number, a name in AppleTalk mapped directly to a service being provided by a machine, which was entirely separate from the name of the machine itself. Thus, services could be moved to a different machine and, so long as they kept the same service name, there was no need for users to do anything different to continue accessing the service. And the same machine could host any number of instances of services of the same type, without any network connection conflicts.Contrast this with A records in the DNS, where a name translates only to a machine address, not including the port number that might be providing a service. Thus, if people are accustomed to using a particular machine name to access a particular service, their access will break when the service is moved to a different machine. This can be mitigated somewhat by insistence on using CNAME records indicating service rather than actual machine names to refer to the service, but there is no way of guaranteeing that users will follow such a convention.  (Some newer protocols, such as Kerberos and Active Directory use DNS SRV records to identify services by name, which is much closer to the AppleTalk model.)
+Protocols
+AppleTalk Address Resolution ProtocolAARP resolves AppleTalk addresses to link layer, usually MAC, addresses. It is functionally equivalent to ARP.AARP is a fairly simple system. When powered on, an AppleTalk machine broadcasts an AARP probe packet asking for a network address, intending to hear back from controllers such as routers. If no address is provided, one is picked at random from the "base subnet", 0. It then broadcasts another packet saying "I am selecting this address", and then waits to see if anyone else on the network complains. If another machine has that address, it will pick another address, and keep trying until it finds a free one. On a network with many machines it may take several tries before a free address is found, so for performance purposes the successful address is "written down" in NVRAM and used as the default address in the future. This means that in most real-world setups where machines are added a few at a time, only one or two tries are needed before the address effectively become constant.
+AppleTalk Data Stream ProtocolThis was a comparatively late addition to the AppleTalk protocol suite, done when it became clear that a TCP-style reliable connection-oriented transport was needed. Significant differences from TCP were:
+
+a connection attempt could be rejected
+there were no &#34;half-open&#34; connections; once one end initiated a tear-down of the connection, the whole connection would be closed (i.e., ADSP is full-duplex, not dual simplex).
+
+
+Apple Filing ProtocolThe Apple Filing Protocol (AFP), formerly AppleTalk Filing Protocol, is the protocol for communicating with AppleShare file servers. Built on top of AppleTalk Session Protocol (for legacy AFP over DDP) or the Data Stream Interface (for AFP over TCP), it provides services for authenticating users (extensible to different authentication methods including two-way random-number exchange) and for performing operations specific to the Macintosh HFS filesystem. AFP is still in use in Mac OS X, even though most other AppleTalk protocols have been deprecated.
+AppleTalk Session ProtocolASP was an intermediate protocol, built on top of ATP, which in turn was the foundation of AFP. It provided basic services for requesting responses to arbitrary commands and performing out-of-band status queries. It also allowed the server to send asynchronous attention messages to the client.
+AppleTalk Transaction ProtocolATP was the original reliable transport-level protocol for AppleTalk, built on top of DDP. At the time it was being developed, a full, reliable connection-oriented protocol like TCP was considered to be too expensive to implement for most of the intended uses of AppleTalk. Thus, ATP was a simple request/response exchange, with no need to set up or tear down connections.An ATP request packet could be answered by up to eight response packets. The requestor then sent an acknowledgement packet containing a bit mask indicating which of the response packets it received, so the responder could retransmit the remainder.ATP could operate in either "at-least-once" mode or "exactly-once" mode. Exactly-once mode was essential for operations which were not idempotent; in this mode, the responder kept a copy of the response buffers in memory until successful receipt of a release packet from the requestor, or until a timeout elapsed. This way, it could respond to duplicate requests with the same transaction ID by resending the same response data, without performing the actual operation again.**
+Datagram Delivery ProtocolDDP was the lowest-level data-link-independent transport protocol. It provided a datagram service with no guarantees of delivery. All application-level protocols, including the infrastructure protocols NBP, RTMP and ZIP, were built on top of DDP.
+Name Binding ProtocolNBP was a dynamic, distributed system for managing AppleTalk names. When a service started up on a machine, it registered a name for itself on that machine, as chosen by a human administrator. At this point, NBP provided a system for checking that no other machine had already registered the same name. Then later, when a client wanted to access that service, it used NBP to query machines to find that service. NBP provided browseability ("what are the names of  all the services available?") as well as the ability to find a service with a particular name.Names were human readable, containing spaces, upper and lower case letters, and including support for searching.
+Printer Access ProtocolPAP was the standard way of communicating with PostScript printers. It was built on top of ATP. When a PAP connection was opened, each end sent the other an ATP request which basically meant "send me more data". The client's response to the server was to send a block of PostScript code, while the server could respond with any diagnostic messages that might be generated as a result, after which another "send-more-data" request was sent. This use of ATP provided automatic flow control; each end could only send data to the other end if there was an outstanding ATP request to respond to.PAP also provided for out-of-band status queries, handled by separate ATP transactions. Even while it was busy servicing a print job from one client, a PAP server could continue to respond to status requests from any number of other clients. This allowed other Macintoshes on the LAN that were waiting to print to display status messages indicating that the printer was busy, and what the job was that it was busy with.
+Routing Table Maintenance ProtocolRTMP was the protocol by which routers kept each other informed about the topology of the network. This was the only part of AppleTalk that required periodic unsolicited broadcasts: every 10 seconds, each router had to send out a list of all the network numbers it knew about and how far away it thought they were.
+Zone Information ProtocolZIP was the protocol by which AppleTalk network numbers were associated with zone names. A zone was a subdivision of the network that made sense to humans (for example, "Accounting Department"); but while a network number had to be assigned to a topologically-contiguous section of the network, a zone could include several different discontiguous portions of the network.
+Physical implementation{{multiple image}}
+The initial default hardware implementation for AppleTalk was a high-speed serial protocol known as LocalTalk that used the Macintosh's built-in RS-422 ports at 230.4 kbit/s. LocalTalk used a splitter box in the RS-422 port to provide an upstream and downstream cable from a single port. The topology was a bus: cables were daisy-chained from each connected machine to the next, up to the maximum of 32 permitted on any LocalTalk segment. The system was slow by today's standards, but at the time the additional cost and complexity of networking on PC machines was such that it was common that Macs were the only networked personal computers in an office. Other larger computers, such as UNIX or VAX workstations, would commonly be networked via Ethernet.Other physical implementations were also available. One common replacement for LocalTalk was PhoneNet, a 3rd party solution (from a company called Farallon, now called Netopia) that also used the RS-422 port and was indistinguishable from LocalTalk as far as Apple's LocalTalk port drivers were concerned, but ran over the two unused wires in standard four-wire phone cabling. PhoneNet was considerably less expensive to install and maintain. Ethernet and Token Ring was also supported, known as EtherTalk and TokenTalk respectively. EtherTalk in particular gradually became the dominant implementation method for AppleTalk as Ethernet became generally popular in the PC industry throughout the 1990s. Besides AppleTalk and TCP/IP, any Ethernet network could also simultaneously carry other protocols such as DECnet, NetBEUI, and IPX.
+Networking model
+
+OSI Model Corresponding AppleTalk layers 
+Application Apple Filing Protocol (AFP) 
+Presentation Apple Filing Protocol (AFP) 
+Session Zone Information Protocol (ZIP)AppleTalk Session Protocol (ASP)AppleTalk Data Stream Protocol (ADSP) 
+Transport AppleTalk Transaction Protocol (ATP)AppleTalk Echo Protocol (AEP)Name Binding Protocol (NBP)Routing Table Maintenance Protocol (RTMP) 
+Network Datagram Delivery Protocol (DDP) 
+Data link EtherTalk Link Access Protocol (ELAP)LocalTalk Link Access Protocol (LLAP)  TokenTalk Link Access Protocol (TLAP) Fiber Distributed Data Interface (FDDI) 
+Physical LocalTalk driverEthernet driverToken Ring driverFDDI driver 
+
+Versions{{Expand section}}
+
+AppleTalk version Apple Filing Protocol Corresponds to Notes 
+56  System 7.0  
+57.0.4  System 7.12  
+58.1.1  System 7.1.2  
+58.1.3  System 7.5  
+60.3  Mac OS 7.6.1 Open Transport 1.3 
+60.0a6  Mac OS 8.6 Open Transport 2.0.3 
+ 3.0 Mac OS X 10.0.3  
+ 3.1 Mac OS X v10.3  
+ 3.2 Mac OS X v10.4  
+
+Cross-platform solutionsWhen AppleTalk was first introduced the dominant office computing platform was the PC compatible running MS-DOS. The "TOPS Teleconnector"TOPS Teleconnector MS-DOS networking system over AppleTalk system enabled MS-DOS PCs to communicate over AppleTalk network hardware; it comprised an AppleTalk interface card for the PC and a suite of networking software allowing such functions as file, drive and printer sharing. As well as allowing the construction of a PC-only AppleTalk network, it allowed communication between PCs and Macs with TOPS software installed. (Macs without TOPS installed could use the same network but only to communicate with other Apple machines.) The Mac TOPS software did not match the quality of Apple's own either in ease of use or in robustness and freedom from crashes, but the DOS software was relatively simple to use in DOS terms, and was robust.The BSD and Linux operating systems support AppleTalk through an open source project called Netatalk, which implements the complete protocol suite and allows them to both act as native file or print servers for Macintosh computers, and print to LocalTalk printers over the network.The Windows Server operating systems supported AppleTalk starting with Windows NT and ending after Windows Server 2003.  Miramar included AppleTalk in its PC MacLAN product which was discontinued by CA in 2007.   Group Logic continues to bundle its AppleTalk protocol with its ExtremeZ-IP server software for Macintosh-Windows integration which supports Windows 2008 Server and Windows Vista as well prior versions. HELIOS Software GmbH offers a proprietary implementation of the AppleTalk protocol stack, as part of their HELIOS UB2 server. This is essentially a File and Print Server suite that runs on a whole range of different platforms.In addition, Columbia University released the Columbia AppleTalk Package (CAP) which implemented the protocol suite for various Unix flavors including Ultrix, SunOS, *BSD and IRIX.  This package is no longer actively maintained.
+Ports Used
+Sample iptables rules to allow Netatalk access
+
+# Netatalk needs a flock of ports.
+# This is the one-line-per-port example, and should work with
+# older versions of iptables.
+-A UVAfw -s 128.143.0.0/16 -p tcp --dport 427 -j ACCEPT
+-A UVAfw -s 128.143.0.0/16 -p udp --dport 427 -j ACCEPT
+-A UVAfw -s 128.143.0.0/16 -p tcp --dport 548 -j ACCEPT
+-A UVAfw -s 128.143.0.0/16 -p tcp --dport 201 -j ACCEPT
+-A UVAfw -s 128.143.0.0/16 -p tcp --dport 202 -j ACCEPT
+-A UVAfw -s 128.143.0.0/16 -p tcp --dport 204 -j ACCEPT
+-A UVAfw -s 128.143.0.0/16 -p tcp --dport 206 -j ACCEPT
+
+#-A UVAfw -s 137.54.0.0/16 -p tcp --dport 427 -j ACCEPT
+#-A UVAfw -s 137.54.0.0/16 -p udp --dport 427 -j ACCEPT
+#-A UVAfw -s 137.54.0.0/16 -p tcp --dport 548 -j ACCEPT
+#-A UVAfw -s 137.54.0.0/16 -p tcp --dport 201 -j ACCEPT
+#-A UVAfw -s 137.54.0.0/16 -p tcp --dport 202 -j ACCEPT
+#-A UVAfw -s 137.54.0.0/16 -p tcp --dport 204 -j ACCEPT
+#-A UVAfw -s 137.54.0.0/16 -p tcp --dport 206 -j ACCEPT
+
+# Multiport variant of the netatalk ports above.
+# I'm not quite sure why 427 is missing.
+-A UVAfw -m multiport -s 128.143.0.0/16 -p tcp --dports 548,201,202,204,206 -j ACCEPT
+
+
+See also
+
+Cambridge Ring
+Netatalk is a free, open-source implementation of the AppleTalk suite of protocols.
+Network File System
+Remote File System
+Samba
+Server Message Block
+
+
+References{{reflist}}
+External links
+
+AppleTalk – Directory & Informational Resource
+System 7.x.x: AppleTalk and ADSP Versions
+
+{{DEFAULTSORT:Appletalk}}
+
+cs:AppleTalk
+de:AppleTalk
+es:AppleTalk
+eu:AppleTalk
+fr:AppleTalk
+ko:????
+id:AppleTalk
+it:AppleTalk
+he:AppleTalk
+ka:AppleTalk
+mr:????????
+nl:AppleTalk
+ja:AppleTalk
+pl:AppleTalk
+pt:AppleTalk
+ru:AppleTalk
+simple:Appletalk
+fi:AppleTalk
+sv:AppleTalk
+uk:AppleTalk

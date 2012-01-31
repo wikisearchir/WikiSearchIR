@@ -1,0 +1,148 @@
+title{{Modulation techniques}}
+Amplitude modulation (AM) is a technique used in electronic communication, most commonly for transmitting information via a radio carrier wave. AM works by varying the strength of the transmitted signal in relation to the information being sent. For example, changes in signal strength may be used to specify the sounds to be reproduced by a loudspeaker, or the light intensity of television pixels. Contrast this with frequency modulation, in which the frequency is varied, and phase modulation, in which the phase is varied.In the mid-1870s, a form of amplitude modulation&mdash;initially called "undulatory currents"&mdash;was the first method to successfully produce quality audio over telephone lines. Beginning with Reginald Fessenden's audio demonstrations in 1906, it was also the original method used for audio radio transmissions, and remains in use today by many forms of communication&mdash;"AM" is often used to refer to the mediumwave broadcast band (see AM radio).
+Forms of amplitude modulation
+In radio communication, a continuous wave radio-frequency signal (a sinusoidal carrier wave) has its amplitude modulated by an audio waveform before transmission. In the frequency domain, amplitude modulation produces a signal with power concentrated at the carrier frequency and two adjacent sidebands. Each sideband is equal in bandwidth to that of the modulating signal, and is a mirror image of the other. Amplitude modulation resulting in two sidebands and a carrier is called "double-sideband amplitude modulation" (DSB-AM). Amplitude modulation is inefficient in power usage; at least two-thirds of the power is concentrated in the carrier signal, which carries no useful information (beyond the fact that a signal is present).To increase transmitter efficiency, the carrier may be suppressed. This produces a reduced-carrier transmission, or DSB "double-sideband suppressed-carrier" (DSB-SC) signal.  A suppressed-carrier AM signal is three times more power-efficient than AM. If the carrier is only partially suppressed, a double-sideband reduced-carrier (DSBRC) signal results.  For reception, a local oscillator will typically restore the suppressed carrier so the signal can be demodulated with a product detector.Improved bandwidth efficiency is achieved at the expense of increased transmitter and receiver complexity by completely suppressing both the carrier and one of the sidebands. This is single-sideband modulation, widely used in amateur radio and other communications applications. A simple form of AM, often used for digital communications, is on-off keying: a type of amplitude-shift keying in which binary data is represented by the presence or absence of a carrier. This is used by radio amateurs to transmit Morse code and is known as continuous wave (CW) operation.
+ITU designations
+In 1982, the International Telecommunication Union (ITU) designated the types of amplitude modulation:
+
+Designation Description 
+A3E double-sideband a full-carrier - the basic Amplitude modulation scheme 
+R3E single-sideband reduced-carrier 
+H3E single-sideband full-carrier 
+J3E single-sideband suppressed-carrier 
+B8E independent-sideband emission 
+C3F vestigial-sideband 
+Lincompex linked compressor and expander 
+
+Example: double-sideband AMA carrier wave is modeled as a sine wave:
+
+c(t) = C\cdot \sin(\omega_c t + \phi_c),\,
+
+in which the frequency in Hz is given by:
+
+\omega_c / (2\pi).\,
+
+The constants C\, and \phi_c\, represent the carrier amplitude and initial phase, and are introduced for generality. For simplicity, their respective values can be set to 1 and 0.Let m(t) represent an arbitrary waveform that is the message to be transmitted, and let the constant M represent its largest magnitude:
+
+m(t) = M\cdot \cos(\omega_m t + \phi).\,
+
+The message might be just a simple audio tone of frequency:
+
+\omega_m / (2\pi).\,
+
+It is assumed that &nbsp;\omega_m \ll \omega_c\,&nbsp; and that &nbsp;\min[ m(t) ] = -M.\,Amplitude modulation is formed by the product:
+
+
+|y(t)\,
+|= [1 + m(t)]\cdot c(t),\,
+|-
+|
+|= A.[1 + M\cdot \cos(\omega_m t + \phi)]\cdot \sin(\omega_c t).
+|}A\, represents the carrier amplitude, which is a constant that demonstrates the modulation index. The values A=1 and M=0.5 produce y (t), depicted by the top graph (labelled "50% Modulation") in Figure 4.In this example, y(t) can be trigonometrically manipulated into the following (equivalent) form:
+
+y(t) = A\cdot \sin(\omega_c t) + \begin{matrix}\frac{M}{2} \end{matrix} \left[\sin((\omega_c + \omega_m) t + \phi) + \sin((\omega_c - \omega_m) t - \phi)\right].\,
+
+Therefore, the modulated signal has three components: a carrier wave and two sinusoidal waves (known as sidebands), whose frequencies are slightly above and below &nbsp;\omega_c.\,The choice A=0 eliminates the carrier component, but leaves the sidebands (DSBSC transmission). To generate a double-sideband full carrier (A3E) signal, we must choose:A \ge M.\,
+SpectrumFor more general forms of m(t), trigonometry is not sufficient; however, if the top trace of Figure 2 depicts the frequency of m(t) the bottom trace depicts the modulated carrier. It has two components: one at a positive frequency (centered on +\omega_c) and one at a negative frequency (centered on -\omega_c). Each component contains the two sidebands and a narrow segment in between, representing energy at the carrier frequency. Since the negative frequency is a mathematical artifact, examining the positive frequency demonstrates that an AM signal's spectrum consists of its original (two-sided) spectrum, shifted to the carrier frequency. Figure 2 is a result of computing the Fourier transform of: &nbsp; [A + m(t)]\cdot \sin(\omega_c t),\, using the following transform pairs:
+
+
+\begin{align}
+                   m(t) \quad \stackrel{\mathcal{F}}{\Longleftrightarrow}&\quad M(\omega) \\
+       \sin(\omega_c t) \quad \stackrel{\mathcal{F}}{\Longleftrightarrow}&\quad i \pi \cdot [\delta(\omega +\omega_c)-\delta(\omega-\omega_c)] \\
+A\cdot \sin(\omega_c t) \quad \stackrel{\mathcal{F}}{\Longleftrightarrow}&\quad i \pi A \cdot [\delta(\omega +\omega_c)-\delta(\omega-\omega_c)] \\
+m(t)\cdot \sin(\omega_c t) \quad \stackrel{\mathcal{F}}{\Longleftrightarrow}& \frac{1}{2\pi}\cdot \{M(\omega)\} * \{i \pi \cdot [\delta(\omega +\omega_c)-\delta(\omega-\omega_c)]\} \\
+=& \frac{i}{2}\cdot [M(\omega +\omega_c) - M(\omega -\omega_c)]
+\end{align}
+
+
+
+Power and spectrum efficiencyIn terms of positive frequencies, the transmission bandwidth of AM is twice the signal's original (baseband) bandwidth; both the positive and negative sidebands are shifted up to the carrier frequency. Thus, double-sideband AM (DSB-AM) is spectrally inefficient since fewer radio stations can be accommodated in a given broadcast band. The suppression methods described above may be understood in terms of Figure 2. With the carrier suppressed, there would be no energy at the center of a group; with a sideband suppressed, the "group" would have the same bandwidth as the positive frequencies of M(\omega).\,&nbsp; The transmitter-power efficiency of DSB-AM is relatively poor (about 33 percent). The benefit of this system is that receivers are cheaper to produce. Suppressed-carrier AM is 100 percent power-efficient, since no power is wasted on the carrier signal (which conveys no information).
+Modulation indexThe AM modulation index is the measure of the amplitude variation surrounding an unmodulated carrier. As with other modulation indices, in AM this quantity (also called "modulation depth") indicates how much the modulation varies around its "original" level. For AM, it relates to variations in carrier amplitude and is defined as:
+
+h = \frac{\mathrm{peak\ value\ of\ } m(t)}{A} = \frac{M}{A},   where M\, and A\, were introduced above.
+
+So if h=0.5, carrier amplitude varies by 50% above (and below) its unmodulated level; for h=1.0, it varies by 100%. To avoid distortion, modulation depth must not exceed 100 percent. Transmitter systems will usually incorporate a limiter circuit (such as a VOGAD) to ensure this. However, AM demodulators can be designed to detect the inversion (or 180-degree phase reversal) that occurs when modulation exceeds 100 percent; they automatically correct for this defect.{{Citation needed}} Variations of a modulated signal with percentages of modulation are shown below. In each image, the maximum amplitude is higher than in the previous image (note that the scale changes from one image to the next).
+
+{{anchor}}Modulation methods
+Modulation circuit designs may be classified as low- or high-level (depending on whether they modulate in a low-power domain—followed by amplification for transmission—or in the high-power domain of the transmitted signal).{{cite book}}
+Low-level generationIn modern radio systems, modulated signals are generated via digital signal processing (DSP). With DSP many types of AM modulation are possible with software control (including DSB with carrier, SSB suppressed-carrier and independent sideband, or ISB). Calculated digital samples are converted to voltages with a digital to analog converter, typically at a frequency less than the desired RF-output frequency. The analog signal must then be shifted in frequency, and linearly amplified to the desired frequency and power level (linear amplification must be used to prevent modulation distortion).{{cite book}}
+This low-level method for AM is used in many Amateur Radio transceivers.{{cite book}}AM may also be generated at a low level, using analog methods described in the next section.
+High-level generationHigh-power AM transmitters (such as those used for AM broadcasting) are based on high-efficiency class-D and class-E power amplifier stages, modulated by varying the supply voltage.{{cite journal}}Older designs (for broadcast and amateur radio) also generate AM by controlling the transmitter’s final amplifier (generally a class-C, for efficiency) gain. The following types are for vacuum tube transmitters (but similar options are available with transistors):{{cite book}}
+
+Plate modulation: In plate modulation, the plate voltage of the RF amplifier is modulated with the audio signal. The audio power requirement is 50 percent of the RF-carrier power.
+Heising (constant-current) modulation: RF amplifier plate voltage is fed through a “choke” (high-value inductor). The AM modulation tube plate is fed through the same inductor, so the modulator tube diverts current from the RF amplifier. The choke acts as a constant current source in the audio range. This system has a low power efficiency.
+Control grid modulation: The operating bias and gain of the final RF amplifier can be controlled by varying the voltage of the control grid. This method requires little audio power, but care must be taken to reduce distortion.
+Clamp tube (screen grid) modulation: The screen-grid bias may be controlled through a “clamp tube”, which reduces voltage according to the modulation signal. It is difficult to approach 100-percent modulation while maintaining low distortion with this system.
+
+
+{{anchor}}Demodulation methodsThe simplest form of AM demodulator consists of a diode which is configured to act as envelope detector.  Another type of demodulator, the product detector, can provide better-quality demodulation with additional circuit complexity.
+See also
+
+AM radio
+AM stereo
+Mediumwave band used for AM broadcast radio
+Longwave band used for AM broadcast radio
+Frequency modulation
+Shortwave radio almost universally uses AM, narrow FM occurring above 25 MHz.
+Modulation, for a list of other modulation techniques
+Amplitude modulation signalling system (AMSS), a digital system for adding low bitrate information to an AM signal.
+Sideband, for some explanation of what  this is.
+Types of radio emissions, for the emission types designated by the ITU
+Airband
+Quadrature amplitude modulation
+
+
+References{{Reflist}}
+
+Newkirk, David and Karlquist, Rick (2004).  Mixers, modulators and demodulators.  In D. G. Reed (ed.), The ARRL Handbook for Radio Communications (81st ed.), pp. 15.1–15.36.  Newington: ARRL.  ISBN 0-87259-196-4.
+
+
+External links
+
+
+Amplitude Modulation by Jakub Serych, Wolfram Demonstrations Project.
+Amplitude Modulation, by S Sastry.
+Amplitude Modulation, an introduction by Federation of American Scientists.
+Amplitude Modulation tutorial video with example transmitter circuit.
+
+
+{{Telecommunications}}
+{{DEFAULTSORT:Amplitude Modulation}}
+am:??? ?????
+ar:????? ?????
+ca:Amplitud modulada
+cs:Amplitudová modulace
+da:Amplitudemodulation
+de:Amplitudenmodulation
+el:?????????? ???????
+es:Amplitud modulada
+eu:Anplitude Modulatua
+fa:????????? ?????
+fr:Modulation d'amplitude
+ko:?? ??
+hr:Amplitudna modulacija
+id:Modulasi amplitudo
+it:Modulazione di ampiezza
+he:????? ?????
+kk:???????????? ?????????
+lv:Amplit?das modul?cija
+hu:Amplitúdómoduláció
+ml:?????????????? ????????
+nl:Amplitudemodulatie
+ja:????
+no:Amplitudemodulasjon
+pl:Modulacja amplitudy
+pt:Modulação em amplitude
+ro:Modula?ie de amplitudine
+ru:??????????? ?????????
+simple:Amplitude modulation
+sd:?????????? ?????????
+sk:Amplitúdová modulácia
+sl:Amplitudna modulacija
+sr:Amplitudska modulacija
+fi:Amplitudimodulaatio
+sv:Amplitudmodulering
+tr:Genlik modülasyonu
+uk:?????????? ?????????
+vi:?i?u ch? biên ??
+zh:????

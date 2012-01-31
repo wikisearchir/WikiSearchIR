@@ -1,0 +1,64 @@
+title{{Infobox software}}AbiWord is a free and open source software word processor. It was originally started by SourceGear Corporation as the first part of a proposed AbiSuite. Development stopped when SourceGear changed their focus to Internet appliances. AbiWord was adopted by some open source developers and AbiWord continued to be developed. The name "AbiWord" (pronounced [æbi?], like the name, "Abby" + [w?rd]) is derived from the root of the Spanish word "abierto", meaning "open".Project Mascot Abi the Ant.  Page explains Abi is pronounced just like "Abby" It runs on Linux, Microsoft Windows, ReactOS, Solaris, AmigaOS 4.0 (through its Cygnix X11 engine), and other operating systems. However, the Mac OS X port has remained on version 2.4 since 2005,{{Citation}} although the current version does run non-natively on Mac OS X through X11.app. AbiWord is part of the AbiSource project which develops a number of office-related technologies.{{cite web}}
+FeaturesAbiWord supports both basic word processing features such as lists, indents and character formats, and more sophisticated features including tables, styles, page headers and footers, footnotes, templates, multiple views, page columns, spell checking, and grammar checking.{{cite web}} Starting with version 2.8.0, AbiWord includes a collaboration plugin that allows integration with AbiCollab.net, a Web-based service that permits multiple users to work on the same document in real time, in full synchronization.  The Presentation view of AbiWord, which permits easy display of presentations created in AbiWord on "screen-sized" pages, is another feature not often found in word processors.  However, due to the incomplete compatibility with Microsoft Word, one cannot transfer a complete table.  When a table is transferred from AbiWord to Microsoft Word not all of the data will transfer properly.
+InterfaceAbiWord generally works similarly to classic versions (pre-Office 2007) of Microsoft Word, as direct ease of migration was a high priority early goal.  While many interface similarities remain, cloning the Word interface is not a top priority.  The interface is intended to follow user interface guidelines for each respective platform.
+File formatsAbiWord comes with several import and export filters for formats including HTML, Microsoft Word (.doc), Office Open XML (.docx),{{cite web}}{{cite web}} OpenDocument Text (.odt), Rich Text Format (.rtf), and text documents (.txt). LaTeX is supported for export only. Plug-in filters are available to deal with many other formats, notably WordPerfect documents. The native file format, .abw, uses XML, so as to mitigate vendor lock-in concerns with respect to interoperability and digital archiving.
+Grammar checkingThe AbiWord project includes a grammar checking plugin using Link Grammar. AbiWord had grammar checking before any other open source word processor, although a grammar checker was later added to OpenOffice.org. Link Grammar is both a theory of syntax and an open source parser which is now{{When}} developed by the AbiWord project.
+Version differencesAbiWord 2.6.x does not support Windows 9x. Users of these systems may still use AbiWord 2.5.2.
+See also{{Portal}}
+
+List of word processors
+Comparison of word processors
+Office Open XML software
+OpenDocument software
+
+
+References{{Reflist}}
+External links{{commons}}
+
+AbiSource.com, official website.
+Andrew Leonard: Abiword Up. Salon.com, November 15, 2002. History of the project and comparison with closed source development.
+Interview with Development team after 2.6 release
+AbiWord: A Small, Swift Word Processor
+
+{{Word processors}}{{DEFAULTSORT:Abiword}}
+
+
+
+
+
+
+
+
+ar:????????
+ast:AbiWord
+ca:AbiWord
+cs:AbiWord
+da:AbiWord
+de:AbiWord
+es:AbiWord
+eo:AbiWord
+fr:AbiWord
+gl:AbiWord
+ko:????
+hi:???????
+id:AbiWord
+it:AbiWord
+ku:AbiWord
+lt:AbiWord
+hu:AbiWord
+nl:AbiWord
+ja:AbiWord
+no:AbiWord
+nn:AbiWord
+pl:AbiWord
+pt:AbiWord
+ro:AbiWord
+ru:AbiWord
+simple:AbiWord
+sk:AbiWord
+fi:AbiWord
+sv:Abiword
+tr:AbiWord
+uk:AbiWord
+vi:AbiWord
+zh:AbiWord

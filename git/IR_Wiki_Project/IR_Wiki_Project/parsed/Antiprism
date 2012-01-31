@@ -1,0 +1,70 @@
+title
+Set of uniform antiprisms 
+ 
+Type uniform polyhedron 
+Faces 2 n-gons, 2n triangles 
+Edges 4n 
+Vertices 2n 
+Vertex configuration 3.3.3.n 
+Schläfli symbol h0,1{2,2n}s{2,n} 
+Coxeter-Dynkin diagrams {{CDD}}{{CDD}} 
+Symmetry group Dnd, [2+,2n], (2*n), order 4n
+Dn, [2,n]+, (22n), order 2n 
+Dual polyhedron trapezohedron 
+Properties convex, semi-regular vertex-transitive 
+Net  In geometry, an n-sided antiprism is a polyhedron composed of two parallel copies of some particular n-sided polygon, connected by an alternating band of triangles. Antiprisms are a subclass of the prismatoids.Antiprisms are similar to prisms except the bases are twisted relative to each other, and that the side faces are triangles, rather than quadrilaterals.In the case of a regular n-sided base, one usually considers the case where its copy is twisted by an angle 180°/n. Extra regularity is obtained by the line connecting the base centers being perpendicular to the base planes, making it a right antiprism.  As faces, it has the two n-gonal bases and, connecting those bases, 2n isosceles triangles.
+Uniform antiprismA uniform antiprism has, apart from the base faces, 2n equilateral triangles as faces. As a class, the uniform antiprisms form an infinite series of vertex-uniform polyhedra, as do the uniform prisms. For n=2 we have as degenerate case the regular tetrahedron, and for n=3 the non-degenerate regular octahedron.The dual polyhedra of the antiprisms are the trapezohedra. Their existence was first discussed and their name was coined by Johannes Kepler.
+Cartesian coordinatesCartesian coordinates for the vertices of a right antiprism with n-gonal bases and isosceles triangles are
+
+\left( \cos\frac{k\pi}{n}, \sin\frac{k\pi}{n}, (-1)^k h \right)
+with k ranging from 0 to 2n-1; if the triangles are equilateral,
+
+2h^2=\cos\frac{\pi}{n}-\cos\frac{2\pi}{n}.
+
+
+Volume and surface areaLet a be the edge-length of a uniform antiprism. Then the volume is
+
+V = \frac{n \sqrt{4\cos^2\frac{\pi}{2n}-1}\sin \frac{3\pi}{2n} }{12\sin^2\frac{\pi}{n}} \; a^3
+and the surface area is
+
+A = \frac{n}{2} ( \cot{\frac{\pi}{n}} + \sqrt{3}) a^2.
+
+
+SymmetryThe symmetry group of a right n-sided antiprism with regular base and isosceles side faces is Dnd of order 4n,  except in the case of a tetrahedron, which has the larger symmetry group Td of order 24, which has three versions of D2d as subgroups, and the octahedron, which has the larger symmetry group Oh of order 48, which has four versions of D3d as subgroups.The symmetry group contains inversion if and only if n is odd.The rotation group is Dn of order 2n,  except in the case of a tetrahedron, which has the larger rotation group T of order 12, which has three versions of D2 as subgroups, and the octahedron, which has the larger rotation group O of order 24, which has four versions of D3 as subgroups.
+See also
+
+Prismatic uniform polyhedron
+Triangular antiprism (Octahedron)
+Square antiprism
+Pentagonal antiprism
+Hexagonal antiprism
+Octagonal antiprism
+Decagonal antiprism
+Dodecagonal antiprism
+Apeirogonal antiprism
+Grand antiprism - a four dimensional polytope
+
+
+External links
+
+
+{{MathWorld}}
+{{GlossaryForHyperspace}}
+{{GlossaryForHyperspace}}
+Nonconvex Prisms and Antiprisms
+Paper models of prisms and antiprisms
+{{Polyhedron navigator}}
+ca:Antiprisma
+el:??????????
+es:Antiprisma
+eo:Kontra?prismo
+fr:Antiprisme
+ko:????
+it:Antiprisma
+nl:Antiprisma
+ja:???
+pl:Antygraniastos?up
+pt:Antiprisma
+ru:??????????
+th:???????????
+zh:???

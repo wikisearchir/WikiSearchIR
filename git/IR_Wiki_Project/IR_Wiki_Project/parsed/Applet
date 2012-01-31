@@ -1,0 +1,66 @@
+title{{Original research}}
+In computing, an applet is any small application that performs one specific task that runs within the scope of a larger program, often as a plug-in."AskOxford: applet", Oxford Dictionaries. Accessed on July 21, 2009"applet: Definition from Answers.com", Answers.com. Accessed on July 21, 2009  An applet typically also refers to Java applets, i.e., programs written in the Java programming language that are included in a web page. The word Applet was first used in 1990 in PC Magazine.{{cite web}}
+Applet as a standalone applicationProvided that an applet is hosted by an operating system, it can function as any other normal software application but is small in size and performs only a small set of tasks. Examples of applications often classified as applets are all of the accessories bundled in Microsoft Windows (such as Windows Notepad or Microsoft Paint). Applets are not full-featured application programs.
+Applet as an extension of other softwareIn some cases, an applet does not run independently. These applets must run either in a container provided by a host program, through a plugin, or a variety of other applications including mobile devices that support the applet programming model.
+Web-based AppletsApplets are used to provide interactive features to web applications that cannot be provided by HTML alone. They can capture mouse input and also have controls like buttons or check boxes. In response to the user action an applet can change the provided graphic content. This makes applets well suitable for demonstration, visualization, and teaching. There are online applet collections for studying various subjects, from physicsPaul Falstad online applet portal to heart physiology.The virtual hearth Applets are also used to create online game collections that allow players to compete against live opponents in real-time.An applet can also be a text area only, providing, for instance, a cross platform command-line interface to some remote system.Jraft.com If needed, an applet can leave the dedicated area and run as a separate window. However, applets have very little control over web page content outside the applet dedicated area, so they are less useful for improving the site appearance in general (while applets like news tickersObjectPlanet.com, an applet that works as news ticker or WYSIWYG editorsSferyx.com, a company that produces applets acting as WYSWYG editor. are also known). Applets can also play media in formats that are not natively supported by the browserCortado applet to play ogg formatHTML pages may embed parameters that are passed to the applet. Hence the same applet may appear differently depending on the parameters that were passed. Examples of Web-based Applets include:
+
+QuickTime movies
+Flash movies
+Windows Media Player applets, used to display embedded video files in Internet Explorer (and other browsers that support the plugin)
+3D modeling display applets, used to rotate and zoom a model
+Browser games can be applet-based, though some may develop into fully functional applications that require installation.
+
+
+Applet vs. SubroutineA larger application distinguishes its applets through several features:{{Citation needed}}
+
+Applets execute only on the &#34;client&#34; platform environment of a system, as contrasted from &#34;servlet&#34;. As such, an applet provides functionality or performance beyond the default capabilities of its container (the browser).
+The container restricts applets&#39; capabilities.
+Applets are written in a language different from the scripting or HTML language that invokes it. The applet is written in a compiled language, whereas the scripting language of the container is an interpreted language, hence the greater performance or functionality of the applet. Unlike a &#34;subroutine&#34;, a complete web component can be implemented as an applet.
+
+
+Java Applet{{Main}}Java Applets can provide web applications with interactive features that cannot be provided by HTML. Since Java's bytecode is platform-independent, Java applets can be executed by browsers running under many platforms, including Windows, Unix, Mac OS, and Linux. When a Java technology-enabled web browser processes a page that contains an applet, the applet's code is transferred to the client's system and executed by the browser's Java Virtual Machine (JVM)."Applets", Sun Developer Network. Accessed on July 21, 2009 An HTML page references an applet either via the deprecated <APPLET> tag or via its replacement, the <OBJECT> tag."HTML applet tag", W3Schools. Access on July 21, 2009
+SecurityRecent developments in the coding of applications including mobile and embedded systems have led to the awareness of the security of applets.
+Open Platform AppletsApplets in an open platform environment should provide secure interactions between different applications. A compositional approach can be used to provide security for open platform applets.{{cite web}}  Advanced compositional verification methods have been developed for secure applet interactions.
+Java AppletsA Java applet contains different security models:  unsigned Java applet security, signed Java applet security, and self signed Java applet security.
+Web-based AppletsIn an applet-enabled web browser, many methods can be used to provide applet security for malicious applets. A malicious applet can infect a computer system in many ways, including denial of service, invasion of privacy, and annoyance.{{cite web}}  A typical solution for malicious applets is to make the web browser to monitor applets' activities. This will result in a web browser that will enable the manual or automatic stopping of malicious applets. To illustrate this method, AppletGuard was used to observe and control any applet in a browser successfully.
+See also{{Portal}} 
+
+Bookmarklet
+Java applet
+Widget engine
+Abstract Window Toolkit
+
+
+References
+
+External links{{Wiktionary}}
+
+Applets API (Sun Developer Network)
+Applets Tutorial (Sun Microsystems)
+
+
+
+ar:?????
+ca:Miniaplicació
+cs:Applet
+da:Applet
+el:Applet
+es:Applet
+eo:Apleto
+fa:??????
+fr:Applet
+gl:Applet
+ko:???
+it:Applet
+he:???????
+lv:S?klietotne
+nl:Applet
+ja:?????
+pl:Aplet
+pt:Applet
+ru:??????
+simple:Applet
+sk:Applet
+fi:Sovelma
+sv:Applet
+uk:?????

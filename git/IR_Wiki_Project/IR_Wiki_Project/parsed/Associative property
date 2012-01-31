@@ -1,0 +1,300 @@
+title{{About}}
+{{Refimprove}}In mathematics, associativity is a property of some binary operations. It means that, within an expression containing two or more occurrences in a row of the same associative operator, the order in which the operations are performed does not matter as long as the sequence of the operands is not changed. That is, rearranging the parentheses in such an expression will not change its value. Consider, for instance, the following equations:
+
+(5+2)+1=5+(2+1)=8 \,
+
+
+
+5\times(5\times3)=(5\times5)\times3=75 \,
+
+Consider the first equation.  Even though the parentheses were rearranged (the left side requires adding 5 and 2 first, then adding 1 to the result, whereas the right side requires adding 2 and 1 first, then 5), the value of the expression was not altered. Since this holds true when performing addition on any real numbers, we say that "addition of real numbers is an associative operation."Associativity is not to be confused with commutativity. Commutativity justifies changing the order or sequence of the operands within an expression while associativity does not. For example,
+
+(5+2)+1=5+(2+1) \,
+
+is an example of associativity because the parentheses were changed (and consequently the order of operations during evaluation) while the operands 5, 2, and 1 appeared in exactly the same order from left to right in the expression. In contrast,
+
+(5+2)+1=(2+5)+1 \,
+
+is an example of commutativity, not associativity, because the operand sequence changed when the 2 and 5 switched places.Associative operations are abundant in mathematics; in fact, many algebraic structures (such as semigroups and categories) explicitly require their binary operations to be associative.However, many important and interesting operations are non-associative; one common example would be the vector cross product.
+DefinitionFormally, a binary operation *\!\!\! on a set S is called associative if it satisfies the associative law:
+
+(x * y) * z=x * (y * z)\qquad\mbox{for all }x,y,z\in S.
+Using * to denote a binary operation performed on a set
+
+
+
+(xy)z=x(yz) = xyz \qquad\mbox{for all }x,y,z\in S.
+An example of multiplicative associativity
+
+The evaluation order does not affect the value of such expressions, and it can be shown that the same holds for expressions containing any number of *\!\!\! operations. Thus, when *\!\!\! is associative, the evaluation order can therefore be left unspecified without causing ambiguity, by omitting the parentheses and writing simply:
+
+xyz,
+
+However, it is important to remember that changing the order of operations does not involve or permit moving the operands around within the expression; the sequence of operands is always unchanged.A different perspective is obtained by rephrasing associativity using functional notation:  f(f(x,y),z) = f(x,f(y,z)): when expressed in this form, associativity becomes less obvious.Associativity can be generalized to n-ary operations. Ternary associativity is (abc)de = a(bcd)e = ab(cde), i.e. the string abcde with any three adjacent elements bracketed. N-ary associativity is a string of length n+(n-1) with any n adjacent elements bracketed.{{Citation}}.
+Examples
+Some examples of associative operations include the following.
+
+The concatenation of the three strings "hello", " ", "world" can be computed by concatenating the first two strings (giving "hello ") and appending the third string ("world"), or by joining the second and third string (giving " world") and concatenating the first string ("hello") with the result. The two methods produce the same result; string concatenation is associative (but not commutative). 
+
+
+
+In arithmetic, addition and multiplication of real numbers are associative; i.e.,
+
+
+\left.
+\begin{matrix}
+(x+y)+z=x+(y+z)=x+y+z\quad
+\\
+(x\,y)z=x(y\,z)=x\,y\,z\qquad\qquad\qquad\quad\ \ \,
+\end{matrix}
+\right\}
+\mbox{for all }x,y,z\in\mathbb{R}.
+
+Because of associativity, the grouping parentheses can be omitted without ambiguity.
+
+
+
+Addition and multiplication of complex numbers and quaternions is associative. Addition of octonions is also associative, but multiplication of octonions is non-associative.
+
+
+
+The greatest common divisor and least common multiple functions act associatively.
+
+
+
+\left.
+\begin{matrix}
+\operatorname{gcd}(\operatorname{gcd}(x,y),z)=
+\operatorname{gcd}(x,\operatorname{gcd}(y,z))=
+\operatorname{gcd}(x,y,z)\ \quad
+\\
+\operatorname{lcm}(\operatorname{lcm}(x,y),z)=
+\operatorname{lcm}(x,\operatorname{lcm}(y,z))=
+\operatorname{lcm}(x,y,z)\quad
+\end{matrix}
+\right\}\mbox{ for all }x,y,z\in\mathbb{Z}.
+
+Taking the intersection or the union of sets:
+
+
+
+\left.
+\begin{matrix}
+(A\cap B)\cap C=A\cap(B\cap C)=A\cap B\cap C\quad
+\\
+(A\cup B)\cup C=A\cup(B\cup C)=A\cup B\cup C\quad
+\end{matrix}
+\right\}\mbox{for all sets }A,B,C.
+
+
+
+
+If M is some set and S denotes the set of all functions from M to M, then the operation of functional composition on S is associative:
+
+
+
+
+(f\circ g)\circ h=f\circ(g\circ h)=f\circ g\circ h\qquad\mbox{for all }f,g,h\in S.
+
+
+
+Slightly more generally, given four sets M, N, P and Q, with h: M to N, g: N to P, and f: P to Q, then
+
+
+
+
+(f\circ g)\circ h=f\circ(g\circ h)=f\circ g\circ h
+
+
+
+as before. In short, composition of maps is always associative.
+
+
+
+Consider a set with three elements, A, B, and C. The following operation:
+
+
+
+×  A  B  C 
+A A  A  A 
+B A  B  C 
+C A  A  A 
+is associative. Thus, for example, A(BC)=(AB)C. This mapping is not commutative.
+
+Because matrices represent linear transformation functions, with matrix multiplication representing functional composition, one can immediately conclude that matrix multiplication is associative.
+
+
+Non-associativity
+A binary operation * on a set S that does not satisfy the associative law is called non-associative. Symbolically,
+
+(x*y)*z\ne x*(y*z)\qquad\mbox{for some }x,y,z\in S.
+
+For such an operation the order of evaluation does matter. For example:
+
+Subtraction
+
+(5-3)-2 \, \ne \, 5-(3-2)
+
+Division
+
+(4/2)/2 \, \ne \, 4/(2/2)
+
+Exponentiation
+
+2^{(1^2)} \, \ne \, (2^1)^2
+
+Also note that infinite sums are not generally associative, for example:
+
+
+(1-1)+(1-1)+(1-1)+(1-1)+(1-1)+(1-1)+\dots \, = \, 0
+
+whereas
+
+
+1+(-1+1)+(-1+1)+(-1+1)+(-1+1)+(-1+1)+(-1+\dots \, = \, 1
+
+
+The study of non-associative structures arises from reasons somewhat different from the mainstream of classical algebra. One area within non-associative algebra that has grown very large is that of Lie algebras. There the associative law is replaced by the Jacobi identity. Lie algebras abstract the essential nature of infinitesimal transformations, and have become ubiquitous in mathematics. They are an example of non-associative algebras.There are other specific types of non-associative structures that have been studied in depth. They tend to come from some specific applications. Some of these arise in combinatorial mathematics.  Other examples: Quasigroup, Quasifield, Nonassociative ring.
+Notation for non-associative operations{{main}}In general, parentheses must be used to indicate the order of evaluation if a non-associative operation appears more than once in an expression. However, mathematicians agree on a particular order of evaluation for several common non-associative operations. This is simply a notational convention to avoid parentheses.A left-associative operation is a non-associative operation that is conventionally evaluated from left to right, i.e.,
+
+
+\left.
+\begin{matrix}
+x*y*z=(x*y)*z\qquad\qquad\quad\,
+\\
+w*x*y*z=((w*x)*y)*z\quad
+\\
+\mbox{etc.}\qquad\qquad\qquad\qquad\qquad\qquad\ \ \,
+\end{matrix}
+\right\}
+\mbox{for all }w,x,y,z\in S
+
+while a right-associative operation is conventionally evaluated from right to left:
+
+
+\left.
+\begin{matrix}
+x*y*z=x*(y*z)\qquad\qquad\quad\,
+\\
+w*x*y*z=w*(x*(y*z))\quad
+\\
+\mbox{etc.}\qquad\qquad\qquad\qquad\qquad\qquad\ \ \,
+\end{matrix}
+\right\}
+\mbox{for all }w,x,y,z\in S
+
+Both left-associative and right-associative operations occur.  Left-associative operations include the following:
+
+Subtraction and division of real numbers:
+
+x-y-z=(x-y)-z\qquad\mbox{for all }x,y,z\in\mathbb{R};
+x/y/z=(x/y)/z\qquad\qquad\quad\mbox{for all }x,y,z\in\mathbb{R}\mbox{ with }y\ne0,z\ne0.
+
+
+
+Function application:
+
+(f \, x \, y) = ((f \, x) \, y)
+This notation can be motivated by the currying isomorphism.
+
+Right-associative operations include the following:
+
+Exponentiation of real numbers:
+
+x^{y^z}=x^{(y^z)}.\,
+
+
+
+The reason exponentiation is right-associative is that a repeated left-associative exponentiation operation would be less useful. Multiple appearances could (and would) be rewritten with multiplication:
+
+
+
+
+(x^y)^z=x^{(yz)}.\,
+
+
+
+Function definition
+
+\mathbb{Z} \rarr \mathbb{Z} \rarr \mathbb{Z} = \mathbb{Z} \rarr (\mathbb{Z} \rarr \mathbb{Z})
+x \mapsto y \mapsto x - y = x \mapsto (y \mapsto x - y)
+
+
+
+Using right-associative notation for these operations can be motivated by the Curry-Howard correspondence and by the currying isomorphism.
+
+Non-associative operations for which no conventional evaluation order is defined include the following.
+
+Taking the Cross product of three vectors:
+
+\vec a \times (\vec b \times \vec c) \neq (\vec a \times \vec b ) \times \vec c \qquad \mbox{ for some } \vec a,\vec b,\vec c \in \mathbb{R}^3
+
+
+
+Taking the pairwise average of real numbers:
+
+{(x+y)/2+z\over2}\ne{x+(y+z)/2\over2} \qquad \mbox{for all }x,y,z\in\mathbb{R} \mbox{ with }x\ne z.
+Taking the relative complement of sets:
+
+(A\backslash B)\backslash C\ne A\backslash (B\backslash C)\qquad\mbox{for some sets }A,B,C.
+
+
+
+
+
+
+The green part in the left Venn diagram represents (A\backslash B)\backslash C. The green part in the right Venn diagram represents A\backslash(B\backslash C).
+
+See also{{Wiktionary}}
+
+Light's associativity test
+A semigroup is a set with a closed associative binary operation.
+Commutativity and distributivity are two other frequently discussed properties of binary operations.
+Power associativity and alternativity are weak forms of associativity.
+
+
+References{{reflist}}
+
+
+ar:????? ???????
+bs:Asocijativnost
+bg:?????????????
+ca:Propietat associativa
+cs:Asociativita
+da:Associativitet
+de:Assoziativgesetz
+et:Assotsiatiivsus
+el:??????????????? ????????
+es:Asociatividad (álgebra)
+eo:Asocieco
+fr:Associativité
+ko:????
+hr:Asocijativnost
+is:Tengiregla
+it:Associatività
+he:????? ???????????
+kk:????????????? ????????
+lv:Asociativit?te
+hu:Asszociativitás
+ms:Kalis sekutuan
+nl:Associativiteit (wiskunde)
+ja:????
+nn:Assosiativitet
+pl:??czno?? (matematyka)
+pt:Associatividade
+ro:Asociativitate
+ru:????????????? ????????
+simple:Associativity
+sk:Asociatívna operácia
+sl:Asociativnost
+sr:??????????????
+sh:Asocijativnost
+fi:Liitännäisyys
+sv:Associativitet
+ta:?????????? ?????
+th:????????????????????
+tr:Birle?me özelli?i
+uk:??????????????
+ur:Associativity
+vi:K?t h?p
+zh:???

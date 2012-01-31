@@ -1,0 +1,51 @@
+title{{Merge to}}
+Audio signal processing, sometimes referred to as audio processing, is the intentional alteration of auditory signals, or sound. As audio signals may be electronically represented in either digital or analog format, signal processing may occur in either domain.  Analog processors operate directly on the electrical signal, while digital processors operate mathematically on the digital representation of that signal.
+Audio coding architectureThere are several efficient signal models[ e.g. transform-based,standard filter structure,wavelet-packet]and compression standard for digital audio reproduction.
+Coders do nothing but segment input signals into quasi-stationary frames ranging from 2 to 50 ms.The temporal and spectral component of each frame can be estimated through time-frequency analysis.This time-frequency system mapping is usually matched to the analysis properties of human auditory system.The objective of audio coding is to extract from the input audio a set of time-frequency parameters that is amenable to quantization. Based upon design parameters the section usually contains one of the following:
+
+Unitary transform
+Harmonic/sinusoidal analyzer
+Source system analysis(low pulse and multi pulse excitation)
+Signal adaptive bank of critically sampled,uniform/non-uniform bandpass filter
+Time-invarient bank of critically sampled,uniform/non-uniform bandpass filter.
+Hybrid versions of the above
+The choice of methodology depends upon tradeoff between time and frequency resolution requirements.
+HistoryAudio signals are sound waves—longitudinal waves which travel through air, consisting of compressions and rarefactions. These audio signals are measured in bels or in decibels. Audio processing was necessary for early radio broadcasting, as there were many problems with studio to transmitter links.{{cite book}}
+Audio coding architectureThere are several efficient signal models (e.g. transform based, standard filter structure, wavelet-packet) and compression standard for digital audio reproduction. Coders are nothing but segment of input signal into quasi-stationary frames ranging from 2 to 50 ms. The temporal and spectral component of each frame can be estimated through time-frequency analysis. This time-frequency system mapping is usually matched to the analysis properties of human auditory system.
+Analog signals{{Main}}
+"Analog" indicates something that is mathematically represented by a set of continuous values; for example, the analog clock uses constantly-moving hands on a physical clock face, where moving the hands directly alters the information that clock is providing. Thus, an analog signal is one represented by a continuous stream of data, in this case along an electrical circuit in the form of voltage, current or charge changes (compare with digital signals below). Analog signal processing (ASP) then involves physically altering the continuous signal by changing the voltage or current or charge via various electrical means.Historically, before the advent of widespread digital technology, ASP was the only method by which to manipulate a signal. Since that time, as computers and software became more advanced, digital signal processing has become the method of choice.
+Digital signals{{Main}}
+A digital representation expresses the pressure wave-form as a sequence of symbols, usually binary numbers.  This permits signal processing using digital circuits such as microprocessors and computers.  Although such a conversion can be prone to loss, most modern audio systems use this approach as the techniques of digital signal processing are much more powerful and efficient than analog domain signal processing.{{Cite book}}
+Application areas
+Processing methods and application areas include storage, level compression, data compression, transmission, enhancement (e.g., equalization, filtering, noise cancellation, echo or reverb removal or addition, etc.)
+Audio BroadcastingAudio broadcasting (be it for television or audio broadcasting) is perhaps {{Weasel-inline}} the biggest market segment (and user area) for audio processing products—globally.{{Citation needed}}Traditionally the most important audio processing (in audio broadcasting) takes place just before the transmitter. Studio audio processing is limited in the modern era due to digital audio systems (mixers, routers) being pervasive in the studio.In audio broadcasting, the audio processor must
+
+prevent overmodulation, and minimize it when it occurs
+compensate for non-linear transmitters, more common with medium wave and shortwave broadcasting
+adjust overall loudness to desired level
+correct errors in audio levels
+
+
+See also
+
+Guitar effects unit
+Signal processing
+Sound card
+Sound effect
+
+
+References{{Reflist}}
+Further reading
+
+{{Cite book}}
+
+{{DEFAULTSORT:Audio Signal Processing}}
+
+ca:Processament digital de so
+es:Procesamiento digital de audio
+fr:Traitement du son
+he:????? ????? ???
+ja:??????
+nn:Audiosignalhandsaming
+sv:Processor (ljudteknik)
+th:??????????????????????

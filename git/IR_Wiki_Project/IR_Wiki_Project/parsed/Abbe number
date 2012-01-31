@@ -1,0 +1,61 @@
+titleIn physics and optics, the Abbe number, also known as the V-number or constringence of a transparent material, is a measure of the material's dispersion (variation of refractive index with wavelength) in relation to the refractive index. It is named after Ernst Abbe (1840–1905), the German physicist who defined it.The Abbe number V of a material is defined as
+
+V = \frac{ n_d - 1 }{ n_F - n_C },
+
+where nd, nF and nC are the refractive indices of the material at the wavelengths of the Fraunhofer d-, F- and C- spectral lines (587.6 nm, 486.1&nbsp;nm and 656.3&nbsp;nm respectively). Low dispersion (low chromatic aberration) materials have high values of V.Abbe numbers are used to classify glass and other optically transparent materials. For example, flint glass has V&nbsp;<&nbsp;50 and crown glass has V&nbsp;>&nbsp;50. Typical values of V range from around 20 for very dense flint glass, around 30 for polycarbonate plastics, and up to 65 for very light crown glass, and up to 85 for fluor-crown glass. Abbe numbers are only a useful measure of dispersion for visible light, and for other wavelengths, or for higher precision work, the group velocity dispersion is used.Alternate definitions of the Abbe number are used in some contexts. The value Vd is given by
+
+ V_d = \frac{n_d-1}{ n_F - n_C }
+which defines the Abbe number with respect to the yellow Fraunhofer d (or D3) helium line at 587.5618&nbsp;nm wavelength. It can also be defined at the green mercury E-line at 546.073&nbsp;nm:
+
+ V_e = \frac{n_e-1}{ n_{F'} - n_{C'}}
+where F' and C' are the blue and red cadmium lines at 480.0&nbsp;nm and 643.8&nbsp;nm, respectively.An Abbe diagram is produced by plotting the Abbe number Vd of a material versus its refractive index nd. Glasses can then be categorised by their composition and position on the diagram. This can be a letter-number code, as used in the Schott Glass catalogue, or a 6-digit glass code.Abbe numbers are used to calculate the necessary focal lengths of achromatic doublet lenses to minimize chromatic aberration.The following table lists standard wavelengths at which n is usually determined, indicated by subscripts.L. D. Pye, V. D. Frechette, N. J. Kreidl: "Borate Glasses"; Plenum Press, New York, 1977 For example, nD is measured at 589.3&nbsp;nm:
+
+? in nm Fraunhofer's symbol Light source Color 
+365.01 i Hg UV 
+404.66 h Hg violet 
+435.84 g Hg blue 
+479.99 F&#39; Cd blue 
+486.13 F H blue 
+546.07 e Hg green 
+587.56 d He yellow 
+589.3 D Na yellow 
+643.85 C&#39; Cd red 
+656.27 C H red 
+706.52 r He red 
+768.2 A&#39; K IR 
+852.11 s Cs IR 
+1013.98 t Hg IR 
+
+See also
+
+Abbe prism
+Abbe refractometer
+Calculation of glass properties, including Abbe number
+Glass code
+
+
+References{{reflist}}{{DEFAULTSORT:Abbe Number}}
+
+
+bn:?????? ??????
+ca:Nombre d'Abbe
+cs:Abbeovo ?íslo
+de:Abbesche Zahl
+el:??????? Abbe
+es:Número de Abbe
+fa:????? ???
+fr:Nombre d'Abbe
+gl:Número de Abbe
+id:Bilangan Abbe
+it:Numero di Abbe
+he:???? ???
+nl:Getal van Abbe
+ja:????
+no:Abbetall
+nn:Abbetal
+pl:Liczba Abbego
+ru:????? ????
+sk:Abbeho ?íslo
+sl:Abbejevo število
+sv:Abbetal
+zh:???

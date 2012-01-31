@@ -1,0 +1,50 @@
+titleAffirming the consequent, sometimes called converse error, is a formal fallacy, committed by reasoning in the form:
+
+If P, then Q.
+Q.
+Therefore, P.
+
+An argument of this form is invalid, i.e., the conclusion can be false even when statements 1 and 2 are true.  Since P was never asserted as the only sufficient condition for Q, other factors could account for Q (while P was false).The name affirming the consequent derives from the premise Q, which affirms the "then" clause of the conditional premise.
+ExamplesOne way to demonstrate the invalidity of this argument form is with a counterexample with true premises but an obviously false conclusion.  For example:
+
+If Bill Gates owns Fort Knox, then he is rich.
+Bill Gates is rich.
+Therefore, Bill Gates owns Fort Knox.
+
+Owning Fort Knox is not the only way to be rich.  There are any number of other ways to be rich.Arguments of the same form can sometimes seem superficially convincing, as in the following example:
+
+If I have the flu, then I have a sore throat.
+I have a sore throat.
+Therefore, I have the flu.
+
+But having the flu is not the only cause of a sore throat since many illnesses cause sore throat, such as the common cold or strep throat.The following is a more subtle version of the fallacy embedded into conversation.
+
+A: All Republicans are against gun control.
+B: That&#39;s not true. My uncle&#39;s against gun control and he&#39;s not a Republican.
+
+B attempts to falsify A's conditional statement ("if Republican then against gun control") by providing evidence he believes would contradict its implication.  However, B's example of his uncle does not contradict A's statement, which says nothing about non-Republicans.  What would be needed to disprove A's assertion are examples of Republicans who support gun control.
+See also
+
+Modus ponens
+Modus tollens
+Post hoc ergo propter hoc
+Denying the antecedent
+Fallacy of the undistributed middle
+Inference to the best explanation
+ELIZA effect
+
+
+References{{Reflist}}
+{{Refbegin}}{{Refend}}{{Formal fallacy}}{{logic-stub}}{{DEFAULTSORT:Affirming The Consequent}}
+ca:Afirmació del conseqüent
+el:??????????? ??? ????????
+es:Afirmación del consecuente
+fr:Affirmation du conséquent
+is:Játun bakliðar
+it:Affermazione del conseguente
+he:????? ?????
+ja:????
+pt:Afirmação do consequente
+ro:Afirmarea consecventului
+sk:Potvrdzovanie dôsledku
+tl:Pinapatibayan ang kasunod

@@ -1,0 +1,68 @@
+title{{pp-move-indef}}
+{{main}}An analog  or  analogue signal  is any continuous signal for which the time varying feature (variable) of the signal is a representation of some other time varying quantity, i.e., analogous to another time varying signal. It differs from a digital signal in terms of small fluctuations in the signal which are meaningful. Analog is usually thought of in an electrical context; however, mechanical, pneumatic, hydraulic, and other systems may also convey analog signals.An analog signal uses some property of the medium to convey the signal's information. For example, an aneroid barometer uses rotary position as the signal to convey pressure information. Electrically, the property most commonly used is voltage followed closely by frequency, current,  and charge.Any information may be conveyed by an analog signal; often such a signal is a measured response to changes in physical phenomena, such as sound, light, temperature, position, or pressure, and is achieved using a transducer. An analog signal is one where at each point in time the value of the signal is significant, where as a digital signal is one where at each point in time, the value of the signal must be above or below some discrete threshold{{Citation needed}}.For example, in sound recording, fluctuations in air pressure (that is to say, sound) strike the diaphragm of a microphone which induces corresponding fluctuations in the current produced by a coil in an electromagnetic microphone, or the voltage produced by a condensor microphone.  The voltage or the current is said to be an "analog" of the sound.An analog signal has a theoretically infinite resolution.  In practice an analog signal is subject to noise and a finite slew rate.  Therefore, both analog and digital systems are subject to limitations in resolution and bandwidth. As analog systems become more complex, effects such as non-linearity and noise ultimately degrade analog resolution to such an extent that the performance of digital systems may surpass it.  Similarly, as digital systems become more complex, errors can occur in the digital data stream.  A comparable performing digital system is more complex and requires more bandwidth than its analog counterpart.{{Citation needed}}  In analog systems, it is difficult to detect when such degradation occurs.  However, in digital systems, degradation can not only be detected but corrected as well.
+AdvantagesThe main advantage is the fine definition of the analog signal which has the potential for an infinite amount of signal resolution."Digital Signal Processing: Instant access." Butterworth-Heinemann – Page 3 Compared to digital signals, analog signals are of higher density."Concise Dictionary of Computing." Penguin Reference – Penguin Books – pages 11–12.Another advantage with analog signals is that their processing may be achieved more simply than with the digital equivalent. An analog signal may be processed directly by analog components,"Digital Signal Processing: Instant access." Butterworth-Heinemann – pages 2–3 though some processes aren't available except in digital form.
+DisadvantagesThe primary disadvantage of analog signaling is that any system has noise – i.e., random unwanted variation. As the signal is copied and re-copied, or transmitted over long distances, these apparently random variations become dominant. Electrically, these losses can be diminished by shielding, good connections, and several cable types such as coaxial or twisted pair.The effects of noise create signal loss and distortion. This is impossible to recover, since amplifying the signal to recover attenuated parts of the signal amplifies the noise (distortion/interference) as well. Even if the resolution of an analog signal is higher than a comparable digital signal, the difference can be overshadowed by the noise in the signal.Most of the analog systems also suffer from generation loss.
+ModulationAnother method of conveying an analog signal is to use modulation. In this, some base signal (e.g., a sinusoidal carrier wave) has one of its properties modulated: amplitude modulation involves altering the amplitude of a sinusoidal voltage waveform by the source information, frequency modulation changes the frequency. Other techniques, such as changing the phase of the base signal also work.Analog circuits do not involve quantisation of information into digital format. The concept being measured over the circuit, whether sound, light, pressure, temperature, or an exceeded limit, remains from end to end.See digital for a discussion of digital vs. analog.Sources: Parts of an earlier version of this article were originally taken from Federal Standard 1037C in support of MIL-STD-188.
+See also
+
+Ampex
+Analog audio
+Analog device
+Analog signal processing
+Analog sound vs. digital sound
+Analog video
+Analog-to-digital converter
+Digital audio
+Digital signal
+Digital video
+Magnetic tape
+Magnetic recording
+Video tape
+
+
+References
+{{Reflist}}
+{{Telecommunications}}
+{{DEFAULTSORT:Analog Signal}}
+
+
+
+ar:????? ???????
+bg:???????? ??????
+ca:Senyal analògic
+cs:Analogový signál
+da:Analog og digital
+de:Analogsignal
+et:Analoogsignaal
+el:????????? ????
+es:Señal analógica
+fa:?????? ??????
+fr:Analogique
+ko:????
+id:Isyarat analog
+it:Analogico
+kk:????????? ??????
+ku:Î?areta analog
+hu:Analógia
+mk:???????? ??????
+mr:?????? ????????
+nl:Analoog
+ja:????
+no:Analog informasjon
+nn:Analogt signal
+pl:Sygna? analogowy
+pt:Sinal analógico
+ro:Semnal analogic
+ru:?????????? ??????
+stq:Analogsignoal
+sq:Sinjali analog
+simple:Analog signal
+sk:Analógový signál
+sr:???????? ??????
+su:Sinyal analog
+fi:Analogisuus
+sv:Analog signal
+th:??????????????
+tr:Analog veri
+uk:?????????? ??????
+zh:????

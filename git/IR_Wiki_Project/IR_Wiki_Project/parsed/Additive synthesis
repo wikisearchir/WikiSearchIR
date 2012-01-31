@@ -1,0 +1,161 @@
+title{{pp-dispute}}
+{{Refimprove}}Additive synthesis is a sound synthesis technique to form a timbre by explicitly adding sinusoidal overtones together.{{cn}}This definition is not verified on reliable sources.  We should clarify the reason why the definition of additive synthesis is limited to only use of sinusoidal wave.  According to Julius O. Smith III of CCRMA, this definition seems to be called "Sinusoidal modeling" or "Spectral Modeling Synthesis" (SMS).
+
+Probably, other analysis method based on another basis function (ex. Wavelet analysis) may lead similar result, and it may be also called "additive synthesis".  To describe more precisely, we should introduce several classes on additive synthesis family.Timbre of musical instruments can be considered to consist of multiple harmonic and inharmonic partials (individual sine waves), of different frequencies and amplitudes, that change over time.  Additive synthesis generates sound by adding the output of multiple harmonic generators.
+Additive resynthesis{{Cleanup}}
+As demonstrated by software such as SPEAR, it is possible to analyze the frequency components of a recorded sound and then re-synthesize a representation of the sound using additive techniques. By calculating the frequency and amplitude weighting of discrete partials in the frequency domain (typically used Short-time Fourier transform for time-varying wave), an additive re-synthesis system can construct an equally weighted sinusoid at the same frequency for each partial.Because the sound is represented by a bank of oscillators inside the system, a user can make adjustments to the frequency and amplitude of any set of partials. The sound can be 'reshaped' &ndash; by alterations made to timbre or the overall amplitude envelope, for example. A harmonic sound could be restructured to sound inharmonic, and vice versa.
+Theory{{See also}}
+Harmonic signalThe concept behind additive synthesis is directly related to work done by the French mathematician Joseph Fourier.  Fourier discovered that periodic functions are formed by the summation of an infinite series of sinusoidal functions called "harmonics".  This summation is called a Fourier series.  Following this, it was established that all periodic signals, when represented as a mathematical function, can be composed as a sum of sinusoidal functions (&nbsp;sin(x),&nbsp;cos(x)&nbsp;) of various frequencies.   Additive synthesis models any periodic or quasi-periodic tone or sound in the discrete time domain and can be synthesized as follows:
+
+y[n] = \frac{1}{2} a_0[n] + \sum_{k=1}^{K} a_k[n] \cos\left( \frac{2 \pi k f_0}{F_\mathrm{s}} n \right) - b_k[n] \sin\left( \frac{2 \pi k f_0}{F_\mathrm{s}} n \right){{fact}}
+
+or
+
+y[n] = \frac{1}{2} a_0[n] + \sum_{k=1}^{K} r_k[n] \cos\left( \frac{2 \pi k f_0}{F_\mathrm{s}} n + \phi_k[n] \right)
+
+where
+
+y[n] is the output sample at discrete time n,
+ak[n] = rk[n] cos(?k[n])
+bk[n] = rk[n] sin(?k[n])
+rk[n] = (ak[n]2 + bk[n]2)1/2 is the amplitude envelope of the k-th harmonic at discrete time n,
+?k[n] is the instantaneous phase function of the k-th harmonic at discrete time n,
+Fs is the sampling frequency,
+f0 is the fundamental frequency of the waveform or the note frequency,
+k f0 is the frequency of the k-th harmonic,
+K is the number of harmonics;  K &#60; floor(Fs/(2 f0)),
+K f0 is the frequency of the highest harmonic and is below the Nyquist frequency, Fs/2.
+
+The DC term is normally not used in audio synthesis, so the a0[n] term can be removed.  Introducing time varying coefficients rk[n] allows for the dynamic use of envelopes to modulate oscillators creating a "quasi-periodic" waveform (one that is periodic over the short term but changes its waveform shape over the longer term).
+Non-harmonic signal{{unreferenced section}}
+Additive synthesis can also create non-harmonic sounds (which appear to be non-periodic waveforms, within the time-frame given by the fundamental frequency) if the individual harmonics do not all have a frequency that is an integer multiple of the fundamental frequency.  By replacing the k-th harmonic frequency, k f0, with a time-varying and general (not necessarily harmonic) frequency, fk[n], (the instantaneous frequency of the k-th partial at the time of sample n) the definition (removing the DC term) of the synthesized output would be:
+
+y[n] = \sum_{k=1}^{K} a_k[n] \cos\left( \frac{2 \pi}{F_\mathrm{s}} \sum_{i=1}^{n}f_k[i] \right) - b_k[n] \sin\left( \frac{2 \pi}{F_\mathrm{s}} \sum_{i=1}^{n}f_k[i] \right)
+
+or
+
+y[n] = \sum_{k=1}^{K} r_k[n] \cos\left( \frac{2 \pi}{F_\mathrm{s}}\sum_{i=1}^{n}f_k[i] + \phi_k[n] \right)
+
+where
+
+
+a_k[n] = r_k[n] \cos \left( \phi_k[n] \right) \quad \quad b_k[n] = r_k[n] \sin \left( \phi_k[n] \right) \,.
+
+If fk[n] = k f0, with constant f0, all partials are harmonic, the synthesized waveform is quasi-periodic, and the more general equations above reduce to the simpler equations at the top.  For each non-harmonic partial, the phase term ?k[n] can be absorbed into the instantaneous frequency term, fk[n] by the substitution:
+
+f_k[n] \leftarrow f_k[n] + \frac{F_\mathrm{s}}{2 \pi}\left( \phi_k[n]-\phi_k[n-1] \right)
+
+If that substitution is made, all of the ?k[n] phase terms can be set to zero with no loss of generality (retaining the initial phase value at y[0]) and the expressions of non-harmonic additive synthesis can be simplified to
+
+y[n] = \sum_{k=1}^{K} r_k[n] \cos\left( \frac{2 \pi}{F_\mathrm{s}}\sum_{i=1}^{n}f_k[i] + \phi_k[0] \right) .
+
+If this constant phase term (at time n&nbsp;=&nbsp;0) is expressed as
+
+\phi_k[0] = \frac{2 \pi}{F_\mathrm{s}}\sum_{i=-\infty}^{0}f_k[i],
+
+the general expression of additive synthesis can be further simplified:
+
+ \begin{align}
+ y[n] & = \sum_{k=1}^{K} r_k[n] \cos\left( \frac{2 \pi}{F_\mathrm{s}}\sum_{i=-\infty}^{n}f_k[i] \right) \\
+      & = \sum_{k=1}^{K} r_k[n] \cos\left( \theta_k[n] \right) \\
+        \end{align} 
+
+where
+
+
+ \theta_k[n] = \theta_k[n-1] + \frac{2 \pi}{F_\mathrm{s}} f_k[n] \quad \quad \text{for all } n 
+
+and
+
+
+ \theta_k[0] =  \phi_k[0] \ . 
+
+
+Implementations
+
+Pipe organs{{main}}
+{{POV-check}}
+Certain organ pipes, which create nearly sinusoidal/triangle waves (mostly flute pipes), can be combined in the manner of additive synthesis: it's the classical organ plenum practice. However, pipes which generate other types of wave forms (for example square wave generating clarinet stops) are not suited to this purpose: they are used more as solo stops.
+
+Electronic organs{{main}}
+The Hammond organ uses nine drawbars to mix several harmonics, which are generated by a set of tonewheels.  It was invented in 1934{{cite web}} as a substitute for the much bulkier and expensive pipe organ.
+
+Additive / subtractive hybrid synthesisThe RMI Harmonic Synthesizer (1974-76) was an earliest digital static additive / analog subtractive hybrid synthesizer on the consumer market.  Its waveforms were calculated beforehand on non-realtime, and harmonics envelopes couldn't changed in realtime by way of additive synthesis: On editing mode, 16 digital partials were statically mixed, then resulting single cycle waveform was stored on wavetables of two digital oscillators for stereo sound; On playing, these waveforms were processed through the analog modules (voltage-controlled filter controlled by envelope generator, etc) implementing subtractive synthesis for dynamic effects.{{cite web}}
+RMI Harmonic Synthesizer was used by synth pioneer Jean Michel Jarre, for his albums Oxygène and Equinoxe.{{cite web}}Similar design (non-realtime digital additive/analog subtractive hybrid synthesis) was also utilized on Oxford Synthesizer Company's OSCar (1983, 24 harmonics), Korg DSS-1 (1986, 128 harmonics), Kawai K3 (1986, 32 harmonics), Casio FZ-1 (1987, 48 harmonics), etc.
+Speech synthesis{{Main}} 					{{Seealso}}
+Several early research on additive synthesis were also achieved in the context of speech synthesis in 1970s.  Various pronunciations of human voices are characterized by spectral peaks, called formants.  And speech signals, a series of pronunciations, are recognized as the trajectories of quick motion of formants caused by transformation of vocal tract.  Thus, for the precise studies of speech signals, a combination of techniques to extract and reproduce the trajectories of formants were required.
+
+Analysis phase  - extraction of trajectories
+{{Main}} 		Linear predictive coding (LPC), one of the most powerful speech analysis technique{{citation}}{{citation}}{{citation}} and audio codec for speech, is a tool to extract speech parameters including spectral envelope of formants. In the decoder of LPC audio codec, subtractive synthesis using filters, or sinewave synthesis using oscillators, are utilized to re-synthesize speech, and extracted parameters are used to control frequency of filters or oscillators. Code-excited linear prediction (CELP) using pitch prediction, originally proposed by M.R. Schroeder and B.S. Atal, is another equally powerful and related method.{{citation}}{{citation}}
+
+Resynthesis phase  - reproduction of voice from trajectories
+{{Main}}							Sinewave synthesis, a technique for synthesizing speech by replacing the formants (main bands of energy) with pure tone whistles, developed by Philip Rubin at Haskins Laboratories in the 1970s,{{cite journal}}{{cite paper}} may be callable as 'non-harmonic additive re-synthesis for speech'.
+Early experimental models
+
+ANS synthesizer
+{{Main}}
+One of the earliest real-time additive synthesizer may be the ANS synthesizer developed by Evgeny Murzin during 1937&ndash;1957.  It had 720 microtonal sine waves (1/6 semitones &times; 10 octaves) generated by five optical discs, and composers could control the time evolution of these microtonal sine waves via user interface, by making scratches on black mastic-covered glass plate.
+
+Bell Labs Digital Synthesizer (Alles Machine)
+{{Main}}
+The Bell Labs Digital Synthesizer (Alles Machine) developed in 1970s has been called the first true digital additive synthesizer,{{cite book}}  following on the earlier software experiments in Bell Labs.  Based on this technology, several commercial synthesizers were developed, including Crumar/DKI GDS in 1980, reduced version DK Synergy in 1982, and Atari AMY sound chip, etc.
+
+EMS Digital Oscillator Bank (DOB) and Analysing Filter Bank
+{{Seealso}}
+According to the Inside Story of Electronic Music Studios (London), Ltd. (EMS),{{cite web}} &mdash; story about the beginnings of EMS, studios, its non-commercial equipments, peoples and users.  in early 1970s, David Cockerell and Peter Eastty developed minicomputer controllable fully digital vocoder utilizing real-time additive synthesis, following the previous analog version.  It consisted with 64 channel digital oscillators with independent frequency, amplitude, 1024 point waveforms for each, and also 128 channel digital analyzing filters to provide coefficients for oscillators.  This system should be considered as an early "real-time additive re-synthesis engine". (&rArr;See also )
+Early products
+
+New England Digital Synclavier
+
+{{main}}
+The Synclavier was a programmable harmonic definable FM/additive synthesizer and sampler.{{cite web}}{{cite book}} Initially, {{Cn-span}}: one can construct a patch defining 16 partials per voice (as in the Casio FZ-1, Korg DSS-1, and Kawai K3) and apply dynamic enveloping, and FM operator with envelope, {{Cn-span}}{{Clarification-needed}}  Later, with the Synclavier software upgrade, one can specify several harmonic spectrums and crossfade between them in time.{{citation needed}} 
+Note that Synclavier's FM re-synthesis feature with fine grained time frame is sometimes considered{{whom}}{{cite web}}&mdash; Also similar discussions can be found on Harmony Central Forum, Fixunix Forum, TableHooters, etc. as equivalent to Wavetable synthesis, and Wavetable synthesis under some conditions is equivalent to real-time additive synthesis. (&rArr; See section Wavetable synthesis)
+
+Crumar/DKI General Development System (GDS)
+DK Synergy
+
+:{{main}}
+The General Development System (GDS, released in 1980) and DK Synergy (released in 1982), a descendant of Alles Machine, are user definable PM (as FM) semi algorithmic with additive capabilities, 32 digital oscillators synthesizers.{{cite web}}{{cite web}} This allows, for example, two voice polyphony with 16 partials per voice.
+
+Seiko Digital Sound System
+In 1984, Seiko introduced its "Digital Sound System" line of keyboard instruments, which utilized a 16-operator additive synthesis engine. Although the keyboards (the DS-101, DS-202, and DS-250) were not directly programmable, a separate programming device was available that allowed the user to create new presets.{{cite web}}
+
+Kurzweil K150
+{{main}}
+The Kurtzweil K150 (released in 1986) {{cite web}} is an additive engine that trades off quantity of oscillators vs. polyphony and where one can program each partial individually with envelopes. Full programming (known as Fourier Synthesis option) is only possible using an old Apple II computer, and cannot be done from the front panel. 
+
+Kawai K5
+{{main}}
+The Kawai K5 (released in 1987) does the same but is a simplification, being able to control only 4 groups of harmonics and not each one.{{cite web}} The more recent Kawai K5000 is also an additive synth, but combined with samples.
+Contemporary models 
+More contemporary popular implementations of additive synthesis include the Kawai K5000 series of synthesizers in the 1990s. And from the 2000s, software synthesizers such as discoDSP Vertigo, Camel Audio Alchemy and Cameleon 5000, Image-Line Morphine, Harmless and Harmour{{cite web}} the VirSyn Cube, White Noise Audio Soft WNAdditive, and ConcreteFX Adder.
+
+Wavetable synthesis
+{{main}}
+As shown by Bristow-Johnson,{{cite web}} in the case of quasi-periodic musical tones, wavetable synthesis can be as general as realtime additive synthesis, but requires less real-time computation.  As a result, an efficient implementation of realtime additive synthesis can be accomplished by use of wavetable synthesis.Group additive synthesis{{cite web}}{{cite journal}}{{cite journal}} is a method to group partials into harmonic groups (of differing fundamental frequencies) and synthesize each group separately with wavetable synthesis before mixing the results.
+See also
+
+Subtractive synthesis
+Speech synthesis
+Harmonic series (music)
+Fourier series
+models
+Hammond organ (1934)
+ANS synthesizer (1937-1957)
+Bell Labs Digital Synthesizer (mid 1970s)
+
+
+Footnotes{{Reflist}}
+References{{Reflist}}
+External links
+
+Digital Keyboards Synergy
+
+{{Sound synthesis types}}{{DEFAULTSORT:Additive Synthesis}}
+de:Additive Synthese
+es:Síntesis aditiva
+eu:Sintesi gehigarri
+fr:Synthèse sonore additive
+it:Sintesi additiva (musica elettronica)
+nl:Additieve synthese
+pl:Synteza addytywna (dz'wie;ku)

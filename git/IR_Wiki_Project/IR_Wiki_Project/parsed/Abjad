@@ -1,0 +1,91 @@
+title{{For}}
+{{refimprove}}An abjad is a type of writing system where each symbol always or usually stands for a consonant, leaving the reader to supply the appropriate vowel.
+It is a term suggested by Peter T. Daniels to replace the common terms "consonantary", "consonantal alphabet" or "syllabary" to refer to the family of scripts called West Semitic. In popular usage, abjads often contain the word "alphabet" in their names, such as "Arabic alphabet" and "Phoenician alphabet". The name "abjad" is derived from the Arabic word for alphabet. The word "alphabet" in English has a source in Greek language in which the first two letters were "A" (alpha) and "B" (beta), hence "alphabeta". In Arabic, "A" ({{transl}}), "B" ({{transl}}), "{{unicode}}" ({{transl}}), "D" ({{transl}}) make the word "abjad" which means "alphabet". It is also used to enumerate a list in the same manner that "a, b, c, d" (etc.) are used in the English language.{{Writing systems sidebar}}
+EtymologyThe name "abjad" ({{transl}} {{lang}}) is derived from pronouncing the first letters of the Arabic alphabet in order. The ordering ({{transl}}) of Arabic letters used to match that of the older Hebrew, Phoenician and Semitic alphabets; {{transl}} (read from right to left: {{lang}}) or {{lang}}.
+TerminologyAccording to the formulations of Daniels, abjads differ from alphabets in that only consonants, not vowels, are represented among the basic graphemes. Abjads differ from abugidas, another category invented by Daniels, in that in abjads, the vowel sound is implied by phonology, and where vowel marks exist for the system, such as nikkud for Hebrew and harak?t for Arabic, their use is optional and not the dominant (or literate) form. Abugidas always mark the vowels (other than the "inherent" vowel) with a diacritic, a minor attachment to the letter, or a standalone glyph. Some abugidas use a special symbol to suppress the inherent vowel so that the consonant alone can be properly represented. In a syllabary, a grapheme denotes a complete syllable, that is, either a lone vowel sound or a combination of a vowel sound with one or more consonant sounds.
+Origins{{See also}}
+All known abjads belong to the Semitic family of scripts. These scripts are thought to derive from the Proto-Sinaitic alphabet (dated to about 1500 BC), which is thought to derive from Egyptian hieroglyphs{{fact}}. The abjad was significantly simpler than the earlier hieroglyphs. The number of distinct glyphs was reduced tremendously at the cost of increased ambiguity.The first abjad to gain widespread usage was the Phoenician abjad. Unlike other contemporary scripts, such as Cuneiform and Egyptian hieroglyphs, the Phoenician script consisted of only about two dozen symbols. This made the script easy to learn, and Phoenician seafaring merchants took the script wherever they went. Phoenician gave way to a number of new writing systems, including the Greek alphabet and Aramaic, a widely used abjad. The Greek alphabet evolved into the modern western alphabets, such as Latin and Cyrillic, while Aramaic became the ancestor of many modern abjads and abugidas of Asia.Aramaic spread across Asia, reaching as far as India and becoming Brahmi, the ancestral abugida to most modern Indian and Southeast Asian scripts. In the Middle East, Aramaic gave rise to the Hebrew and Nabataean abjads, which retained many of the Aramaic letter forms{{fact}}. The Syriac script was a cursive variation of Aramaic. It is unclear whether the Arabic abjad was derived from Nabatean or Syriac.
+Impure abjads"Impure" abjads have characters for some vowels, optional vowel diacritics, or both. The term "pure" abjad refers to scripts entirely lacking in vowel indicators. However, most modern abjads, such as Arabic, Hebrew, Aramaic and Avestan, are "impure" abjads, that is, they also contain symbols for some of the vowel phonemes. An example of a "pure" abjad is ancient Phoenician.
+Addition of vowels{{Main}}In the 9th century BC, the Greeks adapted the Phoenician script for use in their own language. The phonetic structure of the Greek language created too many ambiguities when the vowels went unrepresented, so the script was modified. They did not need letters for the guttural sounds represented by aleph, he, heth or ayin, so these symbols were assigned vocalic values. The letters waw and yod were also used. The Greek alphabet thus became the world's first "true" alphabet.Abugidas developed along a slightly different route. The basic consonantal symbol was considered to have an inherent "a"  vowel sound. Hooks or short lines attached to various parts of the basic letter modify the vowel. In this way, the South Arabian alphabet evolved into the Ge'ez alphabet between the 5th century BC and the 5th century AD. Similarly, around the 3rd century BC, the Br?hm? script developed (from the Aramaic abjad, it has been hypothesised).
+Abjads and the structure of Semitic languagesThe abjad form of writing is well-adapted to the morphological structure of the Semitic languages it was developed to write.  This is because words in Semitic languages are formed from a root consisting of (usually) three consonants, the vowels being used to indicate inflectional or derived forms.  For instance, according to Classical Arabic and Modern Standard Arabic, the Arabic root {{lang}} {{unicode}} (to sacrifice) can be derived the forms {{lang}} {{transl}} (he sacrificed), {{lang}} {{transl}} (you (masculine singular) sacrificed), {{lang}} {{transl}} (he slaughtered), {{lang}} {{transl}} (he slaughters), and {{lang}} {{transl}} (slaughterhouse). In each case, the absence of full glyphs for vowels makes the common root clearer, improving word recognition{{citation needed}}{{dubious}} while reading.
+Comparative Chart of Abjads, Extinct and Extant
+
+
+ID Name In Use Do the letters connect Direction 
+of letters
+ Country of Origin Used By Languages Time Period (age) Influenced By Writing Systems Influenced 
+1 Syriac  yes  yes  right-left  22 consonants  Middle-East  Syrian Church Aramaic, Syriac, Assyrian Neo-Aramaic  ~ 700 BCEhttp://www.omniglot.com/writing/alphabetic.htm, http://www.omniglot.com/writing/alphabetic.htm.  Nabatean, Palmyran, Mandaic, Parthian, Pahlavi, Sogdian, Avestan and Manichean 
+2 Hebrew  yes  no  right-left  22 consonants + final letters  Ancient Israel  Israelis, Jewish People  Hebrew, Ladino, Bukhari, Yiddish, Judeo-Arabic  &#62; 1100 BCE Proto-Hebrew, Early Aramaic   
+3 Arabic  yes  yes  right-left, numerals are written left-right  28 (9 numbers) Middle-East  Over 200million people  Arabic, Bosnian, Kashmiri, Kurdish, Kyrghyz, Malay, Persian/Farsi, Punjabi, Rajasthani, Turkish, Urdu, Uyghur, others  ~ 500 ACE  Nabataean Aramaic  
+4 Aramaic (Imperial)  no  no  right-left  22  Middle-East  Archaemenid, Persian, Babylonian, and Assyrian empires  Imperial Aramaic, Hebrew  ~ 500 BCE  Phoenician  Late Hebrew, Nabataean, Syriac 
+5 Aramaic (Early)  no  no  right-left  22  Middle-East  Jews  Languages  ~ 1000-900 BCE Phoenician  Hebrew, Imperial Aramaic. 
+6 Ancient Berber  no  no  top-bottom, right-left  22 (right-left) 25 (up-down)http://www.ancientscripts.com/berber.html, http://www.ancientscripts.com/berber.html.  North Africa  Women in Tuareg Society  Tifinagh  600 BCE  Punic, South Arabian  Tifinagh 
+7 Nabataean  no  no  right-left  22  Middle-East  Nabataean Kingdom  Nabataean  200 BCE Aramaic  Arabic 
+8 Middle Persian, (Pahlavi)  no  no  right-left  22  Middle-East  Sassanian Empire  Pahlavi, Middle Persian  {{fact}}  Aramaic  Psalter, Avestan 
+9 Mandaic  no  yes  right-left  24  Iraq, Iran  Ahv?z, Iran  Mandaic  ~ 200 ACE Aramaic Neo-Mandaic 
+10 Psalter  no  yes  right-left  21  Northwestern China   Persian Script for Paper Writing   ~ 400 ACE http://www.iranicaonline.org/articles/pahlavi-psalter, Encyclopedia Iranica. Syriac {{fact}}   
+11 Phoenician  no  no  right-left, Boustrophedon  22  Byblos  Canaanites  Phoenician, Punic  ~ 1000-1500 BCE Proto- Canaanite Alphabet  Punic(variant), Greek, Etruscan, Latin, Arabic, and Hebrew 
+12 Parthian  no  no  right-left  22  Parthia (modern day equivilant of Northeastern Iran)  Parthian &#38; Sassanian periods of Persian Empire  Parthian  ~200 BCE Aramaic   
+13 Sabaean  no  no system  right-left, boustrophedon  29  Southern Arabia (Sheba)  Southern Arabians  Sabaean ~ 500 BCE Byblos  Ethiopic 
+14 Punic  no  no  right-left  22  Carthage (Tunisia), North Africa, Mediterranean  Punic Culture  Punic, Neo-Punic   Phoenician {{fact}}   
+15 Proto-Sinaitic, Proto-Canaanite  no  no  right-left  30  Egypt, Sinai, Canaan  Canaanites  Canaanite  ~ 1900-1700 BCE In conjunction with Egyptian Hieroglyphs {{fact}}  Phoenician, Hebrew 
+16 Ugaritic  no  yes  left-right  30  Ugarit (modern day Northern Syria)  Ugarites  Ugaritic, Hurrian  ~ 1400 BCE    
+17 South Arabian  no  no  right-left, left-right (reversed letters)  29  South-Arabia (Yemen)  D&#39;mt Kingdom  Amharic, Tigrinya, Tigre, Semitic, Chushitic, Nilo-Saharan {{fact}}  900 BCE {{fact}}  Proto-Sinaitic  Ge&#39;ez (Ethiopia) 
+18 Sogdian  no  no (yes in later versions) right-left, left-right(vertical)  20  parts of China (Xinjiang), Uzbekistan, Tajikistan, Pakistan  Buddhists, Manichaens  Sogdian  ~ 400 ACE Syriac  Old Uyghur alphabet, Yaqnabi(Tajikistan dialect)  
+19 Samaritan  yes (700 people)  no  right-left  22  Mesopatamia or Levant (Disputed)  Samaritans (Nablus and Holon)  Samaritan Aramaic, Samaritan Hebrew ~ 100-0 BCE Paleo-Hebrew Alphabet   
+
+See also
+
+Abjad numerals
+Abugida
+Gematria (Hebrew system of mystical numerology)
+Numerology
+Shorthand (constructed writing systems that are structurally abjads)
+
+
+References{{Reflist}}
+
+Sources
+{{Cite book}}
+
+
+External links
+
+Actual photo of the specimen of Proto-sinaitic script
+
+{{Writing systems}}
+{{Use dmy dates}}ar:????
+az:?bc?d
+bjn:Abjad
+br:Abjad
+bg:??????
+ca:Abjad
+ceb:Abyad
+cs:Souhláskové písmo
+da:Abjad
+de:Konsonantenschrift
+es:Abyad
+fr:Abjad
+gl:Abxad
+ko:????
+id:Sistem penulisan abjad
+it:Abjad
+he:???'?
+ka:???????????? ??????????
+sw:Abjadi
+mk:?????
+ms:Abjad konsonan
+nl:Abjad
+ja:?????
+no:Abjad
+pl:Abd?ad
+pt:Abjad
+ru:???????????? ??????
+sk:Spoluhláskové písmo
+su:Abjad
+sv:Abjad
+th:??????????????????
+tr:Ebced hesab?
+uk:??????????? ??????????
+wa:Abdjade
+zh:??????

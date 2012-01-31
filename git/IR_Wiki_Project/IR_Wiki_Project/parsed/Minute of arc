@@ -1,0 +1,64 @@
+title{{About}}A minute of arc, arcminute, or minute arc (MOA), is a unit of angular measurement equal to one sixtieth ({{frac}}) of one degree.  In turn, a second of arc or arcsecond is one sixtieth ({{frac}}) of one minute of arc.
+Since one degree is defined as one three hundred and sixtieth ({{frac}}) of a rotation, 1 minute of arc is {{frac}} of the same. It is used in those fields which require a unit for the expression of small angles, such as astronomy, navigation and marksmanship.The number of square arcminutes in a complete sphere is
+
+4 \pi \left(\frac{1}{\pi}10\,800\right)^2 = \frac{1}{\pi}466\,560\,000,
+or approximately 148,510,660.498 square arcminutes.The arcsecond is {{frac}} of a degree, or {{frac}} of a circle, or ({{frac}}) radians, which is approximately {{frac}} radian.To express even smaller angles, standard SI prefixes can be  employed; in particular, the milliarcsecond, abbreviated mas, is used in astronomy.  
+Symbols and abbreviationsThe standard symbol for marking the arcminute is the prime (?) (U+2032), though a single quote (') (U+0027) is commonly used where only ASCII characters are permitted. One arcminute is thus written 1?.  It is also abbreviated as arcmin or amin or, less commonly, the prime with a circumflex over it (\hat{'}).The standard symbol for the arcsecond is the double prime (?) (U+2033), though a double quote (") (U+0022) is commonly used where only ASCII characters are permitted. One arcsecond is thus written 1?.  It is also abbreviated as arcsec or asec.
+
+The sexagesimal system of angular measurement
+Unit  Value  Symbol  Abbreviations  In radians (approx.) 
+Degree  {{frac}} circle  °  deg 17.4532925 mrad 
+Arcminute  {{frac}} degree  ? (prime)  arcmin, amin, am, \hat{'}, MOA 290.8882087 µrad 
+Arcsecond  {{frac}} arcminute  ? (double prime)  arcsec, asec, as 4.8481368 µrad 
+Milliarcsecond  {{frac}} arcsecond     mas 4.8481368 nrad 
+Microarcsecond  1 × 10?6 arcsecond     ?as 4.8481368 prad 
+In celestial navigation, seconds of arc are rarely used in calculations, the preference usually being for degrees, minutes and decimals of a minute, written for example as 42° 25?.32 or 42° 25?.322.{{cite web}}{{cite web}} This notation has been carried over into marine GPS receivers, which normally display latitude and longitude in the latter format by default.{{cite web}}
+Uses
+FirearmsThe arcminute is commonly found in the firearms industry and literature, particularly concerning the accuracy of rifles, though the industry tends to refer to it as minute of angle. It is especially popular with shooters familiar with the Imperial measurement system because 1&nbsp;MOA subtends approximately one inch at 100 yards, a traditional distance on target ranges.  Since most modern rifle scopes are adjustable in half ({{frac}}), quarter ({{frac}}), or eighth ({{frac}}) MOA increments, also known as clicks, this makes zeroing and adjustments much easier.  For example, if the point of impact is 3" high and 1.5" left of the point of aim at 100 yards, the scope needs to be adjusted 3 MOA down, and 1.5 MOA right.  Such adjustments are trivial when the scope's adjustment dials have an MOA scale printed on them, and even figuring the right number of clicks is relatively easy on scopes that click in fractions of MOA.One thing to be aware of is that some scopes, including some higher-end models, are calibrated such that an adjustment of 1 MOA corresponds to exactly 1 inch, rather than 1.047".  This is commonly known as the Shooter's MOA (SMOA) or Inches Per Hundred Yards (IPHY).  While the difference between one true MOA and one SMOA is less than half of an inch even at 1000 yardshttp://www.shootingillustrated.com/index.php/6227/mil-moa-or-inches/, this error compounds significantly on longer range shots that may require adjustment upwards of 20-30 MOA to compensate for the bullet drop.  If a shot requires an adjustment of 20 MOA or more, the difference between true MOA and SMOA will add up to 10 inches or more.  In varmint hunting or competitive target shooting, this can easily mean the difference between a hit and a miss.Calculating the physical equivalent group size equal to one minute of arc can be done using the equation: equivalent group size = tan({{frac}})&nbsp;×&nbsp;distance. In the example previously given and substituting 3,600&nbsp;inches for 100 yards, 3,600 tan({{frac}}) inches = 1.047&nbsp;inches.In metric units 1 MOA at 100 meters = 2.908 centimeters.Sometimes, a precision firearm's accuracy will be measured in MOA. This simply means that under ideal conditions i.e. no wind, match-grade ammo, clean barrel, and a vise or a benchrest used to eliminate shooter error, the gun is capable of producing a group of shots whose center points (center-to-center) fit into a circle, the average diameter of circles in several groups can be subtended by that amount of arc. For example, a 1 MOA rifle should be capable, under ideal conditions, of shooting an average 1-inch groups at 100 yards.  Most higher-end rifles are warrantied by their manufacturer to shoot under a given MOA threshold (typically 1 MOA or better) with specific ammunition and no error on the shooter's part.  For example, Remington's M24 Sniper Weapon System is required to shoot 0.8 MOA or better, or be rejected.  Rifle manufacturers and gun magazines often refer to this capability as sub-MOA, meaning it shoots under 1 MOA. This is typically a single group of 3 to 5 shots at 100 yards, or the average of several groups. If larger samples are taken (i.e., more shots per group) then group size typically increases.{{cite web}}{{cite journal}}For example mathematical statistical calculation yields the following accuracy for exactly the same rifle and ammunition combination (standard deviations of every shot from center is 1 MOA):
+
+No of shots  Size (?/MOA) 
+2    1.77 
+3    2.41 
+5    3.07 
+10   3.81 
+20   4.45 
+100  5.69 
+
+CartographyMinutes of angle (and its subunit, seconds of angle or SOA&mdash;equal to a sixtieth of a MOA) are also used in cartography and navigation. At sea level, one minute of angle (around the equator or a meridian) equals about {{convert}}), approximately one nautical mile (approximately, because the Earth is slightly oblate); a second of angle is one sixtieth of this amount: about 30 meters or 100 feet.Traditionally positions are given using degrees, minutes, and seconds of angles in two measurements: one for latitude, the angle north or south of the equator; and one for longitude, the angle east or west of the Prime Meridian. Using this method, any position on or above the Earth's reference ellipsoid can be precisely given. However, because of the somewhat clumsy base-60 nature of MOA and SOA, many people now prefer to give positions using degrees only, expressed in decimal form to an equal amount of precision. Degrees, given to three decimal places ({{frac}} of a degree), have about {{frac}} the precision as degrees-minutes-seconds ({{frac}} of a degree), and so identify locations within about 120 meters or 400 feet.
+Property cadastral surveyingRelated to cartography, property boundary surveying using the metes and bounds system relies on fractions of a degree to describe property lines' angles in reference to cardinal directions.  A boundary "mete" is described with a beginning reference point, the cardinal direction North or South followed by an angle less than 90 degrees and a second cardinal direction, and a linear distance. The boundary runs the specified linear distance from the beginning point, the direction of the distance being determined by rotating the first cardinal direction the specified angle toward the second cardinal direction. For example, North&nbsp;65°&nbsp;39? 18? West&nbsp;85.69&nbsp;feet would describe a line running from the starting point 85.69 feet in a direction 65° 39? 18? (or 65.655°) away from north toward the west.
+AstronomyThe arcminute and arcsecond are also used in astronomy. Degrees (and therefore arcminutes) are used to measure declination, or angular distance north or south of the celestial equator.  The arcsecond is also often used to describe parallax, due to very small parallax angles for stellar parallax, and tiny angular diameters (e.g., Venus varies between 10?? and 60??). The parallax, proper motion and angular diameter of a star may also be written in milliarcseconds (mas), or thousandths of an arcsecond. The parsec gets its name from "parallax second", for those arcseconds.The ESA astrometric space probe Gaia will measure star positions to 20 microarcseconds (µas).  There are about 1.3 quadrillion µas in a circle.  As seen from Earth, one µas is about the size of a period at the end of a sentence in the Apollo mission manuals left on the moon.Apart from the sun, the star with the largest angular diameter from Earth is R Doradus, a red supergiant with a diameter of 0.05 arcsecond.Some studies have shown a larger angular diameter for Betelgeuse. Various studies have produced figures of between 0.042 and 0.069 arcseconds for the star's diameter. The variability of Betelgeuse and difficulties in producing a precise reading for its angular diameter make any definitive figure conjectural. Because of the effects of atmospheric seeing, ground-based telescopes will smear the image of a star to an angular diameter of about 0.5 arcsecond; in poor seeing conditions this increases to 1.5 arcseconds or even more. The dwarf planet Pluto has proven difficult to resolve because its angular diameter is about 0.1 arcsecond.NASA.gov Pluto Fact Sheet This is roughly equivalent to a (40&nbsp;mm) ping-pong ball viewed at a distance of 50 miles (80&nbsp;km).Space telescopes are not affected by the Earth's atmosphere but are diffraction limited. For example, the Hubble space telescope can reach an angular size of stars down to about 0.1?. Techniques exist for improving seeing on the ground. Adaptive optics, for example, can produce images around 0.05 arcsecond on a 10&nbsp;m class telescope.
+Human visionIn humans, 20/20 vision is the ability to resolve a spatial pattern separated by a visual angle of one minute of arc.
+A 20/20 letter subtends 5 minutes of arc total.For raster graphics, Apple Inc asserts that a display of approximately 300 ppi at a distance of {{convert}} from one's eye, or 57 arcseconds per pixel\arctan\big(\tfrac{1/300}{12}\big) is the maximum amount of detail that the human retina can perceive.{{cite web}} Raymond Soneira, president of DisplayMate Technologies, however, stated that the resolution of the human retina is higher than claimed by Apple, working out to 477 ppi at {{convert}} or 36 arcseconds per pixel.{{cite web}}
+MaterialsThe deviation from parallelism between two surfaces, for instance in optical engineering, is usually measured in arcminutes or arcsecond.
+References{{Reflist}}
+{{Use dmy dates}}{{SI units navbox}}{{DEFAULTSORT:Minute Of Arc}}
+
+ar:????? ?????
+ast:Minutu sexaxesimal
+da:Bueminut
+de:Bogenminute
+et:Minut (geomeetria)
+es:Minuto de arco
+eu:Minutu sexagesimal
+fa:????? ????
+fr:Sous-unités du degré
+ko:? (??)
+id:Menit busur
+it:Primo (geometria)
+he:??? ???
+lb:Bouminutt
+mk:????? ??????
+nl:Boogminuut
+ja:? (??)
+no:Bueminutt
+pl:Minuta k?towa
+pt:Minuto de arco
+ru:?????? ????
+sr:????? ?????
+fi:Kulmaminuutti
+sv:Bågminut
+ta:??????????
+th:?????
+tr:Aç?sal dakika
+uk:??????
+zh:??

@@ -1,0 +1,50 @@
+titleIn mathematics, the axiom of regularity (also known as the axiom of foundation) is one of the axioms of Zermelo-Fraenkel set theory and was introduced by  {{harvtxt}}.  In first-order logic the axiom reads:
+
+\forall A (\exists B (B \in A)  \Rightarrow \exists B (B \in A \land \lnot \exist C (C \in A \land C \in B))).
+
+Or in prose:
+
+Every non-empty set A contains an element B which is disjoint from A.
+
+Two results which follow from the axiom are that "no set is an element of itself," and that "there is no infinite sequence (an) such that ai+1 is an element of ai for all i."With the axiom of dependent choice (which is a weakened form of the axiom of choice), this result can be reversed: if there are no such infinite sequences, then the axiom of regularity is true. Hence, the axiom of regularity is equivalent, given the axiom of dependent choice, to the alternative axiom that there are no downward infinite membership chains.The axiom of regularity is arguably the least useful ingredient of  Zermelo-Fraenkel set theory, since virtually all results in the branches of mathematics based on set theory hold even in the absence of regularity (see chapter 3 of {{harvtxt}}).  However, it is used extensively in establishing results about well-ordering and the ordinals in general. In addition to omitting the axiom of regularity, non-standard set theories have indeed postulated the existence of sets that are elements of themselves.Given the other ZF axioms, the axiom of regularity is equivalent to the axiom of induction.
+Elementary implications of Regularity
+No set is an element of itselfLet A be a set, and apply the axiom of regularity to {A}, which is a set by the axiom of pairing. We see that there must be an element of {A} which is disjoint from {A}. Since the only element of {A} is A, it must be that A is disjoint from {A}. So, since A &isin; {A}, we cannot have A &isin; A (by the definition of disjoint).
+No infinite descending sequence of sets existsSuppose, to the contrary, that there is a function, f, on the natural numbers with f(n+1) an element of f(n) for each n. Define S = {f(n): n a natural number}, the range of f, which can be seen to be a set from the axiom schema of replacement. Applying the axiom of regularity to S, let B be an element of S which is disjoint from S. By the definition of S, B must be f(k) for some natural number k. However, we are given that f(k) contains f(k+1) which is also an element of S. So f(k+1) is in the intersection of f(k) and S. This contradicts the fact that they are disjoint sets. Since our supposition led to a contradiction, there must not be any such function, f.The nonexistence of a set containing itself can be seen as a special case where the sequence is infinite and constant.Notice that this argument only applies to functions f which can be represented as sets as opposed to undefinable classes. The hereditarily finite sets, V?, satisfy the axiom of regularity (and all other axioms of ZFC except the axiom of infinity). So if one forms a non-trivial ultrapower of V?, then it will also satisfy the axiom of regularity. The resulting model  will contain elements, called non-standard natural numbers, which satisfy the definition of natural numbers in that model but are not really natural numbers. They are fake natural numbers which are "larger" than any actual natural number. This model will contain infinite descending sequences of elements. For example, suppose n is a non-standard natural number, then (n-1) \in n and (n-2) \in (n-1), and so on. For any actual natural number k, (n-k-1) \in (n-k). This is an unending descending sequence of elements. But this sequence is not definable in the model and thus not a set.  So no contradiction to regularity can be proved.
+Simpler set-theoretic definition of the ordered pairThe axiom of regularity enables defining the ordered pair (a,b) as {a,{a,b}}. See ordered pair for specifics. This definition eliminates one pair of braces from the canonical Kuratowski definition (a,b) = {{a},{a,b}}.
+Every set has an ordinal rankThis was actually the original form of von Neumann's axiomatization.  The concept of the rank of a set had also been examined by Mirimanoff {{harvtxt}}, but that work did not consider the axiom "every set has a rank" nor the consequences of such an axiom (see {{harvtxt}}).
+The axiom of dependent choice and no infinite descending sequence of sets implies RegularityLet the non-empty set S be a counter-example to the axiom of regularity; that is, every element of S has a non-empty intersection with S. We define a binary relation R on S by aRb :\Leftrightarrow b \in S \cap a, which is entire by assumption. Thus, by the axiom of dependent choice, there is some sequence (an) in S satisfying anRan+1 for all n in N. As this is an infinite descending chain, we arrive at a contradiction and so, no such S exists.
+Regularity does not resolve Russell's paradoxIn naive set theory, Russell's paradox is the fact "the set of all sets that do not contain themselves as members" leads to a contradiction. The paradox shows that that set cannot be constructed using any consistent set of axioms for set theory. Even though the axiom of regularity implies that no set contains itself as a member, that axiom does not banish Russell's paradox from Zermelo-Fraenkel set theory (ZF). In fact, if the ZF axioms without Regularity were already inconsistent, then adding Regularity would not make them consistent. Russell's paradox does not manifest in ZF because ZF does not prove that the proposed paradoxical set actually exists (e.g., ZF's axiom of separation only allows us to construct subsets of some existing set, and thus cannot be used to construct the desired set). A line of reasoning similar to Russell's paradox will, in ZF, only end up proving that the collection of all sets which do not contain themselves is not a set but a proper class (actually, the class of all sets).
+Regularity and cumulative hierarchyIn ZF it can be proven that the class  \bigcup_{\alpha} V_\alpha \!  (see cumulative hierarchy) is equal to the class of all sets. This statement is even equivalent to the axiom of regularity (if we work in ZF with this axiom omitted). From any model which does not satisfy axiom of regularity, a model which satisfies it can be constructed by taking only sets in  \bigcup_{\alpha} V_\alpha \! .
+See also
+
+Non-well-founded set theory
+Zermelo-Fraenkel set theory
+
+
+Notes
+
+References
+
+{{Citation}}
+{{Citation}}
+{{Citation}}
+{{citation}}
+
+
+External links
+
+http://www.trinity.edu/cbrown/topics_in_logic/sets/sets.html contains an informative description of the axiom of regularity under the section on Zermelo-Fraenkel set theory.
+{{planetmath reference}}
+
+{{DEFAULTSORT:Axiom Of Regularity}}
+
+de:Fundierungsaxiom
+es:Axioma de regularidad
+fr:Axiome de fondation
+it:Assioma di regolarità
+hu:A regularitás axiómája
+pt:Axioma da regularidade
+ru:??????? ????????????
+sv:Regularitetsaxiomet
+uk:??????? ????????????
+zh:?????

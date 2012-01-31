@@ -1,0 +1,109 @@
+title{{Other uses}}
+{{Neuron map}}An axon is a long, slender projection of a nerve cell, or neuron, that conducts electrical impulses away from the neuron's cell body or soma.An axon is one of two types of protoplasmic protrusions that extrude from the cell body of a neuron, the other type being dendrites.  Axons are distinguished from dendrites by several features, including shape (dendrites often taper while axons usually maintain a constant radius), length (dendrites are restricted to a small region around the cell body while axons can be much longer), and function (dendrites usually receive signals while axons usually transmit them).  All of these rules have exceptions, however.Some types of neurons have no axon and transmit signals from their dendrites.  No neuron ever has more than one axon; however in invertebrates such as insects or leeches the axon sometimes consists of several regions that function more or less independently of each other.Yau, K.-W. (1976) Receptive fields, geometry and conduction block of sensory neurones in the CNS of the leech. J. Physiol. (Lond) 263:513-538.  Most axons branch, in some cases very profusely.Axons make contact with other cells—usually other neurons but sometimes muscle or gland cells—at junctions called synapses.  At a synapse, the membrane of the axon closely adjoins the membrane of the target cell, and special molecular structures serve to transmit electrical or electrochemical signals across the gap.  Some synaptic junctions appear partway along an axon as it extends—these are called en passant ("in passing") synapses.  Other synapses appear as terminals at the ends of axonal branches.  A single axon, with all its branches taken together, can innervate multiple parts of the brain and generate thousands of synaptic terminals.
+Anatomy
+Axons are in effect the primary transmission lines of the nervous system, and as bundles they help make up nerves. The length of axons is highly dependent on its location within the body. Some axons can extend up to one meter or more while others stretch to as little as one millimeter (inhibitory interneurons). The longest axons in the human body, for example, are those of the sciatic nerve, which run from the base of the spine to the big toe of each foot. These single-cell fibers of the sciatic nerve may extend a meter or even longer.DNA From The Beginning, section 6: 	Genes are real things., "Amination" section, final slide The diameter of axons is also variable. Individual axons are microscopic in diameter (typically about 1?m across), but may be up to several feet in length. The largest mammalian axons (PNS) can reach a diameter of up to 20 ?m. The giant squid has axons that are close to 1 mm in diameter. Mammalian axonal arborization (the branching structure at the end of a nerve fiber) also differs from one nerve fiber to the next. Axons in the CNS typically model complex trees with several branch points. In comparison, the cerebellar granule cell axon is characterized by a single T-shaped branch node from which parallel fibers extend. Elaborate arborization is important for it allows for the simultaneous transmission of messages to a large number of target neurons within a single region of the brain .
+In vertebrates, the axons of many neurons are sheathed in myelin, which is formed by either of two types of glial cells: Schwann cells ensheathing peripheral neurons and oligodendrocytes insulating those of the central nervous system. Along myelinated nerve fibers, gaps in the sheath known as nodes of Ranvier occur at evenly-spaced intervals.  The myelination enables an especially rapid mode of electrical impulse propagation called saltation. The demyelination of axons is what causes the multitude of neurological symptoms found in the disease Multiple Sclerosis.
+The axons of some neurons branch to form axon collaterals, that can be divided into a number of smaller branches called telodendria. Along these the bifurcated impulse travels simultaneously to signal more than one other cell.
+Initial SegmentThe axon initial segment (AIS) consists of a specialised complex of proteins which form part of the proximal axon of a neuron. It is unmyelinated, approximately 25?m in length and  functions as the site of action potential initiation.{{cite journal}} It also has an important role in maintaining neuronal polarity. The exact position of the AIS along the axon differs between types of neuron and its position within a single family of neurons can vary. It has recently been discovered that the location and extent of a neuron's AIS can be altered by the neuron's level of activity and that these changes are thought to influence the excitability of the neuron.{{cite journal}}  The density of voltage-gated sodium channels is much higher here than is found in the adjacent cell body, excepting the axon hillock.{{cite journal}}
+Nodes of Ranvier{{Main}}
+Nodes of Ranvier are short fragments of unmyelinated segments of the axon, which are found periodically in between the cells of the myelin sheath. These nodes are areas where the action potential is amplified using a high density of sodium (Na+) ions and is subsequently passed along the axon. Poliak S, Peles E. THE LOCAL DIFFERENTIATION OF MYELINATED AXONS AT NODES OF RANVIER. The Department of Molecular Cell Biology, The Weizmann Institute of Science. 2011
+PhysiologyThe physiology can be described by the Hodgkin-Huxley Model, extended to vertebrates in Frankenhaeuser-Huxley equations. Peripheral nerve fibers can be classified based on axonal conduction velocity, mylenation, fiber size etc. For example, there are slow-conducting unmyelinated C fibers and faster-conducting myelinated A? fibers. More complex mathematical modeling continues to be done today. There are several types of sensory- as well as motorfibers. Other fibers not mentioned in table are e.g. fibers of the autonomic nervous system
+MotorLower motor neurons have two kind of fibers:
+
+Motor fiber types
+Type  Erlanger-Gasser  Classification  Diameter  Myelin  Conduction velocity  Associated muscle fibers 
+? A?  13-20 µm  Yes  80–120 m/s  Extrafusal muscle fibers 
+? A?  5-8 µm  Yes  4–24 m/sAndrew BL, Part NJ (1972) Properties of fast and slow motor units in hind limb and tail muscles of the rat. Q J Exp Physiol Cogn Med Sci 57:213-225.{{cite journal}}  Intrafusal muscle fibers 
+
+SensoryDifferent sensory receptors are innervated by different types of nerve fibers. Proprioceptors are innervated by type Ia, Ib and II sensory fibers, mechanoreceptors by type II and III sensory fibers and nociceptors and thermoreceptors by type III and IV sensory fibers.
+
+Sensory fiber types
+Type  Erlanger-Gasser  Classification  Diameter  Myelin  Conduction velocity  Associated sensory receptors 
+Ia A?  13-20 µm  Yes  80–120 m/s  Primary receptors of muscle spindle 
+Ib A?  13-20 µm  Yes  80–120 m/s  Golgi tendon organ 
+II A?  6-12 µm  Yes  33–75 m/s  Secondary receptors of muscle spindle  All cutaneous mechanoreceptors 
+III A?  1-5 µm  Thin  3–30 m/s  Free nerve endings of touch and pressure  Nociceptors of neospinothalamic tract  Cold thermoreceptors 
+IV C  0.2-1.5 µm  No  0.5-2.0 m/s  Nociceptors of paleospinothalamic tract  Warmth receptors 
+
+AutonomicAutonomic nervous system has two kind of peripheral fibers:
+
+Fiber types
+Type  Erlanger-Gasser  Classification  Diameter  Myelinpp.187-9 ISBN 0-19-858527-6  Conduction velocity 
+preganglionic fibers B  1-5 µm  Yes  3–15 m/s 
+postganglionic fibers C  0.2-1.5 µm  No  0.5-2.0 m/s 
+
+Action Potential{{Main}}
+Axons allow for the conduction of information from one part of the body to another. Ion channels play a significant role in production and movement of an action potential through the cell. These channels span the axonal membrane and allow the flow of ions into and out of the cell. The two main types of channels that are critical for action potential development are voltage-gated ion channels and ion channel pumps. Axons contain both sodium and potassium voltage-gated channels and the stimulus that they respond to is that of the electrical environment within the cell. Ion channel pumps use energy to actively transport ions from one side to another (exp. sodium-potassium pump). Research in the 1950's showed that all action potentials in axons have two distinct phases which can be isolated where one precedes the other.Debanne, D., Campanac, E., Biolowas, A., Carlier, E., & Alcaraz, G. (2011). Axon physiology. (1 ed., Vol. 91, p. 566). Marseille: Physiological Reviews. Retrieved from http://physrev.physiology.org.myaccess.library.utoronto.ca/content/91/2/555.full.pdf htmlThe first step is sending a signal to an axon called "depolarization". A neuron will fire an action potential when depolarization occurs at -55 mV (milivolts).The neuron will not fire, and the action potential will not occur if the neuron does not reach the -55 mV threshold. Action potentials do not have sizes, as long as the fixed threshold is reached, the action potential will fire. The exchange of ions between the membrane of neurons produces an action potential. Repolarization, when sodium ions enters a negative neuron (the inside of the neuron is always negative) neuron it becomes positive due to the positive charge in the sodium and the neuron gets depolarized.  Due to this positive impact of the sodium the potassium channels rush into the cell and this process  closes the sodium channels. At this point,the action potential gets forwarded back to -70 mV, which simply means that the action potential has reached to the process of "repolarization". When potassium channels stay open for too long it reaches to the level of  hyperpolarization, since  the action potential goes past -70 mV. Dec.3 , 2011"Action potential"neuroscience, retrieved from;http://faculty.washington.edu/chudler/ap.html (copy right at 1996)When an axon is at rest, the internal environment is negative for the pumps ensure that sodium is kept out and potassium remains within the cell. This state is referred to as the resting potential. During the formation of an action potential, changes in electrical potential in the soma and the dendrites of the neuron travel to the axon. If at the axon the integrated signal is above the threshold, the sodium channels open . This allows for the inward flow of sodium ions, making the inside of the axon less negative. If this reversal in polarity reaches the threshold level, more gated channels open and more sodium ions are let in. This phenomenon is referred to as the action potential. Following this, the sodium gates close and the potassium gates open allowing potassium to rush out of the cell, returning a semblance of normalcy to the internal electrical environment of the cell.  The potassium and sodium ions are then actively transported back to their respective locations via the sodium-potassium pumps. This process is successive in that the opening of the sodium channels in the beginning of the axon causes neighboring sodium channels to open. During this time, the sodium channels that were first opened close and potassium channels open in this first region.  In the second region, sodium is still rushing into the cell, causing the adjacent sodium channels closer to the end of the axon to open. All of the segments of the axon go through the same steps but at different times, thus allowing the action potential to be passed down the axon {{Boeree, C. George. "The action potential." . N.p., 2004. Web. 1 Dec 2011. <http://webspace.ship.edu/cgboer/actionpot.html>.}}.
+Growth and development
+Growing axons move through their environment via the growth cone, which is at the tip of the axon. The growth cone has a broad sheet like extension called lamellipodia which contain protrusions called filopodia. The filopodia are the mechanism by which the entire process adheres to surfaces and explores the surrounding environment. Actin plays a major role in the mobility of this system.
+Environments with high levels of cell adhesion molecules or CAM's create an ideal environment for axonal growth. This seems to provide a "sticky" surface for axons to grow along. Examples of CAM's specific to neural systems include N-CAM, neuroglial CAM or NgCAM, TAG-1, and MAG all of which are part of the immunoglobulin superfamily. Another set of molecules called extracellular matrix adhesion molecules also provide a sticky substrate for axons to grow along. Examples of these molecules include laminin, fibronectin, tenascin, and perlecan. Some of these are surface bound to cells and thus act as short range attractants or repellents. Others are difusible ligands and thus can have long range effects.Cells called guidepost cells assist in the guidance of neuronal axon growth. These cells are typically other, sometimes immature, neurons.It has also been discovered through research that if the axons of a neuron were damaged, as long as the soma (the cell body of a neuron) is not damaged, the axons would regenerate and remake the synaptic connections with neurons with the help of guidepost cells. This is also referred to as neuroregeneration. {{cite web}}
+HistorySome of the first intracellular recordings in a nervous system were made in the late 1930s by K. Cole and H. Curtis. German anatomist Otto Friedrich Karl Deiters is generally credited with the discovery of the axon by distinguishing it from the dendrites. {{Citation}} Retrieved 20 November 2011. Swiss Rüdolf Albert von Kölliker and German Robert Remak were the first to identify and characterize the axon initial segment. Alan Hodgkin and Andrew Huxley also employed the squid giant axon (1939) and by 1952 they had obtained a full quantitative description of the ionic basis of the action potential, leading the formulation of the Hodgkin-Huxley Model.
+Hodgkin and Huxley were awarded jointly the Nobel Prize for this work in 1963.
+The formulas detailing axonal conductance were extended to vertebrates in the Frankenhaeuser-Huxley equations. Louis-Antoine Ranvier was the first to describe the gaps or nodes found on axons and for this contribution these axonal features are now commonly referred to as the Nodes of Ranvier. Santiago Ramón y Cajal, a Spanish anatomist, proposed that axons were the output components of neurons, describing their functionality.  Erlanger and Gasser earlier developed the classification system for peripheralSansom B, "Reflex  Isolation" http://www.sansomnia.com nerve fibers, based on axonal conduction velocity, myelination, fiber size etc.
+Even recently our understanding of the biochemical basis for action potential propagation has advanced, and now includes many details about individual ion channels.
+Injury{{Main}}
+In order of degree of severity, injury to a nerve can be described as neuropraxia, axonotmesis, or neurotmesis.
+Concussion is considered a mild form of diffuse axonal injury.eMedicine - Traumatic Brain Injury: Definition, Epidemiology, Pathophysiology : Article by Segun T Dawodu, MD, FAAPMR, FAANEM, CIME, DipMI(RCSed)
+See also
+
+Nerve fiber
+Nerve
+Neuron
+Dendrite
+Synapse
+Axon guidance
+Pioneer axon
+Electrophysiology
+
+
+References{{Refimprove}}
+{{Reflist}}
+External links
+
+{{OklahomaHistology}} - &#34;Slide 3 Spinal cord&#34;
+
+{{Nervous tissue}}
+
+ar:?????
+az:Akson
+bg:?????
+ca:Axó
+cs:Axon
+da:Akson
+de:Axon
+et:Neuriit
+el:??????????
+es:Axón
+eu:Axoi
+fa:???
+fr:Axone
+gl:Axón
+ko:??
+hr:Akson
+id:Akson
+is:Sími (líffræði)
+it:Assone
+he:????? (??? ????)
+kk:?????
+ht:Aksòn
+la:Axon
+lt:Aksonas
+mk:?????? ??????
+nl:Axon
+ja:????
+no:Akson
+pl:Neuryt
+pt:Axónio
+ro:Axon
+ru:?????
+simple:Axon
+sl:Nevrit
+sh:Akson
+fi:Aksoni
+sv:Axon
+tl:Akson
+th:??????
+tg:?????
+uk:?????
+ur:?????
+zh:??

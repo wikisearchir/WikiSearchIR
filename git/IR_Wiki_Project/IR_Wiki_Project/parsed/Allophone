@@ -1,0 +1,82 @@
+title{{Other uses}}
+{{refimprove}}
+
+In phonology, an allophone ({{IPAc-en}}; from the {{lang-el}}, állos, "other" and ????, ph?n?, "voice, sound") is one of a set of multiple possible spoken sounds (or phones) used to pronounce a single phoneme.{{Citation}} For example, {{IPA}} (as in pin) and {{IPA}} (as in spin) are allophones for the phoneme {{IPA}} in the English language. Although a phoneme's allophones are all alternative pronunciations for a phoneme, the specific allophone selected in a given situation is often predictable. Changing the allophone used by native speakers for a given phoneme in a specific context usually will not change the meaning of a word but the result may sound non-native or unintelligible. Speakers of a given language usually perceive one phoneme in their language as a single distinctive sound in that language and are "both unaware of and even shocked by" the allophone variations used to pronounce single phonemes.{{Citation}}{{Citation}}
+Complementary and free-variant allophonesEvery time a speech sound is produced for a given phoneme, it will be slightly different from other utterances, even for the same speaker. This has led to some debate over how real, and how universal, phonemes really are (see phoneme for details). Only some of the variation is significant (i.e., detectable or perceivable) to speakers. There are two types of allophones, based on whether a phoneme must be pronounced using a specific allophone in a specific situation, or whether the speaker has freedom to (unconsciously) choose which allophone he or she will use.When a specific allophone (from a set of allophones that correspond to a phoneme) must be selected in a given context (i.e. using a different allophone for a phoneme will cause confusion or make the speaker sound non-native), the allophones are said to be complementary (i.e. the allophones complement each other, and one is not used in a situation where the usage of another is standard). In the case of complementary allophones, each allophone is used in a specific phonetic context and may be involved in a phonological process.{{Citation}}In other cases, the speaker is able to select freely from free variant allophones, based on personal habit  or preference.
+AllotoneA tonic allophone is sometimes called an allotone, for example in the neutral tone of Mandarin.
+Examples in English vs. other languagesFor example, {{IPA}} as in pin and {{IPA}} as in spin are allophones for the phoneme {{IPA}} in the English language because they cannot distinguish words (in fact, they occur in complementary distribution). English speakers treat them as the same sound, but they are different: the first is aspirated and the second is unaspirated (plain). Plain {{IPA}} also occurs as the p in cap {{IPA}}, or the second p in paper {{IPA}}. Chinese languages treat these two phones differently; for example in Mandarin, {{IPA}} (written b in Pinyin) and {{IPA}} (written p) contrast phonemically. Many Indo-Aryan languages, such as Hindi-Urdu, also write the two phones differently and treat them as completely distinct phonemes: {{IPA}} is written as '?' (or '?'), while {{IPA}} is written '?' (or '??') and so on.{{Citation}}There are many other allophonic processes in English, like lack of plosion, nasal plosion, partial devoicing of sonorants, complete devoicing of sonorants, partial devoicing of obstruents, lengthening and shortening vowels, and retraction.
+
+Aspiration – strong explosion of breath. In English a voiceless plosive that is p, t or k is aspirated whenever it stands as the only consonant at the beginning of the stressed syllable or of the first, stressed or unstressed, syllable in a word.
+Nasal plosion – In English a plosive ({{IPA}}) has nasal plosion when it is followed by nasal, inside a word or across word boundary.
+Partial devoicing of sonorants – In English sonorants ({{IPA}}) are partially devoiced when they follow a voiceless sound within the same syllable.
+Complete devoicing of sonorants – In English a sonorant is completely devoiced when it follows an aspirated plosive ({{IPA}}).
+Partial devoicing of obstruents – In English, a voiced obstruent is partially devoiced next to a pause or next to a voiceless sound, inside a word or across its boundary.
+Retraction – in English {{IPA}} are retracted before {{IPA}}.
+
+Because the choice of allophone is seldom under conscious control, people may not realize they exist. English speakers may be unaware of the differences among six allophones of the phoneme {{IPA}}, namely unreleased {{IPA}} as in cat, aspirated {{IPA}} as in top, glottalized {{IPA}} as in button, flapped {{IPA}} as in American English water, nasalized flapped as in winter, and none of the above {{IPA}} as in stop. However, they may become aware of the differences if, for example, they contrast the pronunciations of the following words:
+
+Night rate: unreleased {{IPA}} (without word space between {{IPA}} and {{IPA}})
+Nitrate:  aspirated {{IPA}} or retracted {{IPA}}
+
+If a flame is held before the lips while these words are spoken, it flickers more during aspirated nitrate than during unaspirated night rate. The difference can also be felt by holding the hand in front of the lips. For a Mandarin speaker, to whom {{IPA}} and {{IPA}} are separate phonemes, the English distinction is much more obvious than it is to the English speaker who has learned since childhood to ignore it.Allophones of English {{IPA}} may be noticed if the 'light' {{IPA}} of leaf {{IPA}} is contrasted with the 'dark' {{IPA}} of feel {{IPA}}. Again, this difference is much more obvious to a Turkish speaker, for whom {{IPA}} and {{IPA}} are separate phonemes, than to an English speaker, for whom they are allophones of a single phoneme.
+Allophony of "v-w" in Hindi-UrduA reverse example is that of {{IPA}} versus {{IPA}} in Hindi-Urdu. These are distinct phonemes in English, but both allophones of the phoneme /?/ (or /?/) in Hindi-Urdu. Native Hindi speakers pronounce /?/ as {{IPA}} in vrat ('????', fast) but {{IPA}} in pakwan ('?????', food dish), treating them as a single phoneme and without being aware of the allophone distinctions they are subconsciously making, though these are apparent to native English speakers. However, the allophone phenomenon becomes obvious when speakers switch languages. When non-native speakers speak Hindi-Urdu, they might pronounce /?/ in '????' as {{IPA}}, i.e. as wrat instead of the correct vrat. This results in an intelligibility problem because wrat can easily be confused for aurat, which means woman instead of fast in Hindi-Urdu. Similarly, Hindi-Urdu speakers might unconsciously apply their native 'v-w' allophony rules to English words, pronouncing war as var or advance as adwance, which can result in intelligibility problems with native English speakers.{{Citation}}
+Representing a phoneme with an allophoneSince phonemes are abstractions of speech sounds, not the sounds themselves, they have no direct phonetic transcription. When they are realized without much allophonic variation, a simple (i.e. 'broad') transcription is used. However, when there are complementary allophones of a phoneme, so that the allophony is significant, things become more complicated. Often, if only one of the allophones is simple to transcribe, in the sense of not requiring diacritics, then that representation is chosen for the phoneme. However, there may be several such allophones, or the linguist may prefer greater precision than this allows. In such cases a common convention is to use the "elsewhere condition" to decide which allophone will stand for the phoneme. The "elsewhere" allophone is the one that remains once the conditions for the others are described by phonological rules. For example, English has both oral and nasal allophones of its vowels. The pattern is that vowels are nasal only when preceding a nasal consonant within the same syllable; elsewhere they're oral. Therefore, by the "elsewhere" convention, the oral allophones are considered basic; nasal vowels in English are considered to be allophones of oral phonemes.In other cases, an allophone may be chosen to represent its phoneme because it is more common in the world's languages than the other allophones, because it reflects the historical origin of the phoneme, or because it gives a more balanced look to a chart of the phonemic inventory. In rare cases a linguist may represent phonemes with abstract symbols, such as dingbats, so as not to privilege any one allophone.
+See also
+
+Allophonic rule
+Allomorph
+Alternation (linguistics)
+Complementary distribution
+Phoneme
+List of phonetics topics
+Free variation
+
+
+References{{reflist}}
+External links
+
+Phonemes and allophones
+
+
+ar:??????
+be:??????
+be-x-old:??????
+br:Alofonenn
+ca:Al·lòfon
+cs:Alofon
+da:Allofon
+de:Allophon
+dsb:Alofon
+et:Allofoon
+el:????????
+es:Alófono
+eo:Alofono
+fr:Allophone (phonologie)
+gl:Alófono
+ko:??
+hi:??????????
+hsb:Alofon
+hr:Alofon
+is:Hljóðbrigði
+it:Allofono
+he:??????
+kk:????????
+sw:Alofoni
+ky:???????
+lmo:Alofun
+hu:Allofón
+nl:Allofoon
+ja:??
+no:Allofon
+nn:Allofon
+pa:??? ????
+pl:Alofon
+pt:Alofonia
+ro:Alofon
+ru:???????
+sco:Allophones
+fi:Allofoni
+sv:Allofon
+uk:??????
+zh-yue:????
+zh:????

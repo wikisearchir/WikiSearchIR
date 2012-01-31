@@ -1,0 +1,105 @@
+title
+
+Avionics is a term used to describe all of the  electronic systems used on aircraft, artificial satellites and spacecraft.Avionic systems include communications, navigation, the display and management of multiple systems and the hundreds of systems that are fitted to aircraft to meet individual roles. These can be as simple as a searchlight for a police helicopter or as complicated as the tactical system for an Airborne Early Warning platform.
+HistoryThe term avionics is believed to have been coined by journalist Philip J. Klass.Shaffer, Robert. "'Unexplained Cases'&ndash;Only If You Ignore All Explanations", Skeptical Inquirer, March/April 2011, page 58 Avionics was pioneered in the 1970s, driven by military need rather than civil airliner development. Military aircraft had become flying sensor platforms, and making large amounts of electronic equipment work together had become the new challenge. Today, avionics as used in military aircraft almost always forms the biggest part of any development budget. Aircraft like the F-15E and the now retired F-14 have roughly 80 percent of their budget spent on avionics. Most modern helicopters now have budget splits of 60/40 in favour of avionics.{{Citation needed}}The civilian market has also seen a growth in cost of avionics. Flight control systems (fly-by-wire) and new navigation needs brought on by tighter airspaces, have pushed up development costs. The major change has been the recent boom in consumer flying. As more people begin to use planes as their primary method of transportation, more elaborate methods of controlling aircraft safely in these high restrictive airspaces have been invented.{{Citation needed}}
+Main categories
+Aircraft avionics
+The cockpit of an aircraft is a major location for avionic equipment, including control, monitoring, communication, navigation, weather, and anti-collision systems. The majority of aircraft power their avionics using 14 or 28 volt DC electrical systems; however, larger, more sophisticated aircraft (such as airliners or military combat aircraft) have AC systems operating at 400&nbsp;Hz and 115 volt rather than the more common 50 and 60&nbsp;Hz of North American home electrical devices.400 Hz Electrical Systems There are several major vendors of flight avionics, including Honeywell (which now owns Bendix/King, Baker Electronics, Allied Signal, etc.), Rockwell Collins, Thales Group, Garmin, Avidyne Corporation, and Narco Avionics.
+Communications
+Communications connect the flight deck to the ground and the flight deck to the passengers. On-board communications are provided by public address systems and aircraft intercoms.The VHF aviation communication system works on the airband of 118.000&nbsp;MHz to 136.975&nbsp;MHz. Each channel is spaced from the adjacent ones by 8.33&nbsp;kHz.  VHF is also used for line of sight communication such as aircraft-to-aircraft and aircraft-to-ATC.  Amplitude Modulation (AM) is used, and the conversation is performed in simplex mode.  Aircraft communication can also take place using HF (especially for trans-oceanic flights) or satellite communication.{{see also}}
+Navigation
+{{main}}Navigation is the determination of position and direction on or above the surface of the Earth.  Avionics can use satellite-based systems (such as GPS and WAAS), ground-based systems (such as VOR or LORAN), or any combination thereof.  Older avionics required a pilot or navigator to plot the intersection of signals on a paper map to determine an aircraft's location; modern systems calculate the position automatically and display it to the flight crew on moving map displays.
+Monitoring
+{{main}}Glass cockpits started to come into being with the Gulfstream G-IV private jet in 1985. Display systems provide sensor data that allows the aircraft to fly safely.  Much information that previously was displayed on mechanical gauges now appears on electronic displays in newer aircraft.
+Aircraft flight control systems
+{{main}}Airplanes and helicopters have means of automatically controlling flight. They reduce pilot workload at important times (like during landing, or in hover), and they make these actions safer by 'removing' pilot error. The first simple auto-pilots were used to control heading and altitude and had limited authority on things like thrust and flight control surfaces. In helicopters, auto stabilization was used in a similar way. The old systems were electromechanical in nature until very recently.The advent of fly by wire and electro-actuated flight surfaces (rather than the traditional hydraulic) has increased safety. As with displays and instruments, critical devices which were electro-mechanical had a finite life. With safety critical systems, the software is very strictly tested.
+Collision-avoidance systems
+{{main}}To supplement air traffic control, most large transport aircraft and many smaller ones use a TCAS (Traffic Alert and Collision Avoidance System), which can detect the location of nearby aircraft, and provide instructions for avoiding a midair collision. Smaller aircraft may use simpler traffic alerting systems such as TPAS, which are passive (they do not actively interrogate the transponders of other aircraft) and do not provide advisories for conflict resolution.To help avoid collision with terrain (CFIT), aircraft use systems such as ground-proximity warning systems (GPWS), which use radar altimeters as a key element. One of the major weaknesses of GPWS is the lack of "look-ahead" information, because it only provides altitude above terrain "look-down". In order to overcome this weakness, modern aircraft use the Terrain Awareness Warning System (TAWS).
+Weather systems
+{{main}}Weather systems such as weather radar (typically Arinc 708 on commercial aircraft) and lightning detectors are  important for aircraft flying at night or in instrument meteorological conditions, where it is not possible for pilots to see the weather ahead.  Heavy precipitation (as sensed by radar) or severe turbulence (as sensed by lightning activity) are both indications of strong convective activity and severe turbulence, and weather systems allow pilots to deviate around these areas.Lightning detectors like the Stormscope or Strikefinder have become inexpensive enough that they are practical for light aircraft. In addition to radar and lightning detection, observations and extended radar pictures (such as NEXRAD) are now available through satellite data connections, allowing pilots to see weather conditions far beyond the range of their own in-flight systems.  Modern displays allow weather information to be integrated with moving maps, terrain, traffic, etc. onto a single screen, greatly simplifying navigation.
+Aircraft management systemsThere has been a progression towards centralized control of the multiple complex systems fitted to aircraft, including engine monitoring and management. Health and Usage Monitoring Systems (HUMS) are integrated with aircraft management computers to give maintainers early warnings of parts that will need replacement.The Integrated Modular Avionics concept proposes an integrated architecture with application software portable across an assembly of common hardware modules. It has been used in fourth generation jet fighters and the latest generation of airliners.
+Mission or tactical avionicsMilitary aircraft have been designed either to deliver a weapon or to be the eyes and ears of other weapon systems. The vast array of sensors available to the military is used for whatever tactical means required. As with aircraft management, the bigger sensor platforms (like the E-3D, JSTARS, ASTOR, Nimrod MRA4, Merlin HM Mk 1) have mission management computers.Police and EMS aircraft also carry sophisticated tactical sensors.
+Military communicationsWhile aircraft communications provide the backbone for safe flight, the tactical systems are designed to withstand the rigours of the battle field. UHF, VHF Tactical (30-88&nbsp;MHz) and SatCom systems combined with ECCM methods, and cryptography secure the communications. Data links like Link 11, 16, 22 and BOWMAN, JTRS and even TETRA provide the means of transmitting data (such as images, targeting information etc.).
+RadarAirborne radar was one of the first tactical sensors. The benefit of altitude providing range has meant a significant focus on airborne radar technologies. Radars include Airborne Early Warning (AEW), Anti-Submarine Warfare (ASW), and even Weather radar (Arinc 708) and ground tracking/proximity radar.The military uses radar in fast jets to help pilots fly at low levels. While the civil market has had weather radar for a while, there are strict rules about using it to navigate the aircraft.
+SonarDipping sonar fitted to a range of military helicopters allows the helicopter to protect shipping assets from submarines or surface threats. Maritime support aircraft can drop active and passive sonar devices (Sonobuoys) and these are also used to determine the location of hostile submarines.
+Electro-OpticsElectro-optic systems include devices such as the Head-Up Display (HUD), Forward Looking Infrared (FLIR), and Passive Infrared Devices (PIDS). These are all used to provide imagery and information to the flight crew. This imagery is used for everything from navigational aids, Search and Rescue, and target acquisition.
+ESM/DASElectronic support measures and defensive aids are used extensively to gather information about threats or possible threats. They can be used to launch devices (in some cases automatically) to counter direct threats against the aircraft. They are also used to determine the state of a threat and identify it.
+Aircraft NetworksThe avionics systems in military, commercial and advanced models of civilian aircraft are interconnected using an avionics databus. Common avionics databus protocols, with their primary application, include:
+
+Aircraft Data Network (ADN): Ethernet derivative for Commercial Aircraft
+Avionics Full-Duplex Switched Ethernet (AFDX): Specific implementation of ARINC 664 (ADN) for Commercial Aircraft
+ARINC 429: Generic Medium-Speed Data Sharing for Private and Commercial Aircraft
+ARINC 664: See ADN above
+ARINC 629: Commercial Aircraft (Boeing 777)
+ARINC 708: Weather Radar for Commercial Aircraft
+ARINC 717: Flight Data Recorder for Commercial Aircraft
+IEEE 1394b: Military Aircraft
+MIL-STD-1553: Military Aircraft
+MIL-STD-1760: Military Aircraft
+TTP - Time-Triggered Protocol: Boeing 787 Dreamliner, Airbus A380, Fly-By-Wire Actuation Platforms from Parker Aerospace
+TTEthernet - Time-Triggered Ethernet: NASA Orion Spacecraft
+
+
+Disaster Relief and Air AmbulanceDisaster Relief and EMS aircraft (mostly helicopters) are now a significant market. Military aircraft are often now built with a role available to assist in civil obedience. Disaster Relief helicopters are almost always fitted with video/FLIR systems to allow them to monitor and co-ordinate realtime relief efforts. They can also be fitted with searchlights and loudspeakers.EMS and Disaster Relief helicopters will be required to fly in unpleasant conditions, this may require more aircraft sensors, some of which were until recently considered purely for military aircraft.
+See also
+
+ACARS
+Flight recorder
+Distress radiobeacon
+Integrated Modular Avionics
+Avionics software
+ARINC
+Acronyms and abbreviations in avionics
+
+
+Notes{{reflist}}
+References
+
+Avionics: Development and Implementation by Cary R. Spitzer (Hardcover - Dec 15, 2006)
+Principles of Avionics, 4th Edition by Albert Helfrick, Len Buckwalter, and Avionics Communications Inc. (Paperback - Jul 1, 2007)
+Avionics Training: Systems, Installation, and Troubleshooting by Len Buckwalter (Paperback - Jun 30, 2005)
+
+
+External links{{Commonscat}}
+
+The Avionic Systems Standardisation Committee
+Space Shuttle Avionics
+Aviation Today Avionics magazine
+RAES Avionics homepage
+Vertical Gyroscope Avionics Information
+On-Board Electronics related papers (Portuguese)
+ISBN 9788536501574 - Book: Eletrônica Embarcada Automotiva (Portuguese)
+Repair Factory
+
+{{Aviation lists}}
+
+
+ca:Aviònica
+cs:Avionika
+da:Luftfartselektronik
+de:Avionik
+es:Aviónica
+eo:Aviadiko
+fr:Avionique
+ga:Eitleonaic
+gl:Aviónica
+ko:????
+hi:????????
+id:Avionik
+it:Avionica
+he:?????????
+hu:Avionika
+my:????????????
+nl:Avionica
+ja:??????
+no:Avionikk
+pl:Awionika
+pt:Aviónica
+ru:????????
+sk:Avionika
+fi:Avioniikka
+sv:Avionik
+tr:Aviyonik
+uk:????????
+ur:??????
+zh:????
